@@ -6,8 +6,9 @@
 // LAB KNOWLEDGE - IQ PRACTICE SYSTEM
 // TOTAL: 2,000 QUESTIONS
 // 10 RANDOM QUESTIONS PER TEST
+// Topics: Mathematics, Reasoning, English, Science, Computer, Pakistan Studies, Laboratory Knowledge
 // ======================================
-
+  
 
 const iqQuestionBank = [
 
@@ -122,6 +123,10 @@ const iqQuestionBank = [
 {q:"How many minutes are there in 3 hours and 15 minutes?",topic:"Mathematics",o:["180","185","195","210"],a:2,e:"3 × 60 + 15 = 195 minutes."},
 {q:"A number is increased by 20 and becomes 75. What was the original number?",topic:"General Knowledge",o:["45","50","55","60"],a:2,e:"75 − 20 = 55."},
 
+// ======================================
+//  100 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"What comes next? 5, 10, 15, 20, ? (Alternate version 1)",topic:"Logical Reasoning",o:["22","25","30","35"],a:1,e:"Each number increases by 5."},
 {q:"Which number is different? (Alternate version 1)",topic:"Logical Reasoning",o:["4","9","16","20"],a:3,e:"4, 9 and 16 are perfect squares; 20 is not."},
 {q:"What is 12 × 8?",topic:"Mathematics",o:["86","94","96","98"],a:2,e:"12 multiplied by 8 equals 96."},
@@ -177,579 +182,418 @@ const iqQuestionBank = [
 {q:"Which microscope component controls the amount of light?",topic:"Laboratory Knowledge",o:["Eyepiece","Stage","Diaphragm","Objective lens"],a:2,e:"The diaphragm regulates the light reaching the specimen."},
 {q:"Which test is commonly used to measure blood glucose?",topic:"Science",o:["CBC","Blood glucose test","ESR","PT"],a:1,e:"A blood glucose test measures glucose concentration in blood."},
 
-// ======================================
-// QUESTIONS 151–200
-// ======================================
-
 {q:"Which anticoagulant is commonly used for coagulation testing?",topic:"Laboratory Knowledge",o:["EDTA","Sodium citrate","Heparin","Fluoride"],a:1,e:"Sodium citrate is commonly used for coagulation tests."},
-
 {q:"What does HDL stand for?",topic:"General Knowledge",o:["High Density Lipoprotein","Heavy Density Lipid","High Direct Lipid","Human Density Lipoprotein"],a:0,e:"HDL stands for High Density Lipoprotein."},
-
 {q:"What comes next? 4, 9, 16, 25, 36, ?",topic:"Logical Reasoning",o:["42","45","49","50"],a:2,e:"These are consecutive square numbers: 2², 3², 4², 5², 6², then 7² = 49."},
-
 {q:"What comes next? 5, 11, 23, 47, ?",topic:"Logical Reasoning",o:["85","91","95","97"],a:2,e:"Each number is multiplied by 2 and then 1 is added. 47 × 2 + 1 = 95."},
-
 {q:"Find the missing number: 2, 5, 10, 17, 26, ?",topic:"Logical Reasoning",o:["35","36","37","38"],a:2,e:"The differences are 3, 5, 7, 9, then 11. 26 + 11 = 37."},
-
 {q:"Which number does not belong?",topic:"Logical Reasoning",o:["27","64","125","144"],a:3,e:"27, 64 and 125 are cubes. 144 is not a cube."},
-
 {q:"What is 35% of 200?",topic:"Mathematics",o:["60","65","70","75"],a:2,e:"35% of 200 = 70."},
-
 {q:"If 8 workers complete a job in 6 days, how many worker-days are required?",topic:"Mathematics",o:["14","36","48","56"],a:2,e:"8 × 6 = 48 worker-days."},
-
 {q:"What comes next? 144, 72, 36, 18, ?",topic:"Logical Reasoning",o:["6","8","9","12"],a:2,e:"Each number is divided by 2. 18 ÷ 2 = 9."},
-
 {q:"Which is the greatest fraction?",topic:"Mathematics",o:["1/2","2/3","3/4","4/5"],a:3,e:"4/5 = 0.8, which is the greatest."},
 
 {q:"A number divided by 4 gives 18. What is the number?",topic:"Mathematics",o:["64","68","72","76"],a:2,e:"18 × 4 = 72."},
-
 {q:"What is the LCM of 6 and 8?",topic:"Mathematics",o:["12","18","24","48"],a:2,e:"24 is the smallest number divisible by both 6 and 8."},
-
 {q:"What comes next? 10, 13, 19, 28, 40, ?",topic:"Logical Reasoning",o:["50","53","55","58"],a:2,e:"The differences are 3, 6, 9, 12, then 15. 40 + 15 = 55."},
-
 {q:"An item bought for Rs. 500 is sold for Rs. 600. What is the profit percentage?",topic:"Mathematics",o:["10%","15%","20%","25%"],a:2,e:"Profit is 100. Profit percentage = 100 ÷ 500 × 100 = 20%."},
-
 {q:"Find the average of 12, 18, 24 and 30.",topic:"Mathematics",o:["18","20","21","22"],a:2,e:"(12 + 18 + 24 + 30) ÷ 4 = 21."},
-
 {q:"If 5 machines produce 50 products in one hour, how many products will 10 machines produce in one hour?",topic:"Mathematics",o:["75","90","100","120"],a:2,e:"Double the machines produce double the products: 100."},
-
 {q:"What is the square root of 225?",topic:"Mathematics",o:["12","13","14","15"],a:3,e:"15 × 15 = 225."},
-
 {q:"Which number is divisible by 9?",topic:"General Knowledge",o:["124","135","142","151"],a:1,e:"The digits of 135 add up to 9, so it is divisible by 9."},
-
 {q:"A car travels 240 km in 4 hours. What is its average speed?",topic:"Mathematics",o:["40 km/h","50 km/h","60 km/h","80 km/h"],a:2,e:"240 ÷ 4 = 60 km/h."},
-
 {q:"What is 2/5 of 150?",topic:"Mathematics",o:["50","55","60","65"],a:2,e:"150 × 2/5 = 60."},
 
 {q:"A product costs Rs. 800. Its price increases by 15%. What is the new price?",topic:"Mathematics",o:["Rs. 880","Rs. 900","Rs. 920","Rs. 940"],a:2,e:"15% of 800 is 120. New price = 800 + 120 = 920."},
-
 {q:"What is the HCF of 18 and 30?",topic:"Mathematics",o:["3","6","9","12"],a:1,e:"6 is the highest common factor of 18 and 30."},
-
 {q:"What does ABUNDANT mean?",topic:"General Knowledge",o:["Rare","Plentiful","Empty","Weak"],a:1,e:"Abundant means available in large quantities."},
-
 {q:"What is the opposite of TRANSPARENT?",topic:"English",o:["Clear","Bright","Opaque","Visible"],a:2,e:"Opaque means not allowing light to pass through."},
-
 {q:"Pen is to Write as Knife is to:",topic:"General Knowledge",o:["Draw","Cut","Read","Paint"],a:1,e:"A pen is used to write; a knife is used to cut."},
-
 {q:"Which one is different?",topic:"Logical Reasoning",o:["Mercury","Venus","Mars","Moon"],a:3,e:"The Moon is a natural satellite, while the others are planets."},
-
 {q:"Choose the correct spelling.",topic:"English",o:["Acommodation","Accommodation","Accomodation","Acomodation"],a:1,e:"The correct spelling is Accommodation."},
-
 {q:"Which instrument measures atmospheric pressure?",topic:"General Knowledge",o:["Thermometer","Barometer","Hygrometer","Stethoscope"],a:1,e:"A barometer measures atmospheric pressure."},
-
 {q:"What is the opposite of CONTRACT?",topic:"English",o:["Reduce","Expand","Shrink","Decrease"],a:1,e:"Expand means to increase in size or volume."},
-
 {q:"Bird is to Nest as Bee is to:",topic:"General Knowledge",o:["Cave","Hive","Den","Web"],a:1,e:"A bee lives in a hive, just as a bird lives in a nest."},
 
 {q:"Which one is a unit of mass?",topic:"Logical Reasoning",o:["Kilogram","Litre","Metre","Second"],a:0,e:"Kilogram is the SI base unit of mass."},
-
 {q:"Author is to Book as Composer is to:",topic:"General Knowledge",o:["Painting","Music","Building","Medicine"],a:1,e:"An author writes books; a composer creates music."},
-
 {q:"All doctors are educated. Sara is a doctor. What can we conclude?",topic:"General Knowledge",o:["Sara is educated","Sara is a teacher","Sara is a nurse","No conclusion"],a:0,e:"Since all doctors are educated and Sara is a doctor, Sara is educated."},
-
 {q:"Ali is older than Bilal. Bilal is older than Kamran. Who is the youngest?",topic:"Logical Reasoning",o:["Ali","Bilal","Kamran","Cannot determine"],a:2,e:"The order is Ali, Bilal, Kamran. Kamran is youngest."},
-
 {q:"A person faces East and turns 180 degrees. Which direction is he facing?",topic:"Logical Reasoning",o:["North","South","West","East"],a:2,e:"A 180-degree turn from East points West."},
-
 {q:"If yesterday was Thursday, what day will it be 3 days after tomorrow?",topic:"General Knowledge",o:["Sunday","Monday","Tuesday","Wednesday"],a:2,e:"Yesterday was Thursday, so today is Friday. Tomorrow is Saturday; three days after Saturday is Tuesday."},
-
 {q:"A is the sister of B. B is the father of C. What is A to C?",topic:"Mathematics",o:["Mother","Sister","Aunt","Grandmother"],a:2,e:"A is the sister of C's father, so A is C's aunt."},
-
 {q:"All squares are rectangles. Which statement is correct?",topic:"Mathematics",o:["All rectangles are squares","Every square is a rectangle","No square is a rectangle","All circles are rectangles"],a:1,e:"A square has all the properties of a rectangle."},
-
 {q:"Five people sit in a row. Who occupies the middle position?",topic:"General Knowledge",o:["First person","Second person","Third person","Fourth person"],a:2,e:"The third position is the middle of five positions."},
-
 {q:"If NORTH is coded as OPSUI, how is SOUTH coded using the same rule?",topic:"Logical Reasoning",o:["TPVUI","TPVTH","RNTUG","TPVTI"],a:0,e:"Each letter moves one position forward: SOUTH becomes TPVUI."},
 
 {q:"A man walks 6 km West and then 8 km North. How far is he from the starting point?",topic:"Logical Reasoning",o:["8 km","10 km","12 km","14 km"],a:1,e:"Using the Pythagorean theorem, √(6² + 8²) = 10 km."},
-
 {q:"What is the opposite direction of South-East?",topic:"Logical Reasoning",o:["North-East","North-West","South-West","East"],a:1,e:"The opposite of South-East is North-West."},
-
 {q:"What comes next? C, F, I, L, ?",topic:"Logical Reasoning",o:["M","N","O","P"],a:2,e:"Each letter advances three positions. The next letter is O."},
-
 {q:"What comes next? 2, 3, 5, 8, 12, 17, ?",topic:"Logical Reasoning",o:["21","22","23","24"],a:2,e:"The differences are 1, 2, 3, 4, 5, then 6. 17 + 6 = 23."},
-
 {q:"How many faces does a cube have?",topic:"Mathematics",o:["4","5","6","8"],a:2,e:"A cube has six square faces."},
-
 {q:"How many degrees are in a right angle?",topic:"Mathematics",o:["45°","60°","90°","180°"],a:2,e:"A right angle measures 90 degrees."},
-
 {q:"What is the perimeter of a rectangle with length 8 cm and width 5 cm?",topic:"Mathematics",o:["13 cm","26 cm","30 cm","40 cm"],a:1,e:"Perimeter = 2 × (8 + 5) = 26 cm."},
-
 {q:"What comes next? 1, 4, 13, 40, ?",topic:"Logical Reasoning",o:["80","100","121","123"],a:3,e:"Each number is multiplied by 3 and then 1 is added. 40 × 3 + 1 = 121? Correction: this sequence gives 121, so the correct answer is 121."},
-
 {q:"Which number is a multiple of both 4 and 7?",topic:"General Knowledge",o:["21","24","28","32"],a:2,e:"28 is divisible by both 4 and 7."},
-
 {q:"Find the median of 3, 7, 9, 11, 15.",topic:"General Knowledge",o:["7","9","11","15"],a:1,e:"The middle value in the ordered list is 9."},
 
+// ======================================
+//  200 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"What is true about the diagonals of a rectangle?",topic:"Mathematics",o:["They are always unequal","They are equal in length","They never intersect","They are curved"],a:1,e:"The diagonals of a rectangle are equal in length."},
-
 {q:"What is 5 cubed?",topic:"Mathematics",o:["25","75","100","125"],a:3,e:"5³ = 5 × 5 × 5 = 125."},
-
-// ======================================
-// QUESTIONS 201–250
-// NEW IQ QUESTIONS
-// ======================================
-
 {q:"What comes next? 3, 6, 12, 24, ? (Alternate version 1)",topic:"Logical Reasoning",o:["36","42","48","54"],a:2,e:"Each number is multiplied by 2. 24 × 2 = 48."},
-
 {q:"What comes next? 100, 90, 80, 70, ? (Alternate version 1)",topic:"Logical Reasoning",o:["50","55","60","65"],a:2,e:"Each number decreases by 10. The next number is 60."},
-
 {q:"Find the missing number: 7, 14, 21, 28, ?",topic:"Logical Reasoning",o:["32","35","38","42"],a:1,e:"The sequence increases by 7 each time. 28 + 7 = 35."},
-
 {q:"What is 25% of 400?",topic:"Mathematics",o:["50","75","100","125"],a:2,e:"25% of 400 = 100."},
-
 {q:"If 12 pens cost Rs. 120, what is the cost of 1 pen?",topic:"Mathematics",o:["Rs. 5","Rs. 10","Rs. 12","Rs. 15"],a:1,e:"120 ÷ 12 = Rs. 10."},
-
 {q:"What is 15 × 12?",topic:"Mathematics",o:["160","170","180","190"],a:2,e:"15 × 12 = 180."},
-
 {q:"What is the next prime number after 13?",topic:"Mathematics",o:["14","15","16","17"],a:3,e:"17 is the next prime number after 13."},
-
 {q:"Which number is a perfect square?",topic:"General Knowledge",o:["45","49","52","60"],a:1,e:"49 = 7 × 7."},
 
 {q:"What is 3/4 of 80? (Alternate version 1)",topic:"Mathematics",o:["40","50","60","70"],a:2,e:"80 × 3/4 = 60."},
-
 {q:"A shirt costs Rs. 1,000. A discount of 10% is given. What is the sale price?",topic:"Mathematics",o:["Rs. 800","Rs. 850","Rs. 900","Rs. 950"],a:2,e:"10% of 1,000 is 100. Sale price = Rs. 900."},
-
 {q:"Which number is divisible by 5?",topic:"General Knowledge",o:["123","246","355","412"],a:2,e:"A number ending in 0 or 5 is divisible by 5."},
-
 {q:"What is the Roman numeral for 50?",topic:"Mathematics",o:["X","L","C","D"],a:1,e:"L represents 50 in Roman numerals."},
-
 {q:"How many sides does an octagon have?",topic:"Mathematics",o:["6","7","8","9"],a:2,e:"An octagon has eight sides."},
-
 {q:"How many months have 31 days? (Alternate version 1)",topic:"Mathematics",o:["5","6","7","8"],a:2,e:"Seven months have 31 days."},
-
 {q:"How many minutes are there in 3 hours?",topic:"Mathematics",o:["120","150","180","210"],a:2,e:"3 × 60 = 180 minutes."},
-
 {q:"Which is the smallest unit?",topic:"General Knowledge",o:["Kilometre","Metre","Centimetre","Millimetre"],a:3,e:"A millimetre is smaller than a centimetre, metre and kilometre."},
-
 {q:"Which planet is known as the Red Planet? (Alternate version 1)",topic:"Science",o:["Venus","Mars","Jupiter","Saturn"],a:1,e:"Mars is called the Red Planet because of its reddish appearance."},
-
 {q:"Which gas do plants absorb during photosynthesis?",topic:"Science",o:["Oxygen","Nitrogen","Carbon dioxide","Hydrogen"],a:2,e:"Plants absorb carbon dioxide during photosynthesis."},
 
 {q:"Which organ is mainly responsible for pumping blood?",topic:"Science",o:["Liver","Heart","Kidney","Lungs"],a:1,e:"The heart pumps blood throughout the body."},
-
 {q:"Which organ helps in breathing?",topic:"Science",o:["Stomach","Lungs","Pancreas","Spleen"],a:1,e:"The lungs are the main organs of respiration."},
-
 {q:"What is the normal average body temperature in Celsius?",topic:"Science",o:["35°C","37°C","39°C","40°C"],a:1,e:"About 37°C is commonly used as the average normal body temperature."},
-
 {q:"Which blood cells help in clotting?",topic:"Laboratory Knowledge",o:["Red blood cells","White blood cells","Platelets","Plasma cells"],a:2,e:"Platelets play an important role in blood clotting."},
-
 {q:"Which blood cells carry oxygen?",topic:"Laboratory Knowledge",o:["Red blood cells","White blood cells","Platelets","Lymphocytes"],a:0,e:"Red blood cells contain haemoglobin, which carries oxygen."},
-
 {q:"Which component of blood fights infection?",topic:"Science",o:["RBCs","WBCs","Platelets","Albumin"],a:1,e:"White blood cells help the body fight infections."},
-
 {q:"Which organ filters blood to produce urine? (Alternate version 1)",topic:"Laboratory Knowledge",o:["Heart","Liver","Kidney","Lungs"],a:2,e:"The kidneys filter blood and produce urine."},
-
 {q:"Which test is commonly used to measure haemoglobin?",topic:"Laboratory Knowledge",o:["CBC","LFT","RFT","Lipid profile"],a:0,e:"A Complete Blood Count (CBC) includes haemoglobin measurement."},
-
 {q:"What does CBC stand for? (Alternate version 1)",topic:"Laboratory Knowledge",o:["Complete Blood Count","Clinical Blood Check","Common Blood Chemistry","Complete Body Count"],a:0,e:"CBC stands for Complete Blood Count."},
-
 {q:"Which specimen is commonly used for a urine routine examination?",topic:"Laboratory Knowledge",o:["Blood","Urine","Saliva","Sputum"],a:1,e:"Urine is the specimen used for routine urine examination."},
 
 {q:"Which anticoagulant is commonly used for CBC testing?",topic:"Laboratory Knowledge",o:["EDTA","Sodium fluoride","Sodium citrate","Plain tube"],a:0,e:"EDTA is commonly used for CBC samples."},
-
 {q:"Which tube is commonly used for blood glucose testing?",topic:"Laboratory Knowledge",o:["Plain tube","Sodium fluoride tube","EDTA tube","Sodium citrate tube"],a:1,e:"Sodium fluoride tubes help inhibit glycolysis in glucose samples."},
-
 {q:"What does ESR stand for? (Alternate version 1)",topic:"Laboratory Knowledge",o:["Estimated Serum Rate","Erythrocyte Sedimentation Rate","Enzyme Sedimentation Ratio","Erythrocyte Serum Reaction"],a:1,e:"ESR stands for Erythrocyte Sedimentation Rate."},
-
 {q:"Which test is commonly used to assess kidney function?",topic:"General Knowledge",o:["ALT","Creatinine","Troponin","Amylase"],a:1,e:"Serum creatinine is commonly used to assess kidney function."},
-
 {q:"Which enzyme is commonly associated with liver cell injury?",topic:"Science",o:["ALT","CK-MB","Lipase","Troponin"],a:0,e:"ALT is an enzyme commonly measured in liver function assessment."},
-
 {q:"Which test is commonly used to assess thyroid function?",topic:"Laboratory Knowledge",o:["TSH","CBC","ESR","PT"],a:0,e:"TSH is commonly used in the initial assessment of thyroid function."},
-
 {q:"Which test helps assess blood clotting through the extrinsic pathway?",topic:"Laboratory Knowledge",o:["PT","ESR","CBC","HbA1c"],a:0,e:"Prothrombin Time (PT) evaluates the extrinsic and common coagulation pathways."},
-
 {q:"What does HbA1c indicate?",topic:"General Knowledge",o:["Recent oxygen level","Average blood glucose over about 2–3 months","Kidney filtration","Blood clotting time"],a:1,e:"HbA1c reflects average blood glucose over approximately 2–3 months."},
-
 {q:"Which blood group is known as the universal red-cell donor in emergencies?",topic:"Laboratory Knowledge",o:["AB positive","O negative","A positive","B negative"],a:1,e:"O negative red cells are commonly considered the universal red-cell donor type."},
-
 {q:"Which blood group is the universal red-cell recipient?",topic:"Laboratory Knowledge",o:["O negative","A positive","AB positive","B positive"],a:2,e:"AB positive individuals can generally receive red cells from all ABO and Rh groups, subject to compatibility testing."},
 
 {q:"What is the liquid part of blood called?",topic:"Science",o:["Serum only","Plasma","Platelets","Haemoglobin"],a:1,e:"Plasma is the liquid component of blood."},
-
 {q:"Which microscope lens usually provides the highest magnification in routine light microscopy?",topic:"Laboratory Knowledge",o:["10× objective","20× objective","40× objective","100× oil immersion objective"],a:3,e:"The 100× oil immersion objective provides the highest common magnification in routine light microscopy."},
-
 {q:"What is the main purpose of a centrifuge?",topic:"Laboratory Knowledge",o:["Heating samples","Separating components by density","Measuring pH","Counting cells"],a:1,e:"A centrifuge separates sample components using centrifugal force."},
-
 {q:"Which instrument is used to measure pH?",topic:"General Knowledge",o:["Centrifuge","pH meter","Microscope","Incubator"],a:1,e:"A pH meter measures the acidity or alkalinity of a solution."},
-
 {q:"What is the SI unit of temperature?",topic:"Science",o:["Celsius","Fahrenheit","Kelvin","Joule"],a:2,e:"Kelvin is the SI base unit of thermodynamic temperature."},
-
 {q:"Which vitamin is produced in the skin with sunlight exposure?",topic:"Science",o:["Vitamin A","Vitamin B12","Vitamin C","Vitamin D"],a:3,e:"The skin produces vitamin D after exposure to ultraviolet B radiation."},
-
 {q:"Which vitamin is important for normal blood clotting?",topic:"Laboratory Knowledge",o:["Vitamin A","Vitamin C","Vitamin D","Vitamin K"],a:3,e:"Vitamin K is essential for the production of several clotting factors."},
-
 {q:"Which mineral is essential for haemoglobin formation?",topic:"Laboratory Knowledge",o:["Calcium","Iron","Sodium","Potassium"],a:1,e:"Iron is an essential component of haemoglobin."},
-
 {q:"Which part of the cell contains most of its genetic material?",topic:"Science",o:["Cell membrane","Nucleus","Cytoplasm","Ribosome"],a:1,e:"The nucleus contains most of the cell's genetic material."},
-
 {q:"What is the basic structural and functional unit of life?",topic:"Mathematics",o:["Tissue","Organ","Cell","System"],a:2,e:"The cell is the basic structural and functional unit of life."},
 
 {q:"Which microorganism is responsible for tuberculosis?",topic:"Science",o:["Escherichia coli","Mycobacterium tuberculosis","Staphylococcus aureus","Salmonella typhi"],a:1,e:"Tuberculosis is caused by Mycobacterium tuberculosis."},
-
 {q:"Which method is commonly used to sterilize heat-resistant laboratory instruments?",topic:"Laboratory Knowledge",o:["Refrigeration","Autoclaving","Freezing","Sunlight exposure"],a:1,e:"Autoclaving uses pressurized steam to sterilize suitable heat-resistant items."},
-
 {q:"What does PPE stand for in laboratory safety?",topic:"Laboratory Knowledge",o:["Personal Protective Equipment","Patient Protection Examination","Primary Processing Equipment","Personal Procedure Evaluation"],a:0,e:"PPE stands for Personal Protective Equipment."},
-
 {q:"What should be done first after a chemical splash in the eyes?",topic:"General Knowledge",o:["Rub the eyes","Immediately flush with plenty of water at an eyewash station","Cover the eyes and continue working","Wait for symptoms"],a:1,e:"Immediately flush the eyes at an eyewash station and follow the laboratory emergency protocol."},
-
-
-// ======================================
-// QUESTIONS 251–300
-// NEW IQ QUESTIONS
-// ======================================
-
 {q:"What comes next? 2, 6, 12, 20, 30, ? (Alternate version 1)",topic:"Logical Reasoning",o:["36","40","42","44"],a:2,e:"The differences are 4, 6, 8, 10, then 12. 30 + 12 = 42."},
-
 {q:"Find the missing number: 81, 27, 9, 3, ?",topic:"Logical Reasoning",o:["0","1","2","6"],a:1,e:"Each number is divided by 3. 3 ÷ 3 = 1."},
-
 {q:"What comes next? 1, 8, 27, 64, ? (Alternate version 1)",topic:"Logical Reasoning",o:["100","121","125","144"],a:2,e:"These are cubes: 1³, 2³, 3³, 4³, then 5³ = 125."},
-
 {q:"What is 40% of 250?",topic:"Mathematics",o:["80","90","100","110"],a:2,e:"40% of 250 = 100."},
-
 {q:"If 7 books cost Rs. 560, what is the cost of 3 books?",topic:"Mathematics",o:["Rs. 180","Rs. 210","Rs. 240","Rs. 280"],a:2,e:"One book costs 560 ÷ 7 = 80. Three books cost Rs. 240."},
-
 {q:"What is 18 × 15?",topic:"Mathematics",o:["240","250","270","280"],a:2,e:"18 × 15 = 270."},
 
 {q:"Which is the odd one out? (Alternate version 1)",topic:"Logical Reasoning",o:["2","3","5","9"],a:3,e:"2, 3 and 5 are prime numbers. 9 is not prime."},
-
 {q:"What is the square of 17?",topic:"Mathematics",o:["269","279","289","299"],a:2,e:"17 × 17 = 289."},
-
 {q:"What is 5/8 of 160?",topic:"Mathematics",o:["80","90","100","120"],a:2,e:"160 × 5/8 = 100."},
-
 {q:"A product costs Rs. 1,200 and is sold for Rs. 1,500. What is the profit?",topic:"Mathematics",o:["Rs. 200","Rs. 250","Rs. 300","Rs. 350"],a:2,e:"Profit = selling price − cost price = Rs. 300."},
-
 {q:"Which number is divisible by 11?",topic:"General Knowledge",o:["121","123","125","127"],a:0,e:"121 ÷ 11 = 11."},
-
 {q:"What is the Roman numeral for 100?",topic:"Mathematics",o:["L","C","D","M"],a:1,e:"C represents 100 in Roman numerals."},
-
 {q:"How many sides does a decagon have?",topic:"Mathematics",o:["8","9","10","12"],a:2,e:"A decagon has ten sides."},
-
 {q:"How many seconds are there in 5 minutes?",topic:"Mathematics",o:["200","250","300","350"],a:2,e:"5 × 60 = 300 seconds."},
-
 {q:"Which is the largest unit of length?",topic:"Mathematics",o:["Millimetre","Centimetre","Metre","Kilometre"],a:3,e:"A kilometre is larger than a metre, centimetre and millimetre."},
-
 {q:"Which planet is the largest in our solar system?",topic:"Science",o:["Earth","Saturn","Jupiter","Neptune"],a:2,e:"Jupiter is the largest planet in our solar system."},
 
 {q:"Which gas is most abundant in Earth's atmosphere?",topic:"Science",o:["Oxygen","Nitrogen","Carbon dioxide","Hydrogen"],a:1,e:"Nitrogen makes up approximately 78% of Earth's atmosphere."},
-
 {q:"Which organ produces insulin?",topic:"Science",o:["Liver","Pancreas","Kidney","Spleen"],a:1,e:"Insulin is produced by beta cells in the pancreas."},
-
 {q:"Which organ is mainly responsible for detoxifying many substances in the body?",topic:"Science",o:["Heart","Liver","Lungs","Stomach"],a:1,e:"The liver processes many drugs and harmful substances."},
-
 {q:"Which blood component contains haemoglobin?",topic:"Laboratory Knowledge",o:["Plasma","Red blood cells","Platelets","White blood cells"],a:1,e:"Haemoglobin is found inside red blood cells."},
-
 {q:"Which cells are primarily responsible for producing antibodies?",topic:"Science",o:["Red blood cells","B lymphocytes","Platelets","Neutrophils"],a:1,e:"B lymphocytes can differentiate into plasma cells that produce antibodies."},
-
 {q:"Which test is commonly used to evaluate platelet count?",topic:"Laboratory Knowledge",o:["CBC","LFT","RFT","Lipid profile"],a:0,e:"A CBC includes a platelet count."},
-
 {q:"What does MCV measure?",topic:"General Knowledge",o:["Average red blood cell volume","White blood cell count","Platelet function","Blood glucose"],a:0,e:"MCV means Mean Corpuscular Volume and measures average red blood cell size."},
-
 {q:"Which test is commonly used to detect malaria parasites?",topic:"Science",o:["Peripheral blood smear","Urine routine","Lipid profile","Stool occult blood"],a:0,e:"A peripheral blood smear can be examined for malaria parasites."},
-
 {q:"Which specimen is commonly used for a stool routine examination?",topic:"Laboratory Knowledge",o:["Urine","Stool","Serum","Sputum"],a:1,e:"A stool sample is used for routine stool examination."},
-
 {q:"Which test is used to measure total cholesterol?",topic:"General Knowledge",o:["Lipid profile","CBC","ESR","PT"],a:0,e:"A lipid profile measures cholesterol and related blood lipids."},
 
 {q:"What does RFT commonly stand for?",topic:"Laboratory Knowledge",o:["Renal Function Tests","Rapid Fever Test","Routine Fluid Test","Red Cell Function Test"],a:0,e:"RFT stands for Renal Function Tests."},
-
 {q:"Which test is commonly used to assess pancreatic lipase activity?",topic:"General Knowledge",o:["Lipase test","TSH","ESR","PT"],a:0,e:"Serum lipase is commonly measured when pancreatic disease is suspected."},
-
 {q:"Which tube commonly contains sodium citrate for coagulation testing?",topic:"Laboratory Knowledge",o:["Blue-top tube","Purple-top tube","Grey-top tube","Green-top tube"],a:0,e:"A light-blue-top tube commonly contains sodium citrate."},
-
 {q:"What is the purpose of quality control in a laboratory?",topic:"Laboratory Knowledge",o:["To increase workload","To ensure reliable test results","To reduce reporting","To change patient identity"],a:1,e:"Quality control helps monitor the accuracy and reliability of laboratory testing."},
-
 {q:"Which instrument is used to measure absorbance in colorimetric tests?",topic:"General Knowledge",o:["Spectrophotometer","Centrifuge","Incubator","Autoclave"],a:0,e:"A spectrophotometer measures light absorbance at selected wavelengths."},
-
 {q:"What is the purpose of a laboratory incubator?",topic:"Laboratory Knowledge",o:["To maintain controlled temperature for sample or culture incubation","To weigh samples","To measure blood pressure","To separate serum"],a:0,e:"An incubator maintains suitable environmental conditions, commonly controlled temperature."},
-
 {q:"Which stain is commonly used for peripheral blood smears?",topic:"Science",o:["Wright stain","Gram stain only","India ink only","Acid-fast stain only"],a:0,e:"Wright stain is commonly used for peripheral blood film examination."},
-
 {q:"Which stain is commonly used in Gram staining?",topic:"Laboratory Knowledge",o:["Crystal violet","Methylene blue only","Eosin only","Safranin only"],a:0,e:"Crystal violet is the primary stain in the Gram staining procedure."},
-
 {q:"Which microorganism is commonly associated with typhoid fever?",topic:"Science",o:["Salmonella Typhi","Mycobacterium tuberculosis","Vibrio cholerae","Streptococcus pneumoniae"],a:0,e:"Typhoid fever is caused by Salmonella enterica serovar Typhi."},
-
 {q:"Which organism commonly causes cholera?",topic:"Science",o:["Vibrio cholerae","Salmonella Typhi","E. coli O157:H7","Staphylococcus aureus"],a:0,e:"Cholera is caused by Vibrio cholerae."},
 
 {q:"What is the main purpose of hand hygiene in a laboratory?",topic:"Laboratory Knowledge",o:["Improve handwriting","Prevent spread of infection","Increase sample volume","Improve microscope focus"],a:1,e:"Hand hygiene reduces the transmission of microorganisms."},
-
 {q:"What should be used to dispose of used needles?",topic:"General Knowledge",o:["Ordinary dustbin","Sharps container","Paper bag","Open tray"],a:1,e:"Used needles must be disposed of in an approved puncture-resistant sharps container."},
-
 {q:"Which blood group antigen determines the Rh-positive status?",topic:"Laboratory Knowledge",o:["A antigen","B antigen","D antigen","H antigen"],a:2,e:"The presence of the D antigen generally indicates Rh-positive status."},
-
 {q:"What is crossmatching performed for?",topic:"Mathematics",o:["Checking blood compatibility before transfusion","Measuring glucose","Counting platelets","Measuring urine protein"],a:0,e:"Crossmatching helps assess compatibility between donor red cells and recipient serum or plasma."},
-
 {q:"Which test is commonly used to detect pregnancy by measuring a hormone?",topic:"General Knowledge",o:["hCG test","ESR","CBC","PT"],a:0,e:"Pregnancy tests detect human chorionic gonadotropin (hCG)."}, 
-
 {q:"What does CRP stand for?",topic:"Laboratory Knowledge",o:["C-reactive protein","Complete red profile","Cell reaction process","Clinical renal parameter"],a:0,e:"CRP stands for C-reactive protein, a marker of inflammation."},
-
 {q:"Which electrolyte is most important for maintaining normal extracellular fluid balance?",topic:"Laboratory Knowledge",o:["Sodium","Iron","Zinc","Iodine"],a:0,e:"Sodium is the major cation in extracellular fluid."},
-
 {q:"Which electrolyte is especially important for normal heart and muscle function?",topic:"Laboratory Knowledge",o:["Potassium","Fluoride","Iron","Copper"],a:0,e:"Potassium is essential for normal nerve, muscle and cardiac electrical activity."},
-
 {q:"Which vitamin deficiency can cause scurvy?",topic:"Science",o:["Vitamin A","Vitamin B12","Vitamin C","Vitamin D"],a:2,e:"Scurvy is caused by vitamin C deficiency."},
-
 {q:"Which vitamin deficiency can cause megaloblastic anaemia?",topic:"Science",o:["Vitamin B12","Vitamin K","Vitamin E","Vitamin A"],a:0,e:"Vitamin B12 deficiency can cause megaloblastic anaemia."},
 
+// ======================================
+//  300 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Which part of the microscope controls the amount of light passing through the specimen?",topic:"Laboratory Knowledge",o:["Eyepiece","Diaphragm","Objective lens","Stage clip"],a:1,e:"The diaphragm regulates the amount of light reaching the specimen."},
-
 {q:"What is the function of an objective lens?",topic:"Mathematics",o:["Magnify the specimen","Hold the slide","Control temperature","Measure weight"],a:0,e:"The objective lens provides magnification of the specimen."},
-
 {q:"What does the term aseptic technique mean?",topic:"General Knowledge",o:["Technique to prevent contamination","Technique to increase temperature","Method of weighing samples","Method of staining slides"],a:0,e:"Aseptic technique helps prevent contamination by unwanted microorganisms."},
-
 {q:"Which type of water is generally used for preparing laboratory reagents?",topic:"Laboratory Knowledge",o:["Distilled or deionized water as specified by the method","Tap water in all cases","Sea water","Mineral water"],a:0,e:"Laboratory methods specify the required water quality; distilled or deionized water is commonly used."},
-
 {q:"What is the main purpose of calibrating laboratory equipment?",topic:"Laboratory Knowledge",o:["To compare measurements with a known standard","To clean the equipment only","To increase sample size","To change the test method"],a:0,e:"Calibration checks measurement accuracy against known standards."},
-
 {q:"Which document gives instructions for performing a laboratory test?",topic:"Laboratory Knowledge",o:["SOP","ID card","Invoice","Attendance sheet"],a:0,e:"SOP means Standard Operating Procedure and describes how a task should be performed."},
-
-
-
-// ======================================
-// IQ PRACTICE SYSTEM - QUESTIONS 301–400
-// ======================================
-
 {q:"Which number completes the series? 5, 10, 20, 40, ?",topic:"Logical Reasoning",o:["60","70","80","90"],a:2,e:"Each number is multiplied by 2."},
 {q:"If 7 + 3 = 40 and 8 + 2 = 60, then 9 + 1 = ?",topic:"General Knowledge",o:["70","80","90","100"],a:1,e:"The pattern is (first number minus second number) multiplied by 10: 9 - 1 = 8, so 80."},
 {q:"Which one is different? (Alternate version 1)",topic:"Logical Reasoning",o:["Triangle","Square","Circle","Rectangle"],a:2,e:"A circle has no straight sides or corners."},
 {q:"Find the missing number: 4, 9, 16, 25, ?",topic:"Logical Reasoning",o:["30","32","36","49"],a:2,e:"These are squares: 2², 3², 4², 5², 6²."},
+
 {q:"If CAT is coded as DBU, how is DOG coded? (Alternate version 1)",topic:"Logical Reasoning",o:["EPH","CNG","FPI","EOG"],a:0,e:"Each letter is moved one step forward in the alphabet."},
 {q:"Which number is the smallest?",topic:"General Knowledge",o:["0.5","0.05","0.55","0.505"],a:1,e:"0.05 is smaller than the other decimal values."},
 {q:"A clock shows 3:00. What is the angle between its hands? (Alternate version 1)",topic:"Mathematics",o:["45°","60°","90°","120°"],a:2,e:"At 3:00, the hands form a right angle of 90 degrees."},
 {q:"Which word does not belong? (Alternate version 2)",topic:"English",o:["Apple","Mango","Carrot","Banana"],a:2,e:"Carrot is a vegetable; the others are fruits."},
 {q:"What comes next? 1, 4, 9, 16, 25, ?",topic:"Logical Reasoning",o:["30","35","36","49"],a:2,e:"The sequence contains square numbers: 1² through 6²."},
 {q:"If all roses are flowers, which statement must be true?",topic:"Logical Reasoning",o:["All flowers are roses","Some roses are not flowers","All roses are flowers","No roses are flowers"],a:2,e:"This is exactly what the statement tells us."},
-
 {q:"A dozen eggs contains how many eggs?",topic:"Mathematics",o:["10","12","14","16"],a:1,e:"One dozen equals 12."},
 {q:"Which number is divisible by 9? (Alternate version 1)",topic:"General Knowledge",o:["124","135","142","151"],a:1,e:"1 + 3 + 5 = 9, so 135 is divisible by 9."},
 {q:"If today is Monday, what day will it be after 10 days? (Alternate version 2)",topic:"General Knowledge",o:["Wednesday","Thursday","Friday","Saturday"],a:1,e:"Seven days later is Monday; three more days is Thursday."},
 {q:"Complete the pattern: 2, 6, 12, 20, 30, ?",topic:"Logical Reasoning",o:["36","40","42","44"],a:2,e:"The differences are 4, 6, 8, 10, then 12. So 30 + 12 = 42."},
+
 {q:"Which is the odd one out? (Alternate version 2)",topic:"Logical Reasoning",o:["January","March","May","Monday"],a:3,e:"Monday is a day of the week; the others are months."},
 {q:"If 5 workers complete a task in 10 days, how many worker-days are needed?",topic:"Mathematics",o:["15","25","50","100"],a:2,e:"5 workers × 10 days = 50 worker-days."},
 {q:"What is half of three quarters of 80?",topic:"Mathematics",o:["20","25","30","40"],a:2,e:"Three quarters of 80 is 60; half of 60 is 30."},
 {q:"Which number completes the series? 100, 90, 81, 73, ?",topic:"Logical Reasoning",o:["64","66","67","68"],a:2,e:"Subtract 10, 9, 8, then 7. So 73 - 7 = 66."},
 {q:"A book costs 200 rupees. What is its price after a 10% discount?",topic:"Mathematics",o:["160","170","180","190"],a:2,e:"10% of 200 is 20; 200 - 20 = 180."},
 {q:"Which shape has exactly five sides?",topic:"General Knowledge",o:["Hexagon","Pentagon","Octagon","Triangle"],a:1,e:"A pentagon has five sides."},
-
 {q:"Find the missing letter: A, C, E, G, ?",topic:"General Knowledge",o:["H","I","J","K"],a:1,e:"The sequence skips one letter each time: A, C, E, G, I."},
 {q:"If BOOK is coded as CPPL, how is PEN coded?",topic:"Logical Reasoning",o:["QFO","ODM","QEN","RFO"],a:0,e:"Each letter moves one step forward: P→Q, E→F, N→O."},
 {q:"Which number is a prime number? (Alternate version 1)",topic:"Mathematics",o:["21","27","29","33"],a:2,e:"29 has no divisors other than 1 and itself."},
 {q:"What is 15% of 200?",topic:"Mathematics",o:["15","20","25","30"],a:3,e:"15% of 200 = 30."},
+
 {q:"Which pair has the same relationship as Doctor : Hospital?",topic:"Logical Reasoning",o:["Teacher : School","Driver : Road","Chef : Food","Farmer : Crop"],a:0,e:"A doctor commonly works in a hospital, just as a teacher commonly works in a school."},
 {q:"Complete the series: 81, 27, 9, 3, ?",topic:"Logical Reasoning",o:["0","1","2","6"],a:1,e:"Each number is divided by 3."},
 {q:"If 4 pencils cost 40 rupees, how much do 7 pencils cost at the same rate?",topic:"Mathematics",o:["60","65","70","80"],a:2,e:"One pencil costs 10 rupees; 7 cost 70 rupees."},
 {q:"Which is heavier: 1 kilogram of iron or 1 kilogram of cotton?",topic:"General Knowledge",o:["Iron","Cotton","Both are equal","Cannot be determined"],a:2,e:"Both have the same mass: one kilogram."},
 {q:"A father is 40 years old and his son is 10. How old will the father be when the son is 20?",topic:"General Knowledge",o:["45","50","55","60"],a:1,e:"Ten years will pass, so the father will be 50."},
 {q:"Which number comes next? 11, 22, 33, 44, ?",topic:"Logical Reasoning",o:["50","55","66","77"],a:1,e:"Each number increases by 11."},
-
 {q:"Which one is not a mammal?",topic:"Logical Reasoning",o:["Whale","Bat","Dolphin","Crocodile"],a:3,e:"Crocodiles are reptiles."},
 {q:"What is the opposite of 'expand'?",topic:"English",o:["Increase","Stretch","Contract","Enlarge"],a:2,e:"Contract means to become smaller."},
 {q:"If NORTH is opposite to SOUTH, what is opposite to EAST?",topic:"Mathematics",o:["North","West","South","North-East"],a:1,e:"West is the opposite direction of east."},
 {q:"A train travels 60 km in one hour. How far will it travel in 3 hours at the same speed?",topic:"Mathematics",o:["120 km","150 km","180 km","200 km"],a:2,e:"Distance = speed × time = 60 × 3 = 180 km."},
+
 {q:"Which number completes the pattern? 3, 8, 15, 24, 35, ?",topic:"Logical Reasoning",o:["42","46","48","50"],a:2,e:"The differences are 5, 7, 9, 11, then 13. The next number is 48."},
 {q:"Which is the largest fraction? (Alternate version 1)",topic:"Mathematics",o:["1/2","2/3","3/4","1/4"],a:2,e:"3/4 equals 0.75, which is the largest."},
 {q:"If yesterday was Friday, what day is tomorrow?",topic:"General Knowledge",o:["Saturday","Sunday","Monday","Thursday"],a:1,e:"Yesterday Friday means today Saturday and tomorrow Sunday."},
 {q:"Which item is used to measure temperature?",topic:"Science",o:["Barometer","Thermometer","Hygrometer","Ammeter"],a:1,e:"A thermometer measures temperature."},
 {q:"What is the square root of 144?",topic:"Mathematics",o:["10","11","12","14"],a:2,e:"12 × 12 = 144."},
 {q:"Which word is spelled correctly?",topic:"English",o:["Recieve","Receive","Receeve","Receve"],a:1,e:"The correct spelling is receive."},
-
 {q:"Complete the sequence: Z, X, V, T, ?",topic:"Logical Reasoning",o:["R","S","Q","P"],a:0,e:"The sequence moves backward by two letters each time."},
 {q:"If 2 cats catch 2 mice in 2 minutes, how many cats are needed to catch 6 mice in 2 minutes at the same rate?",topic:"Mathematics",o:["2","4","6","8"],a:2,e:"Each cat catches one mouse in two minutes, so six cats are needed."},
 {q:"Which number is the median of 3, 9, 5, 7, 1?",topic:"General Knowledge",o:["3","5","7","9"],a:1,e:"In order: 1, 3, 5, 7, 9. The middle number is 5."},
 {q:"What comes next? 1, 2, 4, 8, 16, ? (Alternate version 1)",topic:"Logical Reasoning",o:["24","28","30","32"],a:3,e:"Each number is doubled."},
+
 {q:"Which is the odd one out? (Alternate version 3)",topic:"Logical Reasoning",o:["Copper","Iron","Silver","Plastic"],a:3,e:"Plastic is not a metal."},
 {q:"If a = 3 and b = 4, what is a² + b²?",topic:"Mathematics",o:["12","18","25","49"],a:2,e:"3² + 4² = 9 + 16 = 25."},
 {q:"A person faces north and turns right. Which direction is the person facing?",topic:"Logical Reasoning",o:["West","East","South","North"],a:1,e:"A right turn from north points east."},
 {q:"How many minutes are there in 2.5 hours?",topic:"Mathematics",o:["120","130","150","180"],a:2,e:"2.5 × 60 = 150 minutes."},
 {q:"Which number is missing? 7, 14, 28, 56, ?",topic:"General Knowledge",o:["84","98","112","120"],a:2,e:"Each number is multiplied by 2."},
 {q:"Which organ pumps blood around the body?",topic:"Science",o:["Lungs","Brain","Heart","Kidney"],a:2,e:"The heart pumps blood through the circulatory system."},
-
 {q:"If 20 is increased by 25%, what is the result?",topic:"Mathematics",o:["22","24","25","30"],a:2,e:"25% of 20 is 5; 20 + 5 = 25."},
 {q:"Which word is closest in meaning to 'rapid'?",topic:"English",o:["Slow","Fast","Weak","Quiet"],a:1,e:"Rapid means fast or quick."},
 {q:"Complete the pattern: 2, 5, 10, 17, 26, ?",topic:"Logical Reasoning",o:["35","36","37","38"],a:2,e:"The differences are 3, 5, 7, 9, then 11. The next number is 37."},
 {q:"If 3 books weigh 6 kg, what is the weight of 5 identical books?",topic:"Mathematics",o:["8 kg","10 kg","12 kg","15 kg"],a:1,e:"Each book weighs 2 kg; five books weigh 10 kg."},
+
 {q:"Which number is divisible by both 2 and 5?",topic:"General Knowledge",o:["12","15","20","25"],a:2,e:"20 is divisible by both 2 and 5."},
 {q:"A meeting starts at 9:35 AM and lasts 1 hour 45 minutes. When does it end?",topic:"General Knowledge",o:["10:50 AM","11:10 AM","11:20 AM","11:30 AM"],a:2,e:"9:35 + 1 hour 45 minutes = 11:20 AM."},
 {q:"Which one is different? (Alternate version 2)",topic:"Logical Reasoning",o:["Eagle","Sparrow","Penguin","Butterfly"],a:3,e:"Butterfly is an insect; the others are birds."},
 {q:"What is 7 cubed?",topic:"Mathematics",o:["49","147","343","512"],a:2,e:"7 × 7 × 7 = 343."},
 {q:"If the code for 1 is A, 2 is B, 3 is C, what is the code for 5?",topic:"Logical Reasoning",o:["D","E","F","G"],a:1,e:"The fifth letter of the alphabet is E."},
 {q:"Which number completes the sequence? 50, 45, 39, 32, 24, ?",topic:"Logical Reasoning",o:["14","15","16","17"],a:1,e:"Subtract 5, 6, 7, 8, then 9. So 24 - 9 = 15."},
-
 {q:"Which part of the human body controls balance and coordination?",topic:"Science",o:["Cerebellum","Stomach","Liver","Pancreas"],a:0,e:"The cerebellum helps coordinate movement and balance."},
 {q:"What is the next prime number after 13? (Alternate version 1)",topic:"Mathematics",o:["14","15","16","17"],a:3,e:"17 is the next number divisible only by 1 and itself."},
 {q:"If a dozen bananas cost 120 rupees, what is the cost of 3 bananas?",topic:"Mathematics",o:["20","25","30","40"],a:2,e:"One banana costs 10 rupees; three cost 30 rupees."},
 {q:"Which word does not belong? (Alternate version 3)",topic:"English",o:["Monday","Tuesday","April","Friday"],a:2,e:"April is a month; the others are days."},
+
 {q:"Complete the sequence: 64, 32, 16, 8, ?",topic:"Logical Reasoning",o:["2","4","6","12"],a:1,e:"Each number is divided by 2."},
 {q:"What is the perimeter of a square with a side of 6 cm?",topic:"Mathematics",o:["12 cm","18 cm","24 cm","36 cm"],a:2,e:"Perimeter = 4 × side = 24 cm."},
 {q:"If all doctors are educated and Ali is a doctor, what follows?",topic:"Logical Reasoning",o:["Ali is educated","Ali is a teacher","All educated people are doctors","Ali is a nurse"],a:0,e:"If all doctors are educated, Ali must be educated."},
 {q:"Which instrument measures atmospheric pressure? (Alternate version 1)",topic:"General Knowledge",o:["Thermometer","Barometer","Microscope","Stethoscope"],a:1,e:"A barometer measures atmospheric pressure."},
 {q:"What is 0.25 expressed as a percentage?",topic:"Mathematics",o:["2.5%","20%","25%","250%"],a:2,e:"0.25 × 100 = 25%."},
 {q:"Which number comes next? 6, 11, 21, 41, ?",topic:"Logical Reasoning",o:["61","71","81","91"],a:2,e:"Each number is multiplied by 2 and then 1 is subtracted."},
-
 {q:"Which is the correct order from smallest to largest?",topic:"General Knowledge",o:["0.8, 0.08, 0.18","0.08, 0.18, 0.8","0.18, 0.8, 0.08","0.8, 0.18, 0.08"],a:1,e:"The values increase from 0.08 to 0.18 to 0.8."},
 {q:"A car uses 5 litres of fuel for 100 km. How much fuel does it use for 300 km at the same rate?",topic:"Mathematics",o:["10 litres","12 litres","15 litres","20 litres"],a:2,e:"300 km is three times 100 km, so 5 × 3 = 15 litres."},
 {q:"Which letter comes three places after M?",topic:"General Knowledge",o:["N","O","P","Q"],a:2,e:"N is one, O is two, and P is three places after M."},
 {q:"What is the sum of the first five positive even numbers?",topic:"Mathematics",o:["20","25","30","35"],a:2,e:"2 + 4 + 6 + 8 + 10 = 30."},
+
 {q:"Which one is not a unit of length?",topic:"Logical Reasoning",o:["Metre","Centimetre","Kilogram","Kilometre"],a:2,e:"Kilogram is a unit of mass, not length."},
 {q:"If 12 people shake hands with each other exactly once, how many handshakes occur?",topic:"Mathematics",o:["44","60","66","72"],a:2,e:"The number is 12 × 11 ÷ 2 = 66."},
 {q:"Find the missing number: 1, 8, 27, 64, ?",topic:"Logical Reasoning",o:["100","125","144","216"],a:1,e:"These are cubes: 1³, 2³, 3³, 4³, 5³."},
 {q:"Which gas do plants mainly absorb during photosynthesis?",topic:"Science",o:["Oxygen","Nitrogen","Carbon dioxide","Hydrogen"],a:2,e:"Plants absorb carbon dioxide for photosynthesis."},
 {q:"If a clock loses 5 minutes every hour, how many minutes will it lose in 6 hours?",topic:"Mathematics",o:["20","25","30","35"],a:2,e:"5 × 6 = 30 minutes."},
 {q:"Which number is the greatest?",topic:"General Knowledge",o:["3²","2⁴","4²","5²"],a:3,e:"5² = 25, which is greater than 9, 16 and 16."},
-
 {q:"A shopkeeper buys an item for 500 rupees and sells it for 600. What is the profit percentage?",topic:"Mathematics",o:["10%","15%","20%","25%"],a:2,e:"Profit is 100; 100 ÷ 500 × 100 = 20%."},
 {q:"Which word is the opposite of 'ancient'?",topic:"English",o:["Old","Historic","Modern","Traditional"],a:2,e:"Modern means recent or current, opposite to ancient."},
 {q:"Complete the series: 13, 18, 23, 28, ?",topic:"Logical Reasoning",o:["30","31","32","33"],a:3,e:"Each number increases by 5."},
 {q:"If 8 machines make 8 items in 8 minutes, how long would 16 machines take to make 16 items at the same rate?",topic:"General Knowledge",o:["4 minutes","8 minutes","16 minutes","32 minutes"],a:1,e:"Each machine makes one item in 8 minutes, so 16 machines make 16 items in 8 minutes."},
+
 {q:"Which is the correct Roman numeral for 50?",topic:"Mathematics",o:["X","L","C","D"],a:1,e:"L represents 50 in Roman numerals."},
 {q:"What is the average of 10, 20, 30 and 40?",topic:"Mathematics",o:["20","25","30","35"],a:1,e:"The sum is 100; 100 divided by 4 equals 25."},
 {q:"Which one is a renewable source of energy?",topic:"Science",o:["Coal","Petrol","Natural gas","Solar energy"],a:3,e:"Solar energy is naturally replenished by sunlight."},
 {q:"If 6 is to 36, then 8 is to what?",topic:"General Knowledge",o:["48","56","64","72"],a:2,e:"The relationship is squaring: 6² = 36, so 8² = 64."},
 {q:"Which number completes the sequence? 121, 100, 81, 64, ?",topic:"Logical Reasoning",o:["36","49","52","56"],a:1,e:"These are descending squares: 11², 10², 9², 8², 7²."},
 {q:"A person walks 4 km east and then 3 km north. How far is the person from the starting point in a straight line?",topic:"Logical Reasoning",o:["5 km","6 km","7 km","8 km"],a:0,e:"Using the 3-4-5 right triangle, the distance is 5 km."},
-
 {q:"Which blood cells mainly help fight infections?",topic:"Laboratory Knowledge",o:["Red blood cells","White blood cells","Platelets","Plasma"],a:1,e:"White blood cells are important for immune defence."},
 {q:"What is 3/5 of 100?",topic:"Mathematics",o:["30","40","50","60"],a:3,e:"100 × 3/5 = 60."},
 {q:"Which number is missing? 9, 18, 36, 72, ?",topic:"General Knowledge",o:["108","124","144","162"],a:2,e:"Each number is doubled."},
 {q:"If the day before yesterday was Wednesday, what day is today?",topic:"General Knowledge",o:["Thursday","Friday","Saturday","Sunday"],a:1,e:"Yesterday was Thursday, so today is Friday."},
+
+// ======================================
+//  400 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Which one is not a primary colour of light?",topic:"Science",o:["Red","Green","Blue","Yellow"],a:3,e:"The primary colours of light are red, green and blue."},
 {q:"A rectangle has length 9 cm and width 4 cm. What is its area?",topic:"Mathematics",o:["13 cm²","26 cm²","36 cm²","40 cm²"],a:2,e:"Area = length × width = 9 × 4 = 36 cm²."},
 {q:"Which number is both a perfect square and a perfect cube?",topic:"Mathematics",o:["16","36","64","100"],a:2,e:"64 = 8² and also 4³."},
 {q:"If 3 pens and 2 pencils cost 70 rupees, and each pen costs 20 rupees, what is the cost of both pencils together?",topic:"Mathematics",o:["10","20","30","40"],a:2,e:"Three pens cost 60; 70 - 60 = 10 for two pencils."},
 {q:"Which part of a cell contains most of its genetic material?",topic:"Science",o:["Cell membrane","Nucleus","Cytoplasm","Ribosome"],a:1,e:"The nucleus contains most of the cell's DNA."},
 {q:"What comes next? 4, 7, 13, 25, 49, ?",topic:"Logical Reasoning",o:["73","89","97","99"],a:2,e:"Each number is multiplied by 2 and then 1 is subtracted: 49 × 2 - 1 = 97."},
-
 {q:"Which number is exactly halfway between 18 and 42?",topic:"General Knowledge",o:["25","28","30","32"],a:2,e:"(18 + 42) ÷ 2 = 30."},
 {q:"If a word is written backwards, how does TABLE appear?",topic:"General Knowledge",o:["ELBAT","ELTAB","BATEL","TELAB"],a:0,e:"Reading TABLE from right to left gives ELBAT."},
 {q:"How many sides do two hexagons have altogether?",topic:"Mathematics",o:["10","12","14","16"],a:1,e:"A hexagon has 6 sides; two have 12 sides altogether."},
 {q:"Which number is missing? 2, 3, 5, 8, 12, 17, ?",topic:"General Knowledge",o:["21","22","23","24"],a:2,e:"The differences are 1, 2, 3, 4, 5, then 6. So 17 + 6 = 23."},
+
 {q:"What is the chemical symbol for gold?",topic:"Science",o:["Ag","Au","Gd","Go"],a:1,e:"The chemical symbol for gold is Au."},
 {q:"A water tank is 1/4 full. If its capacity is 200 litres, how much water is inside?",topic:"Science",o:["25 litres","40 litres","50 litres","75 litres"],a:2,e:"One quarter of 200 litres is 50 litres."},
 {q:"Which number is not a factor of 24?",topic:"General Knowledge",o:["3","4","6","5"],a:3,e:"24 cannot be divided evenly by 5."},
 {q:"If 10% of a number is 15, what is the number?",topic:"Mathematics",o:["100","120","150","200"],a:2,e:"If 10% is 15, then 100% is 150."},
 {q:"Which one is different from the others?",topic:"Logical Reasoning",o:["Cube","Sphere","Cylinder","Kilogram"],a:3,e:"Kilogram is a unit of mass; the others are three-dimensional shapes."},
 {q:"What is the next number? 1, 3, 6, 10, 15, ?",topic:"Mathematics",o:["18","20","21","25"],a:2,e:"Add 2, 3, 4, 5, then 6. The next number is 21."},
-
-
-// ======================================
-// IQ PRACTICE SYSTEM - QUESTIONS 401–500
-// ======================================
-
 {q:"What comes next? 12, 24, 48, 96, ?",topic:"Logical Reasoning",o:["144","168","192","200"],a:2,e:"Each number is multiplied by 2. 96 × 2 = 192."},
 {q:"Find the missing number: 5, 9, 17, 33, 65, ?",topic:"Logical Reasoning",o:["97","127","129","131"],a:2,e:"Each number is multiplied by 2 and 1 is subtracted. 65 × 2 - 1 = 129."},
 {q:"Which number does not belong? 4, 9, 16, 25, 36, 48",topic:"Logical Reasoning",o:["16","25","36","48"],a:3,e:"The first five numbers are perfect squares. 48 is not."},
 {q:"If 6 workers finish a job in 8 days, how many days will 12 workers need at the same rate?",topic:"Mathematics",o:["2","4","6","8"],a:1,e:"Doubling the workers halves the time. 8 ÷ 2 = 4 days."},
+
 {q:"What is 35% of 400?",topic:"Mathematics",o:["120","130","140","150"],a:2,e:"400 × 0.35 = 140."},
 {q:"Which letter comes next? B, E, I, N, T, ?",topic:"Logical Reasoning",o:["X","Y","Z","W"],a:2,e:"The letter gaps are +3, +4, +5, +6, then +7. T + 7 = A after wrapping? The alphabet position is 20 + 7 = 27, which wraps to A."},
 {q:"Which word is the opposite of 'generous'?",topic:"English",o:["Kind","Selfish","Helpful","Friendly"],a:1,e:"Selfish means unwilling to give or share, opposite to generous."},
 {q:"A number divided by 5 gives 14. What is the number?",topic:"Mathematics",o:["60","65","70","75"],a:2,e:"14 × 5 = 70."},
 {q:"Which is the smallest prime number?",topic:"Mathematics",o:["0","1","2","3"],a:2,e:"2 is the smallest prime number and the only even prime."},
 {q:"Complete the sequence: 10, 13, 19, 28, 40, ?",topic:"Logical Reasoning",o:["52","53","55","57"],a:2,e:"The differences are 3, 6, 9, 12, then 15. 40 + 15 = 55."},
-
 {q:"If HAND is coded as IBOE, how is FOOT coded?",topic:"Logical Reasoning",o:["GPPU","GQPU","EPPS","HPPU"],a:0,e:"Each letter moves one position forward: F→G, O→P, O→P, T→U."},
 {q:"A bus travels 240 km in 4 hours. What is its average speed?",topic:"Mathematics",o:["50 km/h","55 km/h","60 km/h","65 km/h"],a:2,e:"Speed = distance ÷ time = 240 ÷ 4 = 60 km/h."},
 {q:"What is the value of 9² + 4²?",topic:"Mathematics",o:["81","97","105","121"],a:1,e:"9² + 4² = 81 + 16 = 97."},
 {q:"Which shape has eight sides?",topic:"General Knowledge",o:["Hexagon","Heptagon","Octagon","Nonagon"],a:2,e:"An octagon has eight sides."},
+
 {q:"If 3 notebooks cost 90 rupees, what is the cost of 8 notebooks?",topic:"Mathematics",o:["180","210","240","270"],a:2,e:"One notebook costs 30 rupees. Eight cost 240 rupees."},
 {q:"Which number completes the pattern? 2, 7, 14, 23, 34, ?",topic:"Logical Reasoning",o:["45","47","49","51"],a:1,e:"The differences are 5, 7, 9, 11, then 13. 34 + 13 = 47."},
 {q:"Which one is different? (Alternate version 3)",topic:"Logical Reasoning",o:["Mercury","Venus","Earth","Moon"],a:3,e:"The Moon is a natural satellite; the others are planets."},
 {q:"What is the average of 15, 25, 35 and 45?",topic:"Mathematics",o:["25","30","35","40"],a:1,e:"The sum is 120. 120 ÷ 4 = 30."},
 {q:"A person faces west and turns left. Which direction are they facing?",topic:"Logical Reasoning",o:["North","South","East","West"],a:1,e:"A left turn from west points south."},
 {q:"What is 2/5 of 150? (Alternate version 1)",topic:"Mathematics",o:["50","55","60","75"],a:2,e:"150 × 2/5 = 60."},
-
 {q:"Which number comes next? 3, 6, 11, 18, 27, ?",topic:"Logical Reasoning",o:["36","38","40","42"],a:1,e:"The differences are 3, 5, 7, 9, then 11. 27 + 11 = 38."},
 {q:"Which word is closest in meaning to 'accurate'?",topic:"English",o:["Correct","Careless","Unclear","Doubtful"],a:0,e:"Accurate means correct or precise."},
 {q:"If 20% of a number is 30, what is the number?",topic:"Mathematics",o:["100","120","150","180"],a:2,e:"30 ÷ 0.20 = 150."},
 {q:"How many seconds are there in 5 minutes? (Alternate version 1)",topic:"Mathematics",o:["200","250","300","350"],a:2,e:"5 × 60 = 300 seconds."},
+
 {q:"Which number is a perfect cube?",topic:"Mathematics",o:["36","49","64","81"],a:2,e:"64 = 4 × 4 × 4 = 4³."},
 {q:"Complete the analogy: Eye is to See as Ear is to ____.",topic:"General Knowledge",o:["Speak","Hear","Touch","Smell"],a:1,e:"Eyes are used for seeing; ears are used for hearing."},
 {q:"A shopkeeper sells an item for 900 rupees after giving a 10% discount. What was the original price?",topic:"Mathematics",o:["950","980","1000","1100"],a:2,e:"900 represents 90% of the original price. 900 ÷ 0.9 = 1000."},
 {q:"Which number is divisible by 3?",topic:"General Knowledge",o:["124","221","333","502"],a:2,e:"3 + 3 + 3 = 9, which is divisible by 3."},
 {q:"What comes next? 100, 81, 64, 49, 36, ?",topic:"Logical Reasoning",o:["16","20","25","30"],a:2,e:"These are descending squares: 10², 9², 8², 7², 6², 5²."},
 {q:"Which one is not a primary colour of light? (Alternate version 1)",topic:"Science",o:["Red","Green","Blue","Orange"],a:3,e:"The primary colours of light are red, green and blue."},
-
 {q:"If A = 1, B = 2, and C = 3, what is the value of CAB?",topic:"Mathematics",o:["5","6","7","8"],a:1,e:"C + A + B = 3 + 1 + 2 = 6."},
 {q:"A rectangle has an area of 72 cm² and a length of 9 cm. What is its width?",topic:"Mathematics",o:["6 cm","7 cm","8 cm","9 cm"],a:2,e:"Width = area ÷ length = 72 ÷ 9 = 8 cm."},
 {q:"Which is the odd one out? (Alternate version 4)",topic:"Logical Reasoning",o:["January","June","September","Sunday"],a:3,e:"Sunday is a day of the week; the others are months."},
 {q:"What is the next number? 1, 5, 14, 30, 55, ?",topic:"Mathematics",o:["81","91","95","105"],a:1,e:"The differences are 4, 9, 16, 25, then 36. 55 + 36 = 91."},
+
 {q:"If 8 people complete a task in 15 days, how long will 4 people take at the same rate?",topic:"General Knowledge",o:["20 days","25 days","30 days","35 days"],a:2,e:"Half the workers need twice the time. 15 × 2 = 30 days."},
 {q:"Which instrument measures humidity?",topic:"General Knowledge",o:["Barometer","Hygrometer","Thermometer","Ammeter"],a:1,e:"A hygrometer measures humidity in the air."},
 {q:"What is the Roman numeral for 100? (Alternate version 1)",topic:"Mathematics",o:["L","C","D","M"],a:1,e:"C represents 100 in Roman numerals."},
 {q:"Which number is the median of 8, 2, 10, 4, 6?",topic:"General Knowledge",o:["4","6","8","10"],a:1,e:"Ordered values are 2, 4, 6, 8, 10. The middle value is 6."},
 {q:"A tank contains 600 litres. If 15% is used, how much remains?",topic:"Mathematics",o:["480 L","490 L","510 L","520 L"],a:2,e:"15% of 600 is 90. Remaining water = 600 - 90 = 510 litres."},
 {q:"Which word is the opposite of 'temporary'?",topic:"English",o:["Brief","Permanent","Short","Limited"],a:1,e:"Permanent means lasting or continuing indefinitely."},
-
 {q:"Complete the series: 4, 12, 36, 108, ?",topic:"Logical Reasoning",o:["216","324","432","540"],a:1,e:"Each number is multiplied by 3. 108 × 3 = 324."},
 {q:"Which number is missing? 6, 13, 27, 55, ?",topic:"General Knowledge",o:["99","101","109","111"],a:3,e:"Each number is multiplied by 2 and then 1 is added. 55 × 2 + 1 = 111."},
 {q:"If a car travels 150 km using 10 litres of fuel, how far will it travel using 20 litres at the same rate?",topic:"Mathematics",o:["250 km","280 km","300 km","350 km"],a:2,e:"20 litres is double 10 litres, so the distance is 300 km."},
 {q:"Which of the following is a mammal?",topic:"General Knowledge",o:["Shark","Frog","Dolphin","Crocodile"],a:2,e:"Dolphins are mammals because they breathe air and feed their young with milk."},
+
 {q:"What is 125% of 80?",topic:"Mathematics",o:["80","90","100","120"],a:2,e:"80 × 1.25 = 100."},
 {q:"Which letter is exactly in the middle of the English alphabet?",topic:"General Knowledge",o:["M","N","O","P"],a:1,e:"There are 26 letters; N is the 14th letter, just after the midpoint."},
 {q:"A father is three times as old as his son. Their total age is 48. How old is the son?",topic:"General Knowledge",o:["10","12","14","16"],a:1,e:"Let the son's age be x. x + 3x = 48, so x = 12."},
 {q:"Which number is not a factor of 36?",topic:"General Knowledge",o:["4","6","9","8"],a:3,e:"36 cannot be divided evenly by 8."},
 {q:"What is the next number? 2, 4, 8, 14, 22, ?",topic:"Mathematics",o:["30","31","32","34"],a:2,e:"The differences are 2, 4, 6, 8, then 10. 22 + 10 = 32."},
 {q:"Which device is used to measure electric current?",topic:"Science",o:["Voltmeter","Ammeter","Thermometer","Barometer"],a:1,e:"An ammeter measures electric current."},
-
 {q:"If 5 machines produce 100 items in 2 hours, how many items will 10 machines produce in 2 hours at the same rate?",topic:"Mathematics",o:["150","180","200","250"],a:2,e:"Doubling the machines doubles production: 100 × 2 = 200."},
 {q:"Which number is both even and prime?",topic:"General Knowledge",o:["1","2","4","6"],a:1,e:"2 is the only even prime number."},
 {q:"Complete the sequence: 15, 30, 60, 120, ?",topic:"Logical Reasoning",o:["180","200","220","240"],a:3,e:"Each number is doubled."},
 {q:"Which word is closest in meaning to 'reluctant'?",topic:"English",o:["Unwilling","Excited","Certain","Cheerful"],a:0,e:"Reluctant means unwilling or hesitant."},
+
 {q:"A square has an area of 121 cm². What is the length of one side?",topic:"Mathematics",o:["9 cm","10 cm","11 cm","12 cm"],a:2,e:"The square root of 121 is 11."},
 {q:"If 3/8 of a number is 24, what is the number?",topic:"Mathematics",o:["48","56","64","72"],a:2,e:"24 × 8 ÷ 3 = 64."},
 {q:"Which planet is known for its prominent ring system?",topic:"Science",o:["Mars","Venus","Saturn","Mercury"],a:2,e:"Saturn is famous for its extensive ring system."},
 {q:"What is the next letter? C, F, J, O, ?",topic:"Mathematics",o:["S","T","U","V"],a:2,e:"The gaps are +3, +4, +5, then +6. O + 6 = U."},
 {q:"If 40% of a class of 50 students are girls, how many are boys?",topic:"Mathematics",o:["20","25","30","35"],a:2,e:"Girls = 20, so boys = 50 - 20 = 30."},
 {q:"Which one is different? (Alternate version 4)",topic:"Logical Reasoning",o:["Kilometre","Metre","Centimetre","Litre"],a:3,e:"Litre measures volume; the others measure length."},
-
 {q:"What is the sum of the angles inside a triangle?",topic:"Mathematics",o:["90°","180°","270°","360°"],a:1,e:"The interior angles of a triangle add up to 180 degrees."},
 {q:"Which number comes next? 14, 28, 56, 112, ?",topic:"Logical Reasoning",o:["196","210","224","240"],a:2,e:"Each number is multiplied by 2."},
 {q:"If 4 pens cost 100 rupees, what is the cost of 10 pens?",topic:"Mathematics",o:["200","225","250","275"],a:2,e:"One pen costs 25 rupees. Ten pens cost 250 rupees."},
 {q:"Which part of the human body is primarily responsible for pumping blood?",topic:"Science",o:["Liver","Heart","Kidney","Lung"],a:1,e:"The heart pumps blood throughout the body."},
+
 {q:"What is 7/10 expressed as a percentage?",topic:"Mathematics",o:["7%","17%","70%","700%"],a:2,e:"7/10 × 100 = 70%."},
 {q:"Which number is missing? 1, 4, 10, 19, 31, ?",topic:"General Knowledge",o:["42","44","46","48"],a:2,e:"The differences are 3, 6, 9, 12, then 15. 31 + 15 = 46."},
 {q:"A person travels 90 km in 1.5 hours. What is the average speed?",topic:"Mathematics",o:["45 km/h","50 km/h","60 km/h","75 km/h"],a:2,e:"90 ÷ 1.5 = 60 km/h."},
 {q:"Which is the opposite of 'increase'?",topic:"English",o:["Grow","Expand","Decrease","Improve"],a:2,e:"Decrease means to become smaller or less."},
 {q:"How many sides do three pentagons have altogether?",topic:"Mathematics",o:["12","15","18","20"],a:1,e:"Each pentagon has 5 sides. Three have 15 sides altogether."},
 {q:"What is the value of 1000 ÷ 25?",topic:"Mathematics",o:["20","30","40","50"],a:2,e:"1000 ÷ 25 = 40."},
-
 {q:"Which blood component is primarily responsible for clot formation?",topic:"Science",o:["Red blood cells","Platelets","Lymphocytes","Plasma water"],a:1,e:"Platelets help form the initial plug during blood clotting."},
 {q:"Which specimen is commonly used for a routine complete blood count?",topic:"Laboratory Knowledge",o:["EDTA blood","Plain urine","Sputum","Saliva"],a:0,e:"EDTA blood is commonly used for CBC testing."},
 {q:"Which organ produces insulin? (Alternate version 1)",topic:"Science",o:["Liver","Pancreas","Kidney","Spleen"],a:1,e:"Insulin is produced by beta cells in the pancreas."},
 {q:"Which test is commonly used to assess long-term average blood glucose?",topic:"Science",o:["ESR","HbA1c","PT","ALT"],a:1,e:"HbA1c reflects average blood glucose over approximately 2–3 months."},
+
 {q:"Which laboratory instrument is used to separate components by spinning?",topic:"Laboratory Knowledge",o:["Incubator","Centrifuge","Microscope","Autoclave"],a:1,e:"A centrifuge separates components using centrifugal force."},
 {q:"Which blood cells primarily transport oxygen?",topic:"Laboratory Knowledge",o:["Platelets","Red blood cells","Lymphocytes","Monocytes"],a:1,e:"Red blood cells contain haemoglobin, which carries oxygen."},
 {q:"Which stain is commonly used for a peripheral blood smear?",topic:"Science",o:["Gram stain","Leishman stain","India ink","Ziehl-Neelsen stain"],a:1,e:"Leishman stain is commonly used for peripheral blood film examination."},
 {q:"Which anticoagulant is commonly used for PT and APTT testing?",topic:"Laboratory Knowledge",o:["EDTA","Sodium citrate","Fluoride","Plain tube"],a:1,e:"Sodium citrate is commonly used for coagulation testing."},
 {q:"What does RBC stand for?",topic:"General Knowledge",o:["Red Blood Cell","Rapid Blood Count","Reticulocyte Blood Count","Red Body Component"],a:0,e:"RBC stands for Red Blood Cell."},
 {q:"Which instrument measures the acidity or alkalinity of a solution?",topic:"Science",o:["pH meter","Barometer","Ammeter","Caliper"],a:0,e:"A pH meter measures the pH of a solution."},
-
 {q:"Which organ primarily filters blood to produce urine?",topic:"Laboratory Knowledge",o:["Heart","Kidney","Lung","Stomach"],a:1,e:"The kidneys filter blood and produce urine."},
 {q:"Which vitamin is essential for normal blood clotting?",topic:"Laboratory Knowledge",o:["Vitamin A","Vitamin B12","Vitamin C","Vitamin K"],a:3,e:"Vitamin K is required for the production of several clotting factors."},
 {q:"Which gas is mainly absorbed by plants during photosynthesis?",topic:"Science",o:["Oxygen","Carbon dioxide","Nitrogen","Hydrogen"],a:1,e:"Plants use carbon dioxide during photosynthesis."},
 {q:"What is the normal approximate arterial blood pH range?",topic:"Science",o:["6.5–6.9","7.00–7.20","7.35–7.45","7.60–7.80"],a:2,e:"Normal arterial blood pH is approximately 7.35–7.45."},
+
+// ======================================
+//  500 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Which test is commonly used to assess kidney filtration function?",topic:"Mathematics",o:["Serum creatinine","Serum amylase","Troponin","Bilirubin"],a:0,e:"Serum creatinine is commonly used to estimate kidney function through eGFR."},
 {q:"Which microorganism causes malaria?",topic:"Science",o:["Salmonella","Plasmodium","Staphylococcus","Candida"],a:1,e:"Malaria is caused by parasites belonging to the genus Plasmodium."},
 {q:"Which laboratory device measures light absorbance?",topic:"Laboratory Knowledge",o:["Spectrophotometer","Centrifuge","Water bath","Hot plate"],a:0,e:"A spectrophotometer measures the absorbance of light by a sample."},
 {q:"Which white blood cells are often increased in allergic conditions?",topic:"Laboratory Knowledge",o:["Eosinophils","Red blood cells","Platelets","Reticulocytes"],a:0,e:"Eosinophils may increase in certain allergic conditions and parasitic infections."},
 {q:"Which test is commonly used to assess heart muscle injury?",topic:"Science",o:["Troponin","Urea","Albumin","Amylase"],a:0,e:"Cardiac troponin is an important marker of myocardial injury."},
 {q:"What does CSF stand for?",topic:"Laboratory Knowledge",o:["Cell Serum Fraction","Cerebrospinal Fluid","Central Sample Factor","Clotting Serum Fluid"],a:1,e:"CSF stands for cerebrospinal fluid."},
-
-
-
-
-
-
-
-// ======================================
-// ADDITIONAL 1,494 QUESTIONS (TOTAL 2,000)
-// Topics: Mathematics, Reasoning, English, Science, Computer, Pakistan Studies, Laboratory Knowledge
-// ======================================
-
 {q:"Mathematics: What is 10 + 9?",o:["24", "19", "16", "21"],a:1,e:"10 + 9 = 19."},
 {q:"Mathematics: What is 13 + 16?",o:["31", "26", "34", "29"],a:3,e:"13 + 16 = 29."},
 {q:"Mathematics: What is 16 + 4?",o:["25", "20", "17", "22"],a:1,e:"16 + 4 = 20."},
 {q:"Mathematics: What is 19 + 11?",o:["27", "30", "35", "32"],a:1,e:"19 + 11 = 30."},
+
 {q:"Mathematics: What is 22 + 18?",o:["40", "42", "45", "37"],a:0,e:"22 + 18 = 40."},
 {q:"Mathematics: What is 25 + 6?",o:["36", "28", "33", "31"],a:3,e:"25 + 6 = 31."},
 {q:"Mathematics: What is 28 + 13?",o:["46", "43", "41", "38"],a:2,e:"28 + 13 = 41."},
@@ -760,6 +604,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 43 + 10?",o:["53", "50", "55", "58"],a:0,e:"43 + 10 = 53."},
 {q:"Mathematics: What is 46 + 17?",o:["68", "63", "65", "60"],a:1,e:"46 + 17 = 63."},
 {q:"Mathematics: What is 49 + 5?",o:["56", "59", "51", "54"],a:3,e:"49 + 5 = 54."},
+
 {q:"Mathematics: What is 52 + 12?",o:["69", "61", "64", "66"],a:2,e:"52 + 12 = 64."},
 {q:"Mathematics: What is 55 + 19?",o:["74", "79", "76", "71"],a:0,e:"55 + 19 = 74."},
 {q:"Mathematics: What is 58 + 7?",o:["65", "62", "67", "70"],a:0,e:"58 + 7 = 65."},
@@ -770,6 +615,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 73 + 4?",o:["82", "74", "77", "79"],a:2,e:"73 + 4 = 77."},
 {q:"Mathematics: What is 76 + 11?",o:["89", "92", "87", "84"],a:2,e:"76 + 11 = 87."},
 {q:"Mathematics: What is 79 + 18?",o:["99", "97", "94", "102"],a:1,e:"79 + 18 = 97."},
+
 {q:"Mathematics: What is 82 + 6?",o:["90", "85", "88", "93"],a:2,e:"82 + 6 = 88."},
 {q:"Mathematics: What is 85 + 13?",o:["103", "98", "95", "100"],a:1,e:"85 + 13 = 98."},
 {q:"Mathematics: What is 88 + 20?",o:["108", "110", "105", "113"],a:0,e:"88 + 20 = 108."},
@@ -780,6 +626,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 103 + 17?",o:["122", "117", "125", "120"],a:3,e:"103 + 17 = 120."},
 {q:"Mathematics: What is 106 + 5?",o:["116", "111", "108", "113"],a:1,e:"106 + 5 = 111."},
 {q:"Mathematics: What is 109 + 12?",o:["123", "121", "126", "118"],a:1,e:"109 + 12 = 121."},
+
 {q:"Mathematics: What is 112 + 19?",o:["136", "133", "131", "128"],a:2,e:"112 + 19 = 131."},
 {q:"Mathematics: What is 115 + 7?",o:["124", "127", "122", "119"],a:2,e:"115 + 7 = 122."},
 {q:"Mathematics: What is 118 + 14?",o:["134", "137", "129", "132"],a:3,e:"118 + 14 = 132."},
@@ -790,6 +637,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 133 + 11?",o:["141", "146", "149", "144"],a:3,e:"133 + 11 = 144."},
 {q:"Mathematics: What is 136 + 18?",o:["151", "159", "156", "154"],a:3,e:"136 + 18 = 154."},
 {q:"Mathematics: What is 139 + 6?",o:["147", "145", "142", "150"],a:1,e:"139 + 6 = 145."},
+
 {q:"Mathematics: What is 142 + 13?",o:["155", "160", "157", "152"],a:0,e:"142 + 13 = 155."},
 {q:"Mathematics: What is 145 + 20?",o:["162", "170", "167", "165"],a:3,e:"145 + 20 = 165."},
 {q:"Mathematics: What is 148 + 8?",o:["161", "158", "156", "153"],a:2,e:"148 + 8 = 156."},
@@ -800,6 +648,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 163 + 5?",o:["173", "170", "168", "165"],a:2,e:"163 + 5 = 168."},
 {q:"Mathematics: What is 166 + 12?",o:["178", "175", "183", "180"],a:0,e:"166 + 12 = 178."},
 {q:"Mathematics: What is 169 + 19?",o:["188", "185", "193", "190"],a:0,e:"169 + 19 = 188."},
+
 {q:"Mathematics: What is 172 + 7?",o:["181", "176", "184", "179"],a:3,e:"172 + 7 = 179."},
 {q:"Mathematics: What is 175 + 14?",o:["194", "186", "191", "189"],a:3,e:"175 + 14 = 189."},
 {q:"Mathematics: What is 178 + 2?",o:["177", "185", "182", "180"],a:3,e:"178 + 2 = 180."},
@@ -810,6 +659,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 193 + 18?",o:["216", "208", "211", "213"],a:2,e:"193 + 18 = 211."},
 {q:"Mathematics: What is 196 + 6?",o:["202", "199", "204", "207"],a:0,e:"196 + 6 = 202."},
 {q:"Mathematics: What is 199 + 13?",o:["209", "214", "212", "217"],a:2,e:"199 + 13 = 212."},
+
 {q:"Mathematics: What is 202 + 20?",o:["222", "219", "224", "227"],a:0,e:"202 + 20 = 222."},
 {q:"Mathematics: What is 205 + 8?",o:["218", "210", "215", "213"],a:3,e:"205 + 8 = 213."},
 {q:"Mathematics: What is 208 + 15?",o:["220", "225", "228", "223"],a:3,e:"208 + 15 = 223."},
@@ -820,6 +670,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 223 + 12?",o:["237", "240", "232", "235"],a:3,e:"223 + 12 = 235."},
 {q:"Mathematics: What is 226 + 19?",o:["250", "247", "245", "242"],a:2,e:"226 + 19 = 245."},
 {q:"Mathematics: What is 229 + 7?",o:["233", "241", "238", "236"],a:3,e:"229 + 7 = 236."},
+
 {q:"Mathematics: What is 232 + 14?",o:["246", "248", "243", "251"],a:0,e:"232 + 14 = 246."},
 {q:"Mathematics: Calculate 124 − 18.",o:["106", "116", "101", "110"],a:0,e:"124 − 18 = 106."},
 {q:"Mathematics: Calculate 128 − 23.",o:["105", "115", "100", "109"],a:0,e:"128 − 23 = 105."},
@@ -830,6 +681,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Calculate 148 − 48.",o:["100", "110", "95", "104"],a:0,e:"148 − 48 = 100."},
 {q:"Mathematics: Calculate 152 − 16.",o:["146", "136", "131", "140"],a:1,e:"152 − 16 = 136."},
 {q:"Mathematics: Calculate 156 − 21.",o:["145", "139", "135", "130"],a:2,e:"156 − 21 = 135."},
+
 {q:"Mathematics: Calculate 160 − 26.",o:["138", "134", "129", "144"],a:1,e:"160 − 26 = 134."},
 {q:"Mathematics: Calculate 164 − 31.",o:["133", "128", "143", "137"],a:0,e:"164 − 31 = 133."},
 {q:"Mathematics: Calculate 168 − 36.",o:["132", "136", "127", "142"],a:0,e:"168 − 36 = 132."},
@@ -840,6 +692,11 @@ const iqQuestionBank = [
 {q:"Mathematics: Calculate 188 − 24.",o:["174", "159", "164", "168"],a:2,e:"188 − 24 = 164."},
 {q:"Mathematics: Calculate 192 − 29.",o:["158", "163", "173", "167"],a:1,e:"192 − 29 = 163."},
 {q:"Mathematics: Calculate 196 − 34.",o:["172", "166", "162", "157"],a:2,e:"196 − 34 = 162."},
+
+// ======================================
+//  600 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Mathematics: Calculate 200 − 39.",o:["156", "171", "161", "165"],a:2,e:"200 − 39 = 161."},
 {q:"Mathematics: Calculate 204 − 44.",o:["155", "164", "170", "160"],a:3,e:"204 − 44 = 160."},
 {q:"Mathematics: Calculate 208 − 49.",o:["159", "169", "154", "163"],a:0,e:"208 − 49 = 159."},
@@ -850,6 +707,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Calculate 228 − 37.",o:["195", "201", "186", "191"],a:3,e:"228 − 37 = 191."},
 {q:"Mathematics: Calculate 232 − 42.",o:["190", "185", "200", "194"],a:0,e:"232 − 42 = 190."},
 {q:"Mathematics: Calculate 236 − 47.",o:["199", "193", "189", "184"],a:2,e:"236 − 47 = 189."},
+
 {q:"Mathematics: Calculate 240 − 15.",o:["225", "220", "229", "235"],a:0,e:"240 − 15 = 225."},
 {q:"Mathematics: Calculate 244 − 20.",o:["234", "224", "228", "219"],a:1,e:"244 − 20 = 224."},
 {q:"Mathematics: Calculate 248 − 25.",o:["218", "227", "223", "233"],a:2,e:"248 − 25 = 223."},
@@ -860,6 +718,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Calculate 268 − 13.",o:["250", "259", "265", "255"],a:3,e:"268 − 13 = 255."},
 {q:"Mathematics: Calculate 272 − 18.",o:["254", "249", "264", "258"],a:0,e:"272 − 18 = 254."},
 {q:"Mathematics: Calculate 276 − 23.",o:["263", "257", "248", "253"],a:3,e:"276 − 23 = 253."},
+
 {q:"Mathematics: Calculate 280 − 28.",o:["247", "256", "262", "252"],a:3,e:"280 − 28 = 252."},
 {q:"Mathematics: Calculate 284 − 33.",o:["261", "255", "246", "251"],a:3,e:"284 − 33 = 251."},
 {q:"Mathematics: Calculate 288 − 38.",o:["245", "254", "250", "260"],a:2,e:"288 − 38 = 250."},
@@ -870,6 +729,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Calculate 308 − 26.",o:["282", "277", "292", "286"],a:0,e:"308 − 26 = 282."},
 {q:"Mathematics: Calculate 312 − 31.",o:["285", "281", "276", "291"],a:1,e:"312 − 31 = 281."},
 {q:"Mathematics: Calculate 316 − 36.",o:["275", "284", "290", "280"],a:3,e:"316 − 36 = 280."},
+
 {q:"Mathematics: Calculate 320 − 41.",o:["289", "279", "283", "274"],a:1,e:"320 − 41 = 279."},
 {q:"Mathematics: Calculate 324 − 46.",o:["282", "278", "273", "288"],a:1,e:"324 − 46 = 278."},
 {q:"Mathematics: Calculate 328 − 14.",o:["318", "314", "309", "324"],a:1,e:"328 − 14 = 314."},
@@ -880,6 +740,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Calculate 348 − 39.",o:["313", "304", "309", "319"],a:2,e:"348 − 39 = 309."},
 {q:"Mathematics: Calculate 352 − 44.",o:["318", "303", "308", "312"],a:2,e:"352 − 44 = 308."},
 {q:"Mathematics: Calculate 356 − 49.",o:["302", "311", "307", "317"],a:2,e:"356 − 49 = 307."},
+
 {q:"Mathematics: Calculate 360 − 17.",o:["353", "347", "338", "343"],a:3,e:"360 − 17 = 343."},
 {q:"Mathematics: Calculate 364 − 22.",o:["352", "342", "337", "346"],a:1,e:"364 − 22 = 342."},
 {q:"Mathematics: Calculate 368 − 27.",o:["345", "351", "336", "341"],a:3,e:"368 − 27 = 341."},
@@ -890,6 +751,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Calculate 388 − 15.",o:["368", "383", "373", "377"],a:2,e:"388 − 15 = 373."},
 {q:"Mathematics: Calculate 392 − 20.",o:["382", "376", "367", "372"],a:3,e:"392 − 20 = 372."},
 {q:"Mathematics: Calculate 396 − 25.",o:["375", "371", "381", "366"],a:1,e:"396 − 25 = 371."},
+
 {q:"Mathematics: Calculate 400 − 30.",o:["370", "374", "380", "365"],a:0,e:"400 − 30 = 370."},
 {q:"Mathematics: Calculate 404 − 35.",o:["364", "369", "373", "379"],a:1,e:"404 − 35 = 369."},
 {q:"Mathematics: Calculate 408 − 40.",o:["372", "378", "368", "363"],a:2,e:"408 − 40 = 368."},
@@ -900,6 +762,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 5 × 10?",o:["50", "51", "49", "52"],a:0,e:"5 × 10 = 50."},
 {q:"Mathematics: What is 6 × 13?",o:["91", "84", "88", "78"],a:3,e:"6 × 13 = 78."},
 {q:"Mathematics: What is 7 × 16?",o:["119", "128", "112", "122"],a:2,e:"7 × 16 = 112."},
+
 {q:"Mathematics: What is 8 × 6?",o:["54", "48", "56", "58"],a:1,e:"8 × 6 = 48."},
 {q:"Mathematics: What is 9 × 9?",o:["81", "82", "80", "83"],a:0,e:"9 × 9 = 81."},
 {q:"Mathematics: What is 10 × 12?",o:["120", "121", "119", "122"],a:0,e:"10 × 12 = 120."},
@@ -910,6 +773,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 15 × 14?",o:["225", "210", "224", "220"],a:1,e:"15 × 14 = 210."},
 {q:"Mathematics: What is 16 × 4?",o:["68", "64", "74", "80"],a:1,e:"16 × 4 = 64."},
 {q:"Mathematics: What is 17 × 7?",o:["119", "129", "136", "126"],a:0,e:"17 × 7 = 119."},
+
 {q:"Mathematics: What is 18 × 10?",o:["180", "181", "179", "182"],a:0,e:"18 × 10 = 180."},
 {q:"Mathematics: What is 19 × 13?",o:["257", "247", "260", "266"],a:1,e:"19 × 13 = 247."},
 {q:"Mathematics: What is 3 × 16?",o:["51", "58", "48", "64"],a:2,e:"3 × 16 = 48."},
@@ -920,6 +784,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 8 × 5?",o:["45", "48", "50", "40"],a:3,e:"8 × 5 = 40."},
 {q:"Mathematics: What is 9 × 8?",o:["72", "82", "81", "80"],a:0,e:"9 × 8 = 72."},
 {q:"Mathematics: What is 10 × 11?",o:["110", "111", "109", "112"],a:0,e:"10 × 11 = 110."},
+
 {q:"Mathematics: What is 11 × 14?",o:["164", "168", "154", "165"],a:2,e:"11 × 14 = 154."},
 {q:"Mathematics: What is 12 × 4?",o:["60", "52", "48", "58"],a:2,e:"12 × 4 = 48."},
 {q:"Mathematics: What is 13 × 7?",o:["91", "104", "98", "101"],a:0,e:"13 × 7 = 91."},
@@ -931,6 +796,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 19 × 12?",o:["238", "228", "240", "247"],a:1,e:"19 × 12 = 228."},
 {q:"Mathematics: What is 3 × 15?",o:["55", "45", "48", "60"],a:1,e:"3 × 15 = 45."},
 {q:"Mathematics: What is 4 × 5?",o:["24", "20", "30", "25"],a:1,e:"4 × 5 = 20."},
+
 {q:"Mathematics: What is 5 × 8?",o:["40", "50", "45", "48"],a:0,e:"5 × 8 = 40."},
 {q:"Mathematics: What is 6 × 11?",o:["72", "77", "66", "76"],a:2,e:"6 × 11 = 66."},
 {q:"Mathematics: What is 7 × 14?",o:["108", "105", "98", "112"],a:2,e:"7 × 14 = 98."},
@@ -941,6 +807,11 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 12 × 16?",o:["202", "192", "204", "208"],a:1,e:"12 × 16 = 192."},
 {q:"Mathematics: What is 13 × 6?",o:["78", "84", "91", "88"],a:0,e:"13 × 6 = 78."},
 {q:"Mathematics: What is 14 × 9?",o:["126", "135", "136", "140"],a:0,e:"14 × 9 = 126."},
+
+// ======================================
+//  700 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Mathematics: What is 15 × 12?",o:["190", "195", "192", "180"],a:3,e:"15 × 12 = 180."},
 {q:"Mathematics: What is 16 × 15?",o:["255", "240", "256", "250"],a:1,e:"16 × 15 = 240."},
 {q:"Mathematics: What is 17 × 5?",o:["85", "102", "90", "95"],a:0,e:"17 × 5 = 85."},
@@ -951,6 +822,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 5 × 7?",o:["42", "35", "40", "45"],a:1,e:"5 × 7 = 35."},
 {q:"Mathematics: What is 6 × 10?",o:["60", "61", "59", "62"],a:0,e:"6 × 10 = 60."},
 {q:"Mathematics: What is 7 × 13?",o:["104", "101", "98", "91"],a:3,e:"7 × 13 = 91."},
+
 {q:"Mathematics: What is 8 × 16?",o:["128", "144", "136", "138"],a:0,e:"8 × 16 = 128."},
 {q:"Mathematics: What is 9 × 6?",o:["64", "54", "63", "60"],a:1,e:"9 × 6 = 54."},
 {q:"Mathematics: What is 10 × 9?",o:["90", "91", "89", "92"],a:0,e:"10 × 9 = 90."},
@@ -962,6 +834,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 16 × 14?",o:["240", "224", "234", "238"],a:1,e:"16 × 14 = 224."},
 {q:"Mathematics: What is 17 × 4?",o:["68", "72", "85", "78"],a:0,e:"17 × 4 = 68."},
 {q:"Mathematics: What is 18 × 7?",o:["144", "136", "133", "126"],a:3,e:"18 × 7 = 126."},
+
 {q:"Mathematics: What is 19 × 10?",o:["190", "191", "189", "192"],a:0,e:"19 × 10 = 190."},
 {q:"Mathematics: What is 3 × 13?",o:["49", "42", "39", "52"],a:2,e:"3 × 13 = 39."},
 {q:"Mathematics: What is 4 × 16?",o:["68", "80", "74", "64"],a:3,e:"4 × 16 = 64."},
@@ -972,6 +845,7 @@ const iqQuestionBank = [
 {q:"Mathematics: What is 9 × 5?",o:["45", "50", "55", "54"],a:0,e:"9 × 5 = 45."},
 {q:"Mathematics: What is 10 × 8?",o:["80", "81", "79", "82"],a:0,e:"10 × 8 = 80."},
 {q:"Mathematics: Divide 36 by 3.",o:["12", "13", "10", "15"],a:0,e:"36 ÷ 3 = 12."},
+
 {q:"Mathematics: Divide 76 by 4.",o:["17", "19", "20", "22"],a:1,e:"76 ÷ 4 = 19."},
 {q:"Mathematics: Divide 130 by 5.",o:["27", "24", "29", "26"],a:3,e:"130 ÷ 5 = 26."},
 {q:"Mathematics: Divide 60 by 6.",o:["8", "13", "10", "11"],a:2,e:"60 ÷ 6 = 10."},
@@ -982,6 +856,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Divide 242 by 11.",o:["20", "25", "23", "22"],a:3,e:"242 ÷ 11 = 22."},
 {q:"Mathematics: Divide 72 by 12.",o:["4", "7", "9", "6"],a:3,e:"72 ÷ 12 = 6."},
 {q:"Mathematics: Divide 169 by 13.",o:["16", "13", "14", "11"],a:1,e:"169 ÷ 13 = 13."},
+
 {q:"Mathematics: Divide 280 by 14.",o:["20", "23", "18", "21"],a:0,e:"280 ÷ 14 = 20."},
 {q:"Mathematics: Divide 405 by 15.",o:["27", "30", "25", "28"],a:0,e:"405 ÷ 15 = 27."},
 {q:"Mathematics: Divide 176 by 16.",o:["9", "11", "14", "12"],a:1,e:"176 ÷ 16 = 11."},
@@ -992,6 +867,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Divide 138 by 6.",o:["21", "26", "23", "24"],a:2,e:"138 ÷ 6 = 23."},
 {q:"Mathematics: Divide 49 by 7.",o:["8", "7", "5", "10"],a:1,e:"49 ÷ 7 = 7."},
 {q:"Mathematics: Divide 112 by 8.",o:["17", "14", "15", "12"],a:1,e:"112 ÷ 8 = 14."},
+
 {q:"Mathematics: Divide 189 by 9.",o:["22", "19", "21", "24"],a:2,e:"189 ÷ 9 = 21."},
 {q:"Mathematics: Divide 50 by 10.",o:["3", "6", "8", "5"],a:3,e:"50 ÷ 10 = 5."},
 {q:"Mathematics: Divide 132 by 11.",o:["12", "15", "10", "13"],a:0,e:"132 ÷ 11 = 12."},
@@ -1002,6 +878,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Divide 384 by 16.",o:["24", "22", "25", "27"],a:0,e:"384 ÷ 16 = 24."},
 {q:"Mathematics: Divide 16 by 2.",o:["6", "9", "11", "8"],a:3,e:"16 ÷ 2 = 8."},
 {q:"Mathematics: Divide 45 by 3.",o:["16", "18", "15", "13"],a:2,e:"45 ÷ 3 = 15."},
+
 {q:"Mathematics: Divide 88 by 4.",o:["22", "25", "20", "23"],a:0,e:"88 ÷ 4 = 22."},
 {q:"Mathematics: Divide 30 by 5.",o:["9", "6", "7", "4"],a:1,e:"30 ÷ 5 = 6."},
 {q:"Mathematics: Divide 78 by 6.",o:["13", "16", "11", "14"],a:0,e:"78 ÷ 6 = 13."},
@@ -1012,6 +889,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Divide 275 by 11.",o:["28", "25", "23", "26"],a:1,e:"275 ÷ 11 = 25."},
 {q:"Mathematics: Divide 108 by 12.",o:["10", "9", "7", "12"],a:1,e:"108 ÷ 12 = 9."},
 {q:"Mathematics: Divide 208 by 13.",o:["17", "16", "19", "14"],a:1,e:"208 ÷ 13 = 16."},
+
 {q:"Mathematics: Divide 322 by 14.",o:["24", "21", "26", "23"],a:3,e:"322 ÷ 14 = 23."},
 {q:"Mathematics: Divide 105 by 15.",o:["5", "7", "10", "8"],a:1,e:"105 ÷ 15 = 7."},
 {q:"Mathematics: Divide 224 by 16.",o:["12", "14", "15", "17"],a:1,e:"224 ÷ 16 = 14."},
@@ -1022,6 +900,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Divide 156 by 6.",o:["26", "27", "24", "29"],a:0,e:"156 ÷ 6 = 26."},
 {q:"Mathematics: Divide 70 by 7.",o:["13", "11", "10", "8"],a:2,e:"70 ÷ 7 = 10."},
 {q:"Mathematics: Divide 136 by 8.",o:["17", "20", "18", "15"],a:0,e:"136 ÷ 8 = 17."},
+
 {q:"Mathematics: Divide 216 by 9.",o:["25", "27", "24", "22"],a:2,e:"216 ÷ 9 = 24."},
 {q:"Mathematics: Divide 80 by 10.",o:["6", "9", "11", "8"],a:3,e:"80 ÷ 10 = 8."},
 {q:"Mathematics: Divide 165 by 11.",o:["18", "13", "15", "16"],a:2,e:"165 ÷ 11 = 15."},
@@ -1032,6 +911,7 @@ const iqQuestionBank = [
 {q:"Mathematics: Divide 432 by 16.",o:["30", "28", "25", "27"],a:3,e:"432 ÷ 16 = 27."},
 {q:"Mathematics: Divide 22 by 2.",o:["9", "11", "14", "12"],a:1,e:"22 ÷ 2 = 11."},
 {q:"Mathematics: Divide 54 by 3.",o:["18", "21", "16", "19"],a:0,e:"54 ÷ 3 = 18."},
+
 {q:"Mathematics: Divide 100 by 4.",o:["28", "26", "25", "23"],a:2,e:"100 ÷ 4 = 25."},
 {q:"Mathematics: Divide 45 by 5.",o:["12", "7", "9", "10"],a:2,e:"45 ÷ 5 = 9."},
 {q:"Mathematics: Divide 96 by 6.",o:["14", "17", "19", "16"],a:3,e:"96 ÷ 6 = 16."},
@@ -1042,6 +922,11 @@ const iqQuestionBank = [
 {q:"Mathematics: Divide 55 by 11.",o:["8", "5", "6", "3"],a:1,e:"55 ÷ 11 = 5."},
 {q:"Mathematics: Divide 144 by 12.",o:["15", "13", "10", "12"],a:3,e:"144 ÷ 12 = 12."},
 {q:"Mathematics: Divide 247 by 13.",o:["19", "20", "22", "17"],a:0,e:"247 ÷ 13 = 19."},
+
+// ======================================
+//  800 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Mathematics: Divide 364 by 14.",o:["29", "27", "24", "26"],a:3,e:"364 ÷ 14 = 26."},
 {q:"Reasoning: What number comes next in the series 3, 6, 9, 12, ?",o:["12", "18", "15", "21"],a:2,e:"The sequence increases by 3 each time; the next number is 15."},
 {q:"Reasoning: What number comes next in the series 5, 9, 13, 17, ?",o:["17", "25", "21", "29"],a:2,e:"The sequence increases by 4 each time; the next number is 21."},
@@ -1052,6 +937,7 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 15, 24, 33, 42, ?",o:["69", "42", "60", "51"],a:3,e:"The sequence increases by 9 each time; the next number is 51."},
 {q:"Reasoning: What number comes next in the series 17, 27, 37, 47, ?",o:["47", "57", "67", "77"],a:1,e:"The sequence increases by 10 each time; the next number is 57."},
 {q:"Reasoning: What number comes next in the series 19, 30, 41, 52, ?",o:["52", "74", "63", "85"],a:2,e:"The sequence increases by 11 each time; the next number is 63."},
+
 {q:"Reasoning: What number comes next in the series 21, 33, 45, 57, ?",o:["69", "93", "57", "81"],a:0,e:"The sequence increases by 12 each time; the next number is 69."},
 {q:"Reasoning: What number comes next in the series 23, 36, 49, 62, ?",o:["62", "101", "75", "88"],a:2,e:"The sequence increases by 13 each time; the next number is 75."},
 {q:"Reasoning: What number comes next in the series 25, 39, 53, 67, ?",o:["95", "81", "109", "67"],a:1,e:"The sequence increases by 14 each time; the next number is 81."},
@@ -1062,6 +948,7 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 35, 41, 47, 53, ?",o:["53", "65", "71", "59"],a:3,e:"The sequence increases by 6 each time; the next number is 59."},
 {q:"Reasoning: What number comes next in the series 37, 44, 51, 58, ?",o:["79", "65", "72", "58"],a:1,e:"The sequence increases by 7 each time; the next number is 65."},
 {q:"Reasoning: What number comes next in the series 39, 47, 55, 63, ?",o:["63", "87", "71", "79"],a:2,e:"The sequence increases by 8 each time; the next number is 71."},
+
 {q:"Reasoning: What number comes next in the series 41, 50, 59, 68, ?",o:["95", "86", "68", "77"],a:3,e:"The sequence increases by 9 each time; the next number is 77."},
 {q:"Reasoning: What number comes next in the series 43, 53, 63, 73, ?",o:["83", "103", "93", "73"],a:0,e:"The sequence increases by 10 each time; the next number is 83."},
 {q:"Reasoning: What number comes next in the series 45, 56, 67, 78, ?",o:["78", "89", "100", "111"],a:1,e:"The sequence increases by 11 each time; the next number is 89."},
@@ -1072,6 +959,7 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 55, 58, 61, 64, ?",o:["67", "73", "64", "70"],a:0,e:"The sequence increases by 3 each time; the next number is 67."},
 {q:"Reasoning: What number comes next in the series 57, 61, 65, 69, ?",o:["81", "77", "73", "69"],a:2,e:"The sequence increases by 4 each time; the next number is 73."},
 {q:"Reasoning: What number comes next in the series 59, 64, 69, 74, ?",o:["74", "84", "89", "79"],a:3,e:"The sequence increases by 5 each time; the next number is 79."},
+
 {q:"Reasoning: What number comes next in the series 61, 67, 73, 79, ?",o:["91", "85", "97", "79"],a:1,e:"The sequence increases by 6 each time; the next number is 85."},
 {q:"Reasoning: What number comes next in the series 63, 70, 77, 84, ?",o:["98", "105", "91", "84"],a:2,e:"The sequence increases by 7 each time; the next number is 91."},
 {q:"Reasoning: What number comes next in the series 65, 73, 81, 89, ?",o:["89", "105", "97", "113"],a:2,e:"The sequence increases by 8 each time; the next number is 97."},
@@ -1082,6 +970,7 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 75, 88, 101, 114, ?",o:["140", "153", "127", "114"],a:2,e:"The sequence increases by 13 each time; the next number is 127."},
 {q:"Reasoning: What number comes next in the series 77, 91, 105, 119, ?",o:["161", "133", "119", "147"],a:1,e:"The sequence increases by 14 each time; the next number is 133."},
 {q:"Reasoning: What number comes next in the series 79, 81, 83, 85, ?",o:["87", "85", "89", "91"],a:0,e:"The sequence increases by 2 each time; the next number is 87."},
+
 {q:"Reasoning: What number comes next in the series 81, 84, 87, 90, ?",o:["90", "96", "99", "93"],a:3,e:"The sequence increases by 3 each time; the next number is 93."},
 {q:"Reasoning: What number comes next in the series 83, 87, 91, 95, ?",o:["95", "99", "107", "103"],a:1,e:"The sequence increases by 4 each time; the next number is 99."},
 {q:"Reasoning: What number comes next in the series 85, 90, 95, 100, ?",o:["105", "115", "110", "100"],a:0,e:"The sequence increases by 5 each time; the next number is 105."},
@@ -1093,6 +982,7 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 97, 108, 119, 130, ?",o:["152", "163", "141", "130"],a:2,e:"The sequence increases by 11 each time; the next number is 141."},
 {q:"Reasoning: What number comes next in the series 99, 111, 123, 135, ?",o:["171", "135", "147", "159"],a:2,e:"The sequence increases by 12 each time; the next number is 147."},
 {q:"Reasoning: What number comes next in the series 101, 114, 127, 140, ?",o:["140", "179", "166", "153"],a:3,e:"The sequence increases by 13 each time; the next number is 153."},
+
 {q:"Reasoning: What number comes next in the series 103, 117, 131, 145, ?",o:["173", "187", "145", "159"],a:3,e:"The sequence increases by 14 each time; the next number is 159."},
 {q:"Reasoning: What number comes next in the series 105, 107, 109, 111, ?",o:["113", "117", "115", "111"],a:0,e:"The sequence increases by 2 each time; the next number is 113."},
 {q:"Reasoning: What number comes next in the series 107, 110, 113, 116, ?",o:["119", "116", "125", "122"],a:0,e:"The sequence increases by 3 each time; the next number is 119."},
@@ -1103,6 +993,7 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 117, 125, 133, 141, ?",o:["165", "157", "141", "149"],a:3,e:"The sequence increases by 8 each time; the next number is 149."},
 {q:"Reasoning: What number comes next in the series 119, 128, 137, 146, ?",o:["146", "155", "173", "164"],a:1,e:"The sequence increases by 9 each time; the next number is 155."},
 {q:"Reasoning: What number comes next in the series 121, 131, 141, 151, ?",o:["161", "171", "181", "151"],a:0,e:"The sequence increases by 10 each time; the next number is 161."},
+
 {q:"Reasoning: What number comes next in the series 123, 134, 145, 156, ?",o:["189", "178", "167", "156"],a:2,e:"The sequence increases by 11 each time; the next number is 167."},
 {q:"Reasoning: What number comes next in the series 125, 137, 149, 161, ?",o:["161", "197", "185", "173"],a:3,e:"The sequence increases by 12 each time; the next number is 173."},
 {q:"Reasoning: What number comes next in the series 127, 140, 153, 166, ?",o:["166", "179", "205", "192"],a:1,e:"The sequence increases by 13 each time; the next number is 179."},
@@ -1113,6 +1004,7 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 137, 142, 147, 152, ?",o:["152", "157", "167", "162"],a:1,e:"The sequence increases by 5 each time; the next number is 157."},
 {q:"Reasoning: What number comes next in the series 139, 145, 151, 157, ?",o:["163", "175", "169", "157"],a:0,e:"The sequence increases by 6 each time; the next number is 163."},
 {q:"Reasoning: What number comes next in the series 141, 148, 155, 162, ?",o:["183", "176", "162", "169"],a:3,e:"The sequence increases by 7 each time; the next number is 169."},
+
 {q:"Reasoning: What number comes next in the series 143, 151, 159, 167, ?",o:["191", "183", "167", "175"],a:3,e:"The sequence increases by 8 each time; the next number is 175."},
 {q:"Reasoning: What number comes next in the series 145, 154, 163, 172, ?",o:["172", "199", "181", "190"],a:2,e:"The sequence increases by 9 each time; the next number is 181."},
 {q:"Reasoning: What number comes next in the series 147, 157, 167, 177, ?",o:["207", "187", "197", "177"],a:1,e:"The sequence increases by 10 each time; the next number is 187."},
@@ -1123,6 +1015,7 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 157, 159, 161, 163, ?",o:["167", "169", "165", "163"],a:2,e:"The sequence increases by 2 each time; the next number is 165."},
 {q:"Reasoning: What number comes next in the series 159, 162, 165, 168, ?",o:["174", "171", "168", "177"],a:1,e:"The sequence increases by 3 each time; the next number is 171."},
 {q:"Reasoning: What number comes next in the series 161, 165, 169, 173, ?",o:["177", "181", "173", "185"],a:0,e:"The sequence increases by 4 each time; the next number is 177."},
+
 {q:"Reasoning: What number comes next in the series 163, 168, 173, 178, ?",o:["178", "183", "188", "193"],a:1,e:"The sequence increases by 5 each time; the next number is 183."},
 {q:"Reasoning: What number comes next in the series 165, 171, 177, 183, ?",o:["201", "189", "195", "183"],a:1,e:"The sequence increases by 6 each time; the next number is 189."},
 {q:"Reasoning: What number comes next in the series 167, 174, 181, 188, ?",o:["209", "195", "202", "188"],a:1,e:"The sequence increases by 7 each time; the next number is 195."},
@@ -1133,6 +1026,7 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 177, 189, 201, 213, ?",o:["249", "237", "213", "225"],a:3,e:"The sequence increases by 12 each time; the next number is 225."},
 {q:"Reasoning: What number comes next in the series 179, 192, 205, 218, ?",o:["231", "257", "218", "244"],a:0,e:"The sequence increases by 13 each time; the next number is 231."},
 {q:"Reasoning: What number comes next in the series 181, 195, 209, 223, ?",o:["237", "251", "223", "265"],a:0,e:"The sequence increases by 14 each time; the next number is 237."},
+
 {q:"Reasoning: What number comes next in the series 183, 185, 187, 189, ?",o:["191", "189", "193", "195"],a:0,e:"The sequence increases by 2 each time; the next number is 191."},
 {q:"Reasoning: What number comes next in the series 185, 188, 191, 194, ?",o:["203", "194", "200", "197"],a:3,e:"The sequence increases by 3 each time; the next number is 197."},
 {q:"Reasoning: What number comes next in the series 187, 191, 195, 199, ?",o:["203", "207", "211", "199"],a:0,e:"The sequence increases by 4 each time; the next number is 203."},
@@ -1143,6 +1037,11 @@ const iqQuestionBank = [
 {q:"Reasoning: What number comes next in the series 197, 206, 215, 224, ?",o:["224", "233", "242", "251"],a:1,e:"The sequence increases by 9 each time; the next number is 233."},
 {q:"Reasoning: What number comes next in the series 199, 209, 219, 229, ?",o:["229", "249", "259", "239"],a:3,e:"The sequence increases by 10 each time; the next number is 239."},
 {q:"Reasoning: What number comes next in the series 201, 212, 223, 234, ?",o:["245", "256", "234", "267"],a:0,e:"The sequence increases by 11 each time; the next number is 245."},
+
+// ======================================
+//  900 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Reasoning: Complete the multiplication pattern 3, 9, 27, 81, ?",o:["243", "246", "240", "486"],a:0,e:"Each term is the previous term multiplied by 3; the next is 243."},
 {q:"Reasoning: Complete the multiplication pattern 4, 16, 64, 256, ?",o:["1020", "1028", "1024", "2048"],a:2,e:"Each term is the previous term multiplied by 4; the next is 1024."},
 {q:"Reasoning: Complete the multiplication pattern 5, 25, 125, 625, ?",o:["6250", "3120", "3125", "3130"],a:2,e:"Each term is the previous term multiplied by 5; the next is 3125."},
@@ -1153,6 +1052,7 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 2, 4, 8, 16, ?",o:["64", "32", "34", "30"],a:1,e:"Each term is the previous term multiplied by 2; the next is 32."},
 {q:"Reasoning: Complete the multiplication pattern 3, 9, 27, 81, ? (Additional question 406)",o:["246", "486", "243", "240"],a:2,e:"Each term is the previous term multiplied by 3; the next is 243."},
 {q:"Reasoning: Complete the multiplication pattern 4, 16, 64, 256, ? (Additional question 407)",o:["1024", "1020", "1028", "2048"],a:0,e:"Each term is the previous term multiplied by 4; the next is 1024."},
+
 {q:"Reasoning: Complete the multiplication pattern 5, 25, 125, 625, ? (Additional question 408)",o:["6250", "3120", "3130", "3125"],a:3,e:"Each term is the previous term multiplied by 5; the next is 3125."},
 {q:"Reasoning: Complete the multiplication pattern 6, 36, 216, 1296, ? (Additional question 409)",o:["15552", "7770", "7782", "7776"],a:3,e:"Each term is the previous term multiplied by 6; the next is 7776."},
 {q:"Reasoning: Complete the multiplication pattern 7, 49, 343, 2401, ? (Additional question 410)",o:["16814", "33614", "16800", "16807"],a:3,e:"Each term is the previous term multiplied by 7; the next is 16807."},
@@ -1163,6 +1063,7 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 4, 16, 64, 256, ? (Additional question 415)",o:["1024", "1028", "1020", "2048"],a:0,e:"Each term is the previous term multiplied by 4; the next is 1024."},
 {q:"Reasoning: Complete the multiplication pattern 5, 25, 125, 625, ? (Additional question 416)",o:["6250", "3130", "3125", "3120"],a:2,e:"Each term is the previous term multiplied by 5; the next is 3125."},
 {q:"Reasoning: Complete the multiplication pattern 6, 36, 216, 1296, ? (Additional question 417)",o:["15552", "7782", "7770", "7776"],a:3,e:"Each term is the previous term multiplied by 6; the next is 7776."},
+
 {q:"Reasoning: Complete the multiplication pattern 7, 49, 343, 2401, ? (Additional question 418)",o:["33614", "16814", "16800", "16807"],a:3,e:"Each term is the previous term multiplied by 7; the next is 16807."},
 {q:"Reasoning: Complete the multiplication pattern 8, 64, 512, 4096, ? (Additional question 419)",o:["65536", "32776", "32760", "32768"],a:3,e:"Each term is the previous term multiplied by 8; the next is 32768."},
 {q:"Reasoning: Complete the multiplication pattern 9, 81, 729, 6561, ? (Additional question 420)",o:["59049", "59058", "59040", "118098"],a:0,e:"Each term is the previous term multiplied by 9; the next is 59049."},
@@ -1173,6 +1074,7 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 6, 36, 216, 1296, ? (Additional question 425)",o:["7770", "7782", "15552", "7776"],a:3,e:"Each term is the previous term multiplied by 6; the next is 7776."},
 {q:"Reasoning: Complete the multiplication pattern 7, 49, 343, 2401, ? (Additional question 426)",o:["16800", "16807", "33614", "16814"],a:1,e:"Each term is the previous term multiplied by 7; the next is 16807."},
 {q:"Reasoning: Complete the multiplication pattern 8, 64, 512, 4096, ? (Additional question 427)",o:["32776", "32760", "32768", "65536"],a:2,e:"Each term is the previous term multiplied by 8; the next is 32768."},
+
 {q:"Reasoning: Complete the multiplication pattern 9, 81, 729, 6561, ? (Additional question 428)",o:["59049", "59040", "118098", "59058"],a:0,e:"Each term is the previous term multiplied by 9; the next is 59049."},
 {q:"Reasoning: Complete the multiplication pattern 2, 4, 8, 16, ? (Additional question 429)",o:["30", "32", "64", "34"],a:1,e:"Each term is the previous term multiplied by 2; the next is 32."},
 {q:"Reasoning: Complete the multiplication pattern 3, 9, 27, 81, ? (Additional question 430)",o:["486", "246", "243", "240"],a:2,e:"Each term is the previous term multiplied by 3; the next is 243."},
@@ -1183,6 +1085,7 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 8, 64, 512, 4096, ? (Additional question 435)",o:["32760", "32768", "32776", "65536"],a:1,e:"Each term is the previous term multiplied by 8; the next is 32768."},
 {q:"Reasoning: Complete the multiplication pattern 9, 81, 729, 6561, ? (Additional question 436)",o:["59058", "59040", "59049", "118098"],a:2,e:"Each term is the previous term multiplied by 9; the next is 59049."},
 {q:"Reasoning: Complete the multiplication pattern 2, 4, 8, 16, ? (Additional question 437)",o:["30", "34", "32", "64"],a:2,e:"Each term is the previous term multiplied by 2; the next is 32."},
+
 {q:"Reasoning: Complete the multiplication pattern 3, 9, 27, 81, ? (Additional question 438)",o:["240", "246", "243", "486"],a:2,e:"Each term is the previous term multiplied by 3; the next is 243."},
 {q:"Reasoning: Complete the multiplication pattern 4, 16, 64, 256, ? (Additional question 439)",o:["1028", "2048", "1024", "1020"],a:2,e:"Each term is the previous term multiplied by 4; the next is 1024."},
 {q:"Reasoning: Complete the multiplication pattern 5, 25, 125, 625, ? (Additional question 440)",o:["6250", "3120", "3125", "3130"],a:2,e:"Each term is the previous term multiplied by 5; the next is 3125."},
@@ -1193,6 +1096,7 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 2, 4, 8, 16, ? (Additional question 445)",o:["34", "64", "30", "32"],a:3,e:"Each term is the previous term multiplied by 2; the next is 32."},
 {q:"Reasoning: Complete the multiplication pattern 3, 9, 27, 81, ? (Additional question 446)",o:["486", "243", "240", "246"],a:1,e:"Each term is the previous term multiplied by 3; the next is 243."},
 {q:"Reasoning: Complete the multiplication pattern 4, 16, 64, 256, ? (Additional question 447)",o:["2048", "1024", "1028", "1020"],a:1,e:"Each term is the previous term multiplied by 4; the next is 1024."},
+
 {q:"Reasoning: Complete the multiplication pattern 5, 25, 125, 625, ? (Additional question 448)",o:["3120", "6250", "3125", "3130"],a:2,e:"Each term is the previous term multiplied by 5; the next is 3125."},
 {q:"Reasoning: Complete the multiplication pattern 6, 36, 216, 1296, ? (Additional question 449)",o:["7782", "7770", "15552", "7776"],a:3,e:"Each term is the previous term multiplied by 6; the next is 7776."},
 {q:"Reasoning: Complete the multiplication pattern 7, 49, 343, 2401, ? (Additional question 450)",o:["33614", "16814", "16807", "16800"],a:2,e:"Each term is the previous term multiplied by 7; the next is 16807."},
@@ -1203,6 +1107,7 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 4, 16, 64, 256, ? (Additional question 455)",o:["2048", "1024", "1028", "1020"],a:1,e:"Each term is the previous term multiplied by 4; the next is 1024."},
 {q:"Reasoning: Complete the multiplication pattern 5, 25, 125, 625, ? (Additional question 456)",o:["3120", "3130", "6250", "3125"],a:3,e:"Each term is the previous term multiplied by 5; the next is 3125."},
 {q:"Reasoning: Complete the multiplication pattern 6, 36, 216, 1296, ? (Additional question 457)",o:["7770", "15552", "7782", "7776"],a:3,e:"Each term is the previous term multiplied by 6; the next is 7776."},
+
 {q:"Reasoning: Complete the multiplication pattern 7, 49, 343, 2401, ? (Additional question 458)",o:["33614", "16800", "16807", "16814"],a:2,e:"Each term is the previous term multiplied by 7; the next is 16807."},
 {q:"Reasoning: Complete the multiplication pattern 8, 64, 512, 4096, ? (Additional question 459)",o:["32776", "32768", "32760", "65536"],a:1,e:"Each term is the previous term multiplied by 8; the next is 32768."},
 {q:"Reasoning: Complete the multiplication pattern 9, 81, 729, 6561, ? (Additional question 460)",o:["59058", "59049", "59040", "118098"],a:1,e:"Each term is the previous term multiplied by 9; the next is 59049."},
@@ -1213,6 +1118,7 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 6, 36, 216, 1296, ? (Additional question 465)",o:["15552", "7782", "7770", "7776"],a:3,e:"Each term is the previous term multiplied by 6; the next is 7776."},
 {q:"Reasoning: Complete the multiplication pattern 7, 49, 343, 2401, ? (Additional question 466)",o:["33614", "16800", "16814", "16807"],a:3,e:"Each term is the previous term multiplied by 7; the next is 16807."},
 {q:"Reasoning: Complete the multiplication pattern 8, 64, 512, 4096, ? (Additional question 467)",o:["32776", "65536", "32760", "32768"],a:3,e:"Each term is the previous term multiplied by 8; the next is 32768."},
+
 {q:"Reasoning: Complete the multiplication pattern 9, 81, 729, 6561, ? (Additional question 468)",o:["118098", "59049", "59040", "59058"],a:1,e:"Each term is the previous term multiplied by 9; the next is 59049."},
 {q:"Reasoning: Complete the multiplication pattern 2, 4, 8, 16, ? (Additional question 469)",o:["32", "64", "30", "34"],a:0,e:"Each term is the previous term multiplied by 2; the next is 32."},
 {q:"Reasoning: Complete the multiplication pattern 3, 9, 27, 81, ? (Additional question 470)",o:["246", "240", "243", "486"],a:2,e:"Each term is the previous term multiplied by 3; the next is 243."},
@@ -1223,6 +1129,7 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 8, 64, 512, 4096, ? (Additional question 475)",o:["32760", "32776", "32768", "65536"],a:2,e:"Each term is the previous term multiplied by 8; the next is 32768."},
 {q:"Reasoning: Complete the multiplication pattern 9, 81, 729, 6561, ? (Additional question 476)",o:["59049", "59040", "59058", "118098"],a:0,e:"Each term is the previous term multiplied by 9; the next is 59049."},
 {q:"Reasoning: Complete the multiplication pattern 2, 4, 8, 16, ? (Additional question 477)",o:["30", "34", "32", "64"],a:2,e:"Each term is the previous term multiplied by 2; the next is 32."},
+
 {q:"Reasoning: Complete the multiplication pattern 3, 9, 27, 81, ? (Additional question 478)",o:["486", "246", "240", "243"],a:3,e:"Each term is the previous term multiplied by 3; the next is 243."},
 {q:"Reasoning: Complete the multiplication pattern 4, 16, 64, 256, ? (Additional question 479)",o:["1020", "1024", "2048", "1028"],a:1,e:"Each term is the previous term multiplied by 4; the next is 1024."},
 {q:"Reasoning: Complete the multiplication pattern 5, 25, 125, 625, ? (Additional question 480)",o:["6250", "3120", "3130", "3125"],a:3,e:"Each term is the previous term multiplied by 5; the next is 3125."},
@@ -1233,6 +1140,7 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 2, 4, 8, 16, ? (Additional question 485)",o:["64", "32", "34", "30"],a:1,e:"Each term is the previous term multiplied by 2; the next is 32."},
 {q:"Reasoning: Complete the multiplication pattern 3, 9, 27, 81, ? (Additional question 486)",o:["486", "240", "246", "243"],a:3,e:"Each term is the previous term multiplied by 3; the next is 243."},
 {q:"Reasoning: Complete the multiplication pattern 4, 16, 64, 256, ? (Additional question 487)",o:["2048", "1028", "1020", "1024"],a:3,e:"Each term is the previous term multiplied by 4; the next is 1024."},
+
 {q:"Reasoning: Complete the multiplication pattern 5, 25, 125, 625, ? (Additional question 488)",o:["3130", "3125", "6250", "3120"],a:1,e:"Each term is the previous term multiplied by 5; the next is 3125."},
 {q:"Reasoning: Complete the multiplication pattern 6, 36, 216, 1296, ? (Additional question 489)",o:["15552", "7770", "7782", "7776"],a:3,e:"Each term is the previous term multiplied by 6; the next is 7776."},
 {q:"Reasoning: Complete the multiplication pattern 7, 49, 343, 2401, ? (Additional question 490)",o:["16807", "16800", "16814", "33614"],a:0,e:"Each term is the previous term multiplied by 7; the next is 16807."},
@@ -1243,6 +1151,11 @@ const iqQuestionBank = [
 {q:"Reasoning: Complete the multiplication pattern 4, 16, 64, 256, ? (Additional question 495)",o:["1020", "1028", "2048", "1024"],a:3,e:"Each term is the previous term multiplied by 4; the next is 1024."},
 {q:"Reasoning: Complete the multiplication pattern 5, 25, 125, 625, ? (Additional question 496)",o:["6250", "3120", "3130", "3125"],a:3,e:"Each term is the previous term multiplied by 5; the next is 3125."},
 {q:"Reasoning: Complete the multiplication pattern 6, 36, 216, 1296, ? (Additional question 497)",o:["7776", "7770", "7782", "15552"],a:0,e:"Each term is the previous term multiplied by 6; the next is 7776."},
+
+// ======================================
+//  1,000 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"English vocabulary: Which word is closest in meaning to “abundant”?",o:["distant", "plentiful", "ordinary", "uncertain"],a:1,e:"Abundant means plentiful."},
 {q:"English vocabulary: Which word is the opposite of “abundant”?",o:["scarce", "neutral", "plentiful", "similar"],a:0,e:"The opposite of abundant is scarce."},
 {q:"English vocabulary: Which word is closest in meaning to “accurate”?",o:["distant", "uncertain", "ordinary", "correct"],a:3,e:"Accurate means correct."},
@@ -1253,6 +1166,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “brief”?",o:["similar", "neutral", "short", "lengthy"],a:3,e:"The opposite of brief is lengthy."},
 {q:"English vocabulary: Which word is closest in meaning to “calm”?",o:["distant", "uncertain", "peaceful", "ordinary"],a:2,e:"Calm means peaceful."},
 {q:"English vocabulary: Which word is the opposite of “calm”?",o:["peaceful", "neutral", "similar", "agitated"],a:3,e:"The opposite of calm is agitated."},
+
 {q:"English vocabulary: Which word is closest in meaning to “candid”?",o:["ordinary", "distant", "honest", "uncertain"],a:2,e:"Candid means honest."},
 {q:"English vocabulary: Which word is the opposite of “candid”?",o:["similar", "honest", "deceitful", "neutral"],a:2,e:"The opposite of candid is deceitful."},
 {q:"English vocabulary: Which word is closest in meaning to “cautious”?",o:["ordinary", "uncertain", "careful", "distant"],a:2,e:"Cautious means careful."},
@@ -1263,6 +1177,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “conceal”?",o:["hide", "similar", "reveal", "neutral"],a:2,e:"The opposite of conceal is reveal."},
 {q:"English vocabulary: Which word is closest in meaning to “confident”?",o:["distant", "uncertain", "ordinary", "assured"],a:3,e:"Confident means assured."},
 {q:"English vocabulary: Which word is the opposite of “confident”?",o:["assured", "similar", "neutral", "uncertain"],a:3,e:"The opposite of confident is uncertain."},
+
 {q:"English vocabulary: Which word is closest in meaning to “diligent”?",o:["ordinary", "uncertain", "distant", "hardworking"],a:3,e:"Diligent means hardworking."},
 {q:"English vocabulary: Which word is the opposite of “diligent”?",o:["similar", "hardworking", "neutral", "lazy"],a:3,e:"The opposite of diligent is lazy."},
 {q:"English vocabulary: Which word is closest in meaning to “diminish”?",o:["uncertain", "ordinary", "distant", "decrease"],a:3,e:"Diminish means decrease."},
@@ -1273,6 +1188,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “expand”?",o:["contract", "similar", "enlarge", "neutral"],a:0,e:"The opposite of expand is contract."},
 {q:"English vocabulary: Which word is closest in meaning to “fragile”?",o:["delicate", "distant", "ordinary", "uncertain"],a:0,e:"Fragile means delicate."},
 {q:"English vocabulary: Which word is the opposite of “fragile”?",o:["delicate", " sturdy", "neutral", "similar"],a:1,e:"The opposite of fragile is  sturdy."},
+
 {q:"English vocabulary: Which word is closest in meaning to “frequent”?",o:["ordinary", "common", "uncertain", "distant"],a:1,e:"Frequent means common."},
 {q:"English vocabulary: Which word is the opposite of “frequent”?",o:["similar", "common", "neutral", "rare"],a:3,e:"The opposite of frequent is rare."},
 {q:"English vocabulary: Which word is closest in meaning to “generous”?",o:["giving", "ordinary", "uncertain", "distant"],a:0,e:"Generous means giving."},
@@ -1283,6 +1199,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “hostile”?",o:["neutral", "unfriendly", "similar", "friendly"],a:3,e:"The opposite of hostile is friendly."},
 {q:"English vocabulary: Which word is closest in meaning to “humble”?",o:["distant", "ordinary", "uncertain", "modest"],a:3,e:"Humble means modest."},
 {q:"English vocabulary: Which word is the opposite of “humble”?",o:["neutral", "arrogant", "similar", "modest"],a:1,e:"The opposite of humble is arrogant."},
+
 {q:"English vocabulary: Which word is closest in meaning to “identical”?",o:["same", "uncertain", "ordinary", "distant"],a:0,e:"Identical means same."},
 {q:"English vocabulary: Which word is the opposite of “identical”?",o:["different", "neutral", "similar", "same"],a:0,e:"The opposite of identical is different."},
 {q:"English vocabulary: Which word is closest in meaning to “impartial”?",o:["ordinary", "fair", "distant", "uncertain"],a:1,e:"Impartial means fair."},
@@ -1293,6 +1210,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “innocent”?",o:["neutral", "guilty", "blameless", "similar"],a:1,e:"The opposite of innocent is guilty."},
 {q:"English vocabulary: Which word is closest in meaning to “intelligent”?",o:["ordinary", "clever", "uncertain", "distant"],a:1,e:"Intelligent means clever."},
 {q:"English vocabulary: Which word is the opposite of “intelligent”?",o:["clever", "neutral", "similar", "unintelligent"],a:3,e:"The opposite of intelligent is unintelligent."},
+
 {q:"English vocabulary: Which word is closest in meaning to “joyful”?",o:["happy", "ordinary", "uncertain", "distant"],a:0,e:"Joyful means happy."},
 {q:"English vocabulary: Which word is the opposite of “joyful”?",o:["happy", "similar", "miserable", "neutral"],a:2,e:"The opposite of joyful is miserable."},
 {q:"English vocabulary: Which word is closest in meaning to “mandatory”?",o:["uncertain", "compulsory", "distant", "ordinary"],a:1,e:"Mandatory means compulsory."},
@@ -1303,6 +1221,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “narrow”?",o:["slim", "similar", "wide", "neutral"],a:2,e:"The opposite of narrow is wide."},
 {q:"English vocabulary: Which word is closest in meaning to “obvious”?",o:["uncertain", "distant", "clear", "ordinary"],a:2,e:"Obvious means clear."},
 {q:"English vocabulary: Which word is the opposite of “obvious”?",o:["clear", "similar", "neutral", "obscure"],a:3,e:"The opposite of obvious is obscure."},
+
 {q:"English vocabulary: Which word is closest in meaning to “optimistic”?",o:["distant", "hopeful", "ordinary", "uncertain"],a:1,e:"Optimistic means hopeful."},
 {q:"English vocabulary: Which word is the opposite of “optimistic”?",o:["neutral", "hopeful", "pessimistic", "similar"],a:2,e:"The opposite of optimistic is pessimistic."},
 {q:"English vocabulary: Which word is closest in meaning to “ordinary”?",o:["usual", "ordinary", "uncertain", "distant"],a:0,e:"Ordinary means usual."},
@@ -1313,6 +1232,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “polite”?",o:["similar", "neutral", "courteous", "rude"],a:3,e:"The opposite of polite is rude."},
 {q:"English vocabulary: Which word is closest in meaning to “precise”?",o:["distant", "exact", "uncertain", "ordinary"],a:1,e:"Precise means exact."},
 {q:"English vocabulary: Which word is the opposite of “precise”?",o:["vague", "exact", "neutral", "similar"],a:0,e:"The opposite of precise is vague."},
+
 {q:"English vocabulary: Which word is closest in meaning to “rapid”?",o:["distant", "ordinary", "uncertain", "swift"],a:3,e:"Rapid means swift."},
 {q:"English vocabulary: Which word is the opposite of “rapid”?",o:["swift", "neutral", "slow", "similar"],a:2,e:"The opposite of rapid is slow."},
 {q:"English vocabulary: Which word is closest in meaning to “reluctant”?",o:["ordinary", "uncertain", "distant", "unwilling"],a:3,e:"Reluctant means unwilling."},
@@ -1323,6 +1243,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “rigid”?",o:["similar", "stiff", "neutral", "flexible"],a:3,e:"The opposite of rigid is flexible."},
 {q:"English vocabulary: Which word is closest in meaning to “scarce”?",o:["distant", "uncertain", "limited", "ordinary"],a:2,e:"Scarce means limited."},
 {q:"English vocabulary: Which word is the opposite of “scarce”?",o:["similar", "limited", "neutral", "abundant"],a:3,e:"The opposite of scarce is abundant."},
+
 {q:"English vocabulary: Which word is closest in meaning to “silent”?",o:["distant", "ordinary", "quiet", "uncertain"],a:2,e:"Silent means quiet."},
 {q:"English vocabulary: Which word is the opposite of “silent”?",o:["neutral", "noisy", "similar", "quiet"],a:1,e:"The opposite of silent is noisy."},
 {q:"English vocabulary: Which word is closest in meaning to “strengthen”?",o:["ordinary", "reinforce", "distant", "uncertain"],a:1,e:"Strengthen means reinforce."},
@@ -1333,6 +1254,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “transparent”?",o:["neutral", "opaque", "similar", "clear"],a:1,e:"The opposite of transparent is opaque."},
 {q:"English vocabulary: Which word is closest in meaning to “vacant”?",o:["distant", "empty", "uncertain", "ordinary"],a:1,e:"Vacant means empty."},
 {q:"English vocabulary: Which word is the opposite of “vacant”?",o:["empty", "similar", "neutral", "occupied"],a:3,e:"The opposite of vacant is occupied."},
+
 {q:"English vocabulary: Which word is closest in meaning to “valuable”?",o:["distant", "ordinary", "precious", "uncertain"],a:2,e:"Valuable means precious."},
 {q:"English vocabulary: Which word is the opposite of “valuable”?",o:["neutral", "similar", "precious", "worthless"],a:3,e:"The opposite of valuable is worthless."},
 {q:"English vocabulary: Which word is closest in meaning to “victory”?",o:["ordinary", "uncertain", "triumph", "distant"],a:2,e:"Victory means triumph."},
@@ -1343,6 +1265,11 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “weary”?",o:["neutral", "tired", "energetic", "similar"],a:2,e:"The opposite of weary is energetic."},
 {q:"English vocabulary: Which word is closest in meaning to “wisdom”?",o:["distant", "good judgement", "ordinary", "uncertain"],a:1,e:"Wisdom means good judgement."},
 {q:"English vocabulary: Which word is the opposite of “wisdom”?",o:["similar", "foolishness", "good judgement", "neutral"],a:1,e:"The opposite of wisdom is foolishness."},
+
+// ======================================
+//  1,100 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"English vocabulary: Which word is closest in meaning to “adapt”?",o:["adjust", "distant", "ordinary", "uncertain"],a:0,e:"Adapt means adjust."},
 {q:"English vocabulary: Which word is the opposite of “adapt”?",o:["adjust", "resist", "similar", "neutral"],a:1,e:"The opposite of adapt is resist."},
 {q:"English vocabulary: Which word is closest in meaning to “adequate”?",o:["distant", "ordinary", "sufficient", "uncertain"],a:2,e:"Adequate means sufficient."},
@@ -1353,6 +1280,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “ambiguous”?",o:["neutral", "unclear", "similar", "clear"],a:3,e:"The opposite of ambiguous is clear."},
 {q:"English vocabulary: Which word is closest in meaning to “ample”?",o:["plentiful", "uncertain", "distant", "ordinary"],a:0,e:"Ample means plentiful."},
 {q:"English vocabulary: Which word is the opposite of “ample”?",o:["similar", "neutral", "limited", "plentiful"],a:2,e:"The opposite of ample is limited."},
+
 {q:"English vocabulary: Which word is closest in meaning to “anxious”?",o:["ordinary", "uncertain", "distant", "worried"],a:3,e:"Anxious means worried."},
 {q:"English vocabulary: Which word is the opposite of “anxious”?",o:["neutral", "relaxed", "similar", "worried"],a:1,e:"The opposite of anxious is relaxed."},
 {q:"English vocabulary: Which word is closest in meaning to “apparent”?",o:["distant", "evident", "uncertain", "ordinary"],a:1,e:"Apparent means evident."},
@@ -1363,6 +1291,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “beneficial”?",o:["harmful", "helpful", "similar", "neutral"],a:0,e:"The opposite of beneficial is harmful."},
 {q:"English vocabulary: Which word is closest in meaning to “cease”?",o:["uncertain", "ordinary", "distant", "stop"],a:3,e:"Cease means stop."},
 {q:"English vocabulary: Which word is the opposite of “cease”?",o:["stop", "similar", "continue", "neutral"],a:2,e:"The opposite of cease is continue."},
+
 {q:"English vocabulary: Which word is closest in meaning to “combine”?",o:["merge", "uncertain", "distant", "ordinary"],a:0,e:"Combine means merge."},
 {q:"English vocabulary: Which word is the opposite of “combine”?",o:["merge", "similar", "neutral", "separate"],a:3,e:"The opposite of combine is separate."},
 {q:"English vocabulary: Which word is closest in meaning to “compassion”?",o:["uncertain", "sympathy", "ordinary", "distant"],a:1,e:"Compassion means sympathy."},
@@ -1373,6 +1302,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “decline”?",o:["similar", "rise", "neutral", "decrease"],a:1,e:"The opposite of decline is rise."},
 {q:"English vocabulary: Which word is closest in meaning to “defend”?",o:["protect", "ordinary", "distant", "uncertain"],a:0,e:"Defend means protect."},
 {q:"English vocabulary: Which word is the opposite of “defend”?",o:["neutral", "protect", "attack", "similar"],a:2,e:"The opposite of defend is attack."},
+
 {q:"English vocabulary: Which word is closest in meaning to “dense”?",o:["ordinary", "uncertain", "thick", "distant"],a:2,e:"Dense means thick."},
 {q:"English vocabulary: Which word is the opposite of “dense”?",o:["sparse", "thick", "neutral", "similar"],a:0,e:"The opposite of dense is sparse."},
 {q:"English vocabulary: Which word is closest in meaning to “depart”?",o:["leave", "distant", "ordinary", "uncertain"],a:0,e:"Depart means leave."},
@@ -1383,6 +1313,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “elaborate”?",o:["similar", "neutral", "detailed", "simple"],a:3,e:"The opposite of elaborate is simple."},
 {q:"English vocabulary: Which word is closest in meaning to “emerge”?",o:["uncertain", "ordinary", "appear", "distant"],a:2,e:"Emerge means appear."},
 {q:"English vocabulary: Which word is the opposite of “emerge”?",o:["neutral", "appear", "disappear", "similar"],a:2,e:"The opposite of emerge is disappear."},
+
 {q:"English vocabulary: Which word is closest in meaning to “essential”?",o:["uncertain", "necessary", "distant", "ordinary"],a:1,e:"Essential means necessary."},
 {q:"English vocabulary: Which word is the opposite of “essential”?",o:["unnecessary", "similar", "neutral", "necessary"],a:0,e:"The opposite of essential is unnecessary."},
 {q:"English vocabulary: Which word is closest in meaning to “exaggerate”?",o:["distant", "uncertain", "overstate", "ordinary"],a:2,e:"Exaggerate means overstate."},
@@ -1393,6 +1324,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “exhausted”?",o:["energetic", "similar", "tired", "neutral"],a:0,e:"The opposite of exhausted is energetic."},
 {q:"English vocabulary: Which word is closest in meaning to “feasible”?",o:["ordinary", "possible", "uncertain", "distant"],a:1,e:"Feasible means possible."},
 {q:"English vocabulary: Which word is the opposite of “feasible”?",o:["similar", "neutral", "impossible", "possible"],a:2,e:"The opposite of feasible is impossible."},
+
 {q:"English vocabulary: Which word is closest in meaning to “gloomy”?",o:["uncertain", "distant", "ordinary", "sad"],a:3,e:"Gloomy means sad."},
 {q:"English vocabulary: Which word is the opposite of “gloomy”?",o:["neutral", "similar", "sad", "cheerful"],a:3,e:"The opposite of gloomy is cheerful."},
 {q:"English vocabulary: Which word is closest in meaning to “grateful”?",o:["distant", "thankful", "ordinary", "uncertain"],a:1,e:"Grateful means thankful."},
@@ -1403,6 +1335,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “improve”?",o:["worsen", "neutral", "similar", "enhance"],a:0,e:"The opposite of improve is worsen."},
 {q:"English vocabulary: Which word is closest in meaning to “inevitable”?",o:["uncertain", "distant", "ordinary", "unavoidable"],a:3,e:"Inevitable means unavoidable."},
 {q:"English vocabulary: Which word is the opposite of “inevitable”?",o:["avoidable", "similar", "unavoidable", "neutral"],a:0,e:"The opposite of inevitable is avoidable."},
+
 {q:"English vocabulary: Which word is closest in meaning to “inferior”?",o:["ordinary", "distant", "lower", "uncertain"],a:2,e:"Inferior means lower."},
 {q:"English vocabulary: Which word is the opposite of “inferior”?",o:["lower", "neutral", "superior", "similar"],a:2,e:"The opposite of inferior is superior."},
 {q:"English vocabulary: Which word is closest in meaning to “liberty”?",o:["freedom", "distant", "ordinary", "uncertain"],a:0,e:"Liberty means freedom."},
@@ -1413,6 +1346,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “negligent”?",o:["neutral", "careful", "careless", "similar"],a:1,e:"The opposite of negligent is careful."},
 {q:"English vocabulary: Which word is closest in meaning to “obtain”?",o:["distant", "acquire", "uncertain", "ordinary"],a:1,e:"Obtain means acquire."},
 {q:"English vocabulary: Which word is the opposite of “obtain”?",o:["lose", "similar", "neutral", "acquire"],a:0,e:"The opposite of obtain is lose."},
+  
 {q:"English vocabulary: Which word is closest in meaning to “peril”?",o:["ordinary", "distant", "uncertain", "danger"],a:3,e:"Peril means danger."},
 {q:"English vocabulary: Which word is the opposite of “peril”?",o:["safety", "similar", "danger", "neutral"],a:0,e:"The opposite of peril is safety."},
 {q:"English vocabulary: Which word is closest in meaning to “prohibit”?",o:["uncertain", "forbid", "ordinary", "distant"],a:1,e:"Prohibit means forbid."},
@@ -1423,6 +1357,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “relieve”?",o:["aggravate", "similar", "neutral", "ease"],a:0,e:"The opposite of relieve is aggravate."},
 {q:"English vocabulary: Which word is closest in meaning to “retain”?",o:["ordinary", "keep", "distant", "uncertain"],a:1,e:"Retain means keep."},
 {q:"English vocabulary: Which word is the opposite of “retain”?",o:["similar", "neutral", "release", "keep"],a:2,e:"The opposite of retain is release."},
+
 {q:"English vocabulary: Which word is closest in meaning to “robust”?",o:["uncertain", "ordinary", "distant", "strong"],a:3,e:"Robust means strong."},
 {q:"English vocabulary: Which word is the opposite of “robust”?",o:["weak", "similar", "neutral", "strong"],a:0,e:"The opposite of robust is weak."},
 {q:"English vocabulary: Which word is closest in meaning to “temporary”?",o:["uncertain", "short-term", "distant", "ordinary"],a:1,e:"Temporary means short-term."},
@@ -1433,6 +1368,7 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “verify”?",o:["neutral", "confirm", "disprove", "similar"],a:2,e:"The opposite of verify is disprove."},
 {q:"English vocabulary: Which word is closest in meaning to “vital”?",o:["essential", "distant", "uncertain", "ordinary"],a:0,e:"Vital means essential."},
 {q:"English vocabulary: Which word is the opposite of “vital”?",o:["neutral", "unimportant", "essential", "similar"],a:1,e:"The opposite of vital is unimportant."},
+
 {q:"English vocabulary: Which word is closest in meaning to “wary”?",o:["distant", "ordinary", "uncertain", "cautious"],a:3,e:"Wary means cautious."},
 {q:"English vocabulary: Which word is the opposite of “wary”?",o:["carefree", "neutral", "cautious", "similar"],a:0,e:"The opposite of wary is carefree."},
 {q:"English vocabulary: Which word is closest in meaning to “yield”?",o:["uncertain", "distant", "produce", "ordinary"],a:2,e:"Yield means produce."},
@@ -1443,6 +1379,11 @@ const iqQuestionBank = [
 {q:"English vocabulary: Which word is the opposite of “conclude”?",o:["similar", "finish", "neutral", "begin"],a:3,e:"The opposite of conclude is begin."},
 {q:"English vocabulary: Which word is closest in meaning to “elevate”?",o:["raise", "distant", "ordinary", "uncertain"],a:0,e:"Elevate means raise."},
 {q:"English vocabulary: Which word is the opposite of “elevate”?",o:["raise", "lower", "similar", "neutral"],a:1,e:"The opposite of elevate is lower."},
+
+// ======================================
+//  1,200 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Science: What is Photosynthesis?",o:["blood clotting", "cell division", "protein digestion", "the process by which plants use light to make food"],a:3,e:"Photosynthesis: the process by which plants use light to make food."},
 {q:"Science: Which option correctly describes Photosynthesis?",o:["the process by which plants use light to make food", "cell division", "protein digestion", "blood clotting"],a:0,e:"Photosynthesis: the process by which plants use light to make food."},
 {q:"Science: Select the correct fact about Photosynthesis.",o:["the process by which plants use light to make food", "cell division", "blood clotting", "protein digestion"],a:0,e:"Photosynthesis: the process by which plants use light to make food."},
@@ -1453,6 +1394,7 @@ const iqQuestionBank = [
 {q:"Science: Mitochondrion is best associated with which answer?",o:["lipid storage", "DNA packaging", "the main site of ATP production in many cells", "protein synthesis"],a:2,e:"Mitochondrion: the main site of ATP production in many cells."},
 {q:"Science: What is Ribosome?",o:["oxygen transport", "fat digestion", "DNA replication", "the site of protein synthesis"],a:3,e:"Ribosome: the site of protein synthesis."},
 {q:"Science: Which option correctly describes Ribosome?",o:["the site of protein synthesis", "DNA replication", "fat digestion", "oxygen transport"],a:0,e:"Ribosome: the site of protein synthesis."},
+
 {q:"Science: Select the correct fact about Ribosome.",o:["DNA replication", "fat digestion", "the site of protein synthesis", "oxygen transport"],a:2,e:"Ribosome: the site of protein synthesis."},
 {q:"Science: Ribosome is best associated with which answer?",o:["oxygen transport", "DNA replication", "fat digestion", "the site of protein synthesis"],a:3,e:"Ribosome: the site of protein synthesis."},
 {q:"Science: What is DNA?",o:["a clotting cell", "a digestive enzyme", "the main blood pigment", "the molecule that stores hereditary information"],a:3,e:"DNA: the molecule that stores hereditary information."},
@@ -1463,6 +1405,7 @@ const iqQuestionBank = [
 {q:"Science: Which option correctly describes Osmosis?",o:["movement of water across a selectively permeable membrane", "movement of proteins using ATP", "breakdown of glucose", "formation of antibodies"],a:0,e:"Osmosis: movement of water across a selectively permeable membrane."},
 {q:"Science: Select the correct fact about Osmosis.",o:["breakdown of glucose", "movement of proteins using ATP", "movement of water across a selectively permeable membrane", "formation of antibodies"],a:2,e:"Osmosis: movement of water across a selectively permeable membrane."},
 {q:"Science: Osmosis is best associated with which answer?",o:["breakdown of glucose", "movement of water across a selectively permeable membrane", "formation of antibodies", "movement of proteins using ATP"],a:1,e:"Osmosis: movement of water across a selectively permeable membrane."},
+
 {q:"Science: What is Diffusion?",o:["movement against a gradient using energy", "movement of particles from higher to lower concentration", "cell engulfment", "blood coagulation"],a:1,e:"Diffusion: movement of particles from higher to lower concentration."},
 {q:"Science: Which option correctly describes Diffusion?",o:["movement against a gradient using energy", "blood coagulation", "movement of particles from higher to lower concentration", "cell engulfment"],a:2,e:"Diffusion: movement of particles from higher to lower concentration."},
 {q:"Science: Select the correct fact about Diffusion.",o:["blood coagulation", "movement of particles from higher to lower concentration", "cell engulfment", "movement against a gradient using energy"],a:1,e:"Diffusion: movement of particles from higher to lower concentration."},
@@ -1473,6 +1416,7 @@ const iqQuestionBank = [
 {q:"Science: Neuron is best associated with which answer?",o:["a liver enzyme", "a cell specialized for transmitting nerve impulses", "a bone-forming cell", "a red blood cell"],a:1,e:"Neuron: a cell specialized for transmitting nerve impulses."},
 {q:"Science: What is Insulin?",o:["a digestive acid", "a clotting factor", "a hormone that lowers blood glucose", "a hormone that raises calcium"],a:2,e:"Insulin: a hormone that lowers blood glucose."},
 {q:"Science: Which option correctly describes Insulin?",o:["a digestive acid", "a hormone that raises calcium", "a hormone that lowers blood glucose", "a clotting factor"],a:2,e:"Insulin: a hormone that lowers blood glucose."},
+
 {q:"Science: Select the correct fact about Insulin.",o:["a clotting factor", "a hormone that raises calcium", "a digestive acid", "a hormone that lowers blood glucose"],a:3,e:"Insulin: a hormone that lowers blood glucose."},
 {q:"Science: Insulin is best associated with which answer?",o:["a hormone that lowers blood glucose", "a hormone that raises calcium", "a clotting factor", "a digestive acid"],a:0,e:"Insulin: a hormone that lowers blood glucose."},
 {q:"Science: What is Glucagon?",o:["a thyroid hormone", "a hormone that lowers glucose", "a plasma protein", "a hormone that raises blood glucose"],a:3,e:"Glucagon: a hormone that raises blood glucose."},
@@ -1483,6 +1427,7 @@ const iqQuestionBank = [
 {q:"Science: Which option correctly describes Hemoglobin?",o:["a kidney enzyme", "the main antibody", "the oxygen-carrying protein in red blood cells", "a platelet receptor"],a:2,e:"Hemoglobin: the oxygen-carrying protein in red blood cells."},
 {q:"Science: Select the correct fact about Hemoglobin.",o:["the oxygen-carrying protein in red blood cells", "a platelet receptor", "a kidney enzyme", "the main antibody"],a:0,e:"Hemoglobin: the oxygen-carrying protein in red blood cells."},
 {q:"Science: Hemoglobin is best associated with which answer?",o:["a kidney enzyme", "the oxygen-carrying protein in red blood cells", "the main antibody", "a platelet receptor"],a:1,e:"Hemoglobin: the oxygen-carrying protein in red blood cells."},
+
 {q:"Science: What is Platelets?",o:["oxygen transport cells", "nerve cells", "cell fragments involved in haemostasis", "antibody-producing cells"],a:2,e:"Platelets: cell fragments involved in haemostasis."},
 {q:"Science: Which option correctly describes Platelets?",o:["antibody-producing cells", "cell fragments involved in haemostasis", "nerve cells", "oxygen transport cells"],a:1,e:"Platelets: cell fragments involved in haemostasis."},
 {q:"Science: Select the correct fact about Platelets.",o:["oxygen transport cells", "cell fragments involved in haemostasis", "nerve cells", "antibody-producing cells"],a:1,e:"Platelets: cell fragments involved in haemostasis."},
@@ -1493,6 +1438,7 @@ const iqQuestionBank = [
 {q:"Science: Neutrophils is best associated with which answer?",o:["white cells important in acute bacterial defence", "thyroid cells", "oxygen carriers", "clotting proteins"],a:0,e:"Neutrophils: white cells important in acute bacterial defence."},
 {q:"Science: What is Antibodies?",o:["enzymes that digest starch", "lipids in cell membranes", "proteins that specifically bind antigens", "molecules that carry oxygen"],a:2,e:"Antibodies: proteins that specifically bind antigens."},
 {q:"Science: Which option correctly describes Antibodies?",o:["enzymes that digest starch", "proteins that specifically bind antigens", "molecules that carry oxygen", "lipids in cell membranes"],a:1,e:"Antibodies: proteins that specifically bind antigens."},
+
 {q:"Science: Select the correct fact about Antibodies.",o:["lipids in cell membranes", "molecules that carry oxygen", "enzymes that digest starch", "proteins that specifically bind antigens"],a:3,e:"Antibodies: proteins that specifically bind antigens."},
 {q:"Science: Antibodies is best associated with which answer?",o:["proteins that specifically bind antigens", "molecules that carry oxygen", "lipids in cell membranes", "enzymes that digest starch"],a:0,e:"Antibodies: proteins that specifically bind antigens."},
 {q:"Science: What is Alveoli?",o:["tiny air sacs where gas exchange occurs", "the liver bile ducts", "the kidney filtration units", "the heart valves"],a:0,e:"Alveoli: tiny air sacs where gas exchange occurs."},
@@ -1503,6 +1449,7 @@ const iqQuestionBank = [
 {q:"Science: Which option correctly describes Nephron?",o:["a blood clot", "the smallest bone", "the functional unit of the lung", "the functional unit of the kidney"],a:3,e:"Nephron: the functional unit of the kidney."},
 {q:"Science: Select the correct fact about Nephron.",o:["a blood clot", "the functional unit of the kidney", "the smallest bone", "the functional unit of the lung"],a:1,e:"Nephron: the functional unit of the kidney."},
 {q:"Science: Nephron is best associated with which answer?",o:["the smallest bone", "a blood clot", "the functional unit of the kidney", "the functional unit of the lung"],a:2,e:"Nephron: the functional unit of the kidney."},
+
 {q:"Science: What is Cerebellum?",o:["the hormone-producing pancreas", "the main site of vision", "the kidney cortex", "a brain region important for balance and coordination"],a:3,e:"Cerebellum: a brain region important for balance and coordination."},
 {q:"Science: Which option correctly describes Cerebellum?",o:["the main site of vision", "a brain region important for balance and coordination", "the hormone-producing pancreas", "the kidney cortex"],a:1,e:"Cerebellum: a brain region important for balance and coordination."},
 {q:"Science: Select the correct fact about Cerebellum.",o:["the kidney cortex", "the main site of vision", "the hormone-producing pancreas", "a brain region important for balance and coordination"],a:3,e:"Cerebellum: a brain region important for balance and coordination."},
@@ -1513,6 +1460,7 @@ const iqQuestionBank = [
 {q:"Science: Aorta is best associated with which answer?",o:["a lung air sac", "the largest vein entering the right atrium", "the largest artery leaving the left ventricle", "a kidney tubule"],a:2,e:"Aorta: the largest artery leaving the left ventricle."},
 {q:"Science: What is Bile?",o:["an enzyme that digests protein", "a fluid that helps emulsify dietary fats", "a hormone that controls glucose", "a blood clotting factor"],a:1,e:"Bile: a fluid that helps emulsify dietary fats."},
 {q:"Science: Which option correctly describes Bile?",o:["an enzyme that digests protein", "a hormone that controls glucose", "a blood clotting factor", "a fluid that helps emulsify dietary fats"],a:3,e:"Bile: a fluid that helps emulsify dietary fats."},
+
 {q:"Science: Select the correct fact about Bile.",o:["a hormone that controls glucose", "a blood clotting factor", "an enzyme that digests protein", "a fluid that helps emulsify dietary fats"],a:3,e:"Bile: a fluid that helps emulsify dietary fats."},
 {q:"Science: Bile is best associated with which answer?",o:["a fluid that helps emulsify dietary fats", "a blood clotting factor", "a hormone that controls glucose", "an enzyme that digests protein"],a:0,e:"Bile: a fluid that helps emulsify dietary fats."},
 {q:"Science: What is Amylase?",o:["a protein that carries oxygen", "an enzyme that digests DNA", "an enzyme that breaks down starch", "a hormone that lowers glucose"],a:2,e:"Amylase: an enzyme that breaks down starch."},
@@ -1523,6 +1471,7 @@ const iqQuestionBank = [
 {q:"Science: Which option correctly describes Pepsin?",o:["a kidney filtration protein", "a clotting factor", "a stomach enzyme that digests proteins", "a pancreatic hormone"],a:2,e:"Pepsin: a stomach enzyme that digests proteins."},
 {q:"Science: Select the correct fact about Pepsin.",o:["a stomach enzyme that digests proteins", "a pancreatic hormone", "a clotting factor", "a kidney filtration protein"],a:0,e:"Pepsin: a stomach enzyme that digests proteins."},
 {q:"Science: Pepsin is best associated with which answer?",o:["a kidney filtration protein", "a pancreatic hormone", "a clotting factor", "a stomach enzyme that digests proteins"],a:3,e:"Pepsin: a stomach enzyme that digests proteins."},
+
 {q:"Science: What is Vitamin C?",o:["a vitamin important for collagen synthesis", "a vitamin required for clotting factor activation", "the main oxygen carrier", "a steroid hormone"],a:0,e:"Vitamin C: a vitamin important for collagen synthesis."},
 {q:"Science: Which option correctly describes Vitamin C?",o:["a vitamin required for clotting factor activation", "a vitamin important for collagen synthesis", "a steroid hormone", "the main oxygen carrier"],a:1,e:"Vitamin C: a vitamin important for collagen synthesis."},
 {q:"Science: Select the correct fact about Vitamin C.",o:["a vitamin important for collagen synthesis", "the main oxygen carrier", "a vitamin required for clotting factor activation", "a steroid hormone"],a:0,e:"Vitamin C: a vitamin important for collagen synthesis."},
@@ -1533,6 +1482,7 @@ const iqQuestionBank = [
 {q:"Science: Vitamin D is best associated with which answer?",o:["a vitamin important for calcium and bone regulation", "the main blood buffer", "a clotting cell", "a digestive enzyme"],a:0,e:"Vitamin D: a vitamin important for calcium and bone regulation."},
 {q:"Science: What is Calcium?",o:["an ion important in bones, muscles and clotting", "a type of antibody", "a digestive hormone", "the main intracellular oxygen carrier"],a:0,e:"Calcium: an ion important in bones, muscles and clotting."},
 {q:"Science: Which option correctly describes Calcium?",o:["a type of antibody", "the main intracellular oxygen carrier", "an ion important in bones, muscles and clotting", "a digestive hormone"],a:2,e:"Calcium: an ion important in bones, muscles and clotting."},
+
 {q:"Science: Select the correct fact about Calcium.",o:["an ion important in bones, muscles and clotting", "a type of antibody", "a digestive hormone", "the main intracellular oxygen carrier"],a:0,e:"Calcium: an ion important in bones, muscles and clotting."},
 {q:"Science: Calcium is best associated with which answer?",o:["a digestive hormone", "an ion important in bones, muscles and clotting", "a type of antibody", "the main intracellular oxygen carrier"],a:1,e:"Calcium: an ion important in bones, muscles and clotting."},
 {q:"Science: What is Iron?",o:["a component of insulin only", "a clotting enzyme", "a mineral needed to make haemoglobin", "a thyroid hormone"],a:2,e:"Iron: a mineral needed to make haemoglobin."},
@@ -1543,6 +1493,11 @@ const iqQuestionBank = [
 {q:"Science: Which option correctly describes Iodine?",o:["a mineral needed for thyroid hormone synthesis", "a component of haemoglobin", "a kidney enzyme", "a platelet granule"],a:0,e:"Iodine: a mineral needed for thyroid hormone synthesis."},
 {q:"Science: Select the correct fact about Iodine.",o:["a component of haemoglobin", "a kidney enzyme", "a mineral needed for thyroid hormone synthesis", "a platelet granule"],a:2,e:"Iodine: a mineral needed for thyroid hormone synthesis."},
 {q:"Science: Iodine is best associated with which answer?",o:["a kidney enzyme", "a platelet granule", "a component of haemoglobin", "a mineral needed for thyroid hormone synthesis"],a:3,e:"Iodine: a mineral needed for thyroid hormone synthesis."},
+
+// ======================================
+//  1,300 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Science: What is Oxygen?",o:["the main product of protein digestion", "a digestive hormone", "a gas used by cells in aerobic energy production", "a blood anticoagulant"],a:2,e:"Oxygen: a gas used by cells in aerobic energy production."},
 {q:"Science: Which option correctly describes Oxygen?",o:["a blood anticoagulant", "a digestive hormone", "a gas used by cells in aerobic energy production", "the main product of protein digestion"],a:2,e:"Oxygen: a gas used by cells in aerobic energy production."},
 {q:"Science: Select the correct fact about Oxygen.",o:["the main product of protein digestion", "a gas used by cells in aerobic energy production", "a blood anticoagulant", "a digestive hormone"],a:1,e:"Oxygen: a gas used by cells in aerobic energy production."},
@@ -1553,6 +1508,7 @@ const iqQuestionBank = [
 {q:"Science: Carbon dioxide is best associated with which answer?",o:["a plasma antibody", "a waste gas transported from tissues to lungs", "a clotting factor", "the main oxygen carrier"],a:1,e:"Carbon dioxide: a waste gas transported from tissues to lungs."},
 {q:"Science: What is Meiosis?",o:["protein synthesis", "cell division that produces haploid gametes", "division producing two identical diploid cells", "cellular respiration"],a:1,e:"Meiosis: cell division that produces haploid gametes."},
 {q:"Science: Which option correctly describes Meiosis?",o:["protein synthesis", "cell division that produces haploid gametes", "cellular respiration", "division producing two identical diploid cells"],a:1,e:"Meiosis: cell division that produces haploid gametes."},
+
 {q:"Science: Select the correct fact about Meiosis.",o:["cell division that produces haploid gametes", "cellular respiration", "division producing two identical diploid cells", "protein synthesis"],a:0,e:"Meiosis: cell division that produces haploid gametes."},
 {q:"Science: Meiosis is best associated with which answer?",o:["cell division that produces haploid gametes", "division producing two identical diploid cells", "protein synthesis", "cellular respiration"],a:0,e:"Meiosis: cell division that produces haploid gametes."},
 {q:"Science: What is Mitosis?",o:["formation of gametes only", "antibody binding", "cell division producing two genetically similar daughter cells", "oxygen transport"],a:2,e:"Mitosis: cell division producing two genetically similar daughter cells."},
@@ -1563,6 +1519,7 @@ const iqQuestionBank = [
 {q:"Science: Which option correctly describes Bacteria?",o:["multicellular animals", "single-celled prokaryotic organisms", "viruses with a nucleus", "plant organs"],a:1,e:"Bacteria: single-celled prokaryotic organisms."},
 {q:"Science: Select the correct fact about Bacteria.",o:["single-celled prokaryotic organisms", "multicellular animals", "plant organs", "viruses with a nucleus"],a:0,e:"Bacteria: single-celled prokaryotic organisms."},
 {q:"Science: Bacteria is best associated with which answer?",o:["viruses with a nucleus", "multicellular animals", "plant organs", "single-celled prokaryotic organisms"],a:3,e:"Bacteria: single-celled prokaryotic organisms."},
+
 {q:"Science: What is Virus?",o:["a fungal spore", "a free-living bacterium", "an infectious agent that requires host cells to replicate", "a human blood cell"],a:2,e:"Virus: an infectious agent that requires host cells to replicate."},
 {q:"Science: Which option correctly describes Virus?",o:["a fungal spore", "an infectious agent that requires host cells to replicate", "a free-living bacterium", "a human blood cell"],a:1,e:"Virus: an infectious agent that requires host cells to replicate."},
 {q:"Science: Select the correct fact about Virus.",o:["an infectious agent that requires host cells to replicate", "a fungal spore", "a human blood cell", "a free-living bacterium"],a:0,e:"Virus: an infectious agent that requires host cells to replicate."},
@@ -1573,6 +1530,7 @@ const iqQuestionBank = [
 {q:"Science: Fungi is best associated with which answer?",o:["a class of hormones", "a type of red blood cell", "organisms including yeasts and moulds", "a kidney structure"],a:2,e:"Fungi: organisms including yeasts and moulds."},
 {q:"Science: What is Malaria?",o:["a clotting disorder", "a bacterial urinary infection", "a disease caused by insulin deficiency", "an infection caused by Plasmodium parasites"],a:3,e:"Malaria: an infection caused by Plasmodium parasites."},
 {q:"Science: Which option correctly describes Malaria?",o:["a disease caused by insulin deficiency", "a bacterial urinary infection", "an infection caused by Plasmodium parasites", "a clotting disorder"],a:2,e:"Malaria: an infection caused by Plasmodium parasites."},
+
 {q:"Science: Select the correct fact about Malaria.",o:["a bacterial urinary infection", "a clotting disorder", "an infection caused by Plasmodium parasites", "a disease caused by insulin deficiency"],a:2,e:"Malaria: an infection caused by Plasmodium parasites."},
 {q:"Science: Malaria is best associated with which answer?",o:["a disease caused by insulin deficiency", "an infection caused by Plasmodium parasites", "a bacterial urinary infection", "a clotting disorder"],a:1,e:"Malaria: an infection caused by Plasmodium parasites."},
 {q:"Science: What is Tuberculosis?",o:["an infection commonly caused by Mycobacterium tuberculosis", "a viral liver disease", "a genetic anaemia", "a fungal skin condition"],a:0,e:"Tuberculosis: an infection commonly caused by Mycobacterium tuberculosis."},
@@ -1583,6 +1541,7 @@ const iqQuestionBank = [
 {q:"Science: Which option correctly describes Dengue?",o:["a disease transmitted by ticks only", "a hereditary clotting disorder", "a viral infection transmitted by Aedes mosquitoes", "a bacterial food poisoning"],a:2,e:"Dengue: a viral infection transmitted by Aedes mosquitoes."},
 {q:"Science: Select the correct fact about Dengue.",o:["a disease transmitted by ticks only", "a bacterial food poisoning", "a hereditary clotting disorder", "a viral infection transmitted by Aedes mosquitoes"],a:3,e:"Dengue: a viral infection transmitted by Aedes mosquitoes."},
 {q:"Science: Dengue is best associated with which answer?",o:["a viral infection transmitted by Aedes mosquitoes", "a hereditary clotting disorder", "a disease transmitted by ticks only", "a bacterial food poisoning"],a:0,e:"Dengue: a viral infection transmitted by Aedes mosquitoes."},
+
 {q:"Science: What is Inflammation?",o:["a kidney filtration test", "a process that makes red cells", "a protective response to tissue injury or infection", "a type of blood group"],a:2,e:"Inflammation: a protective response to tissue injury or infection."},
 {q:"Science: Which option correctly describes Inflammation?",o:["a protective response to tissue injury or infection", "a type of blood group", "a process that makes red cells", "a kidney filtration test"],a:0,e:"Inflammation: a protective response to tissue injury or infection."},
 {q:"Science: Select the correct fact about Inflammation.",o:["a protective response to tissue injury or infection", "a type of blood group", "a process that makes red cells", "a kidney filtration test"],a:0,e:"Inflammation: a protective response to tissue injury or infection."},
@@ -1593,6 +1552,7 @@ const iqQuestionBank = [
 {q:"Science: Homeostasis is best associated with which answer?",o:["formation of urine only", "maintenance of a relatively stable internal environment", "breakdown of chromosomes", "uncontrolled cell division"],a:1,e:"Homeostasis: maintenance of a relatively stable internal environment."},
 {q:"Science: What is Enzyme?",o:["a type of vitamin", "a structural bone", "a blood group antigen", "a biological catalyst that speeds reactions"],a:3,e:"Enzyme: a biological catalyst that speeds reactions."},
 {q:"Science: Which option correctly describes Enzyme?",o:["a biological catalyst that speeds reactions", "a structural bone", "a blood group antigen", "a type of vitamin"],a:0,e:"Enzyme: a biological catalyst that speeds reactions."},
+
 {q:"Science: Select the correct fact about Enzyme.",o:["a structural bone", "a type of vitamin", "a biological catalyst that speeds reactions", "a blood group antigen"],a:2,e:"Enzyme: a biological catalyst that speeds reactions."},
 {q:"Science: Enzyme is best associated with which answer?",o:["a blood group antigen", "a structural bone", "a type of vitamin", "a biological catalyst that speeds reactions"],a:3,e:"Enzyme: a biological catalyst that speeds reactions."},
 {q:"Science: What is pH?",o:["a measure related to hydrogen ion activity", "a count of red cells", "a measure of clot strength", "a measure of body weight"],a:0,e:"pH: a measure related to hydrogen ion activity."},
@@ -1603,6 +1563,7 @@ const iqQuestionBank = [
 {q:"Science: Which option correctly describes Artery?",o:["a vessel that always carries deoxygenated blood", "a lymph node", "a blood vessel that carries blood away from the heart", "a heart chamber"],a:2,e:"Artery: a blood vessel that carries blood away from the heart."},
 {q:"Science: Select the correct fact about Artery.",o:["a blood vessel that carries blood away from the heart", "a vessel that always carries deoxygenated blood", "a heart chamber", "a lymph node"],a:0,e:"Artery: a blood vessel that carries blood away from the heart."},
 {q:"Science: Artery is best associated with which answer?",o:["a vessel that always carries deoxygenated blood", "a heart chamber", "a lymph node", "a blood vessel that carries blood away from the heart"],a:3,e:"Artery: a blood vessel that carries blood away from the heart."},
+
 {q:"Science: What is Vein?",o:["a blood vessel that carries blood toward the heart", "a vessel carrying blood away from the heart", "a blood cell", "a hormone gland"],a:0,e:"Vein: a blood vessel that carries blood toward the heart."},
 {q:"Science: Which option correctly describes Vein?",o:["a vessel carrying blood away from the heart", "a hormone gland", "a blood vessel that carries blood toward the heart", "a blood cell"],a:2,e:"Vein: a blood vessel that carries blood toward the heart."},
 {q:"Science: Select the correct fact about Vein.",o:["a hormone gland", "a blood cell", "a vessel carrying blood away from the heart", "a blood vessel that carries blood toward the heart"],a:3,e:"Vein: a blood vessel that carries blood toward the heart."},
@@ -1613,6 +1574,7 @@ const iqQuestionBank = [
 {q:"Science: Trachea is best associated with which answer?",o:["the urinary bladder", "the windpipe connecting larynx and bronchi", "the food pipe", "the main artery"],a:1,e:"Trachea: the windpipe connecting larynx and bronchi."},
 {q:"Science: What is Oesophagus?",o:["the airway to the lungs", "a muscular tube carrying food to the stomach", "the kidney drainage tube", "the bile storage organ"],a:1,e:"Oesophagus: a muscular tube carrying food to the stomach."},
 {q:"Science: Which option correctly describes Oesophagus?",o:["a muscular tube carrying food to the stomach", "the airway to the lungs", "the kidney drainage tube", "the bile storage organ"],a:0,e:"Oesophagus: a muscular tube carrying food to the stomach."},
+
 {q:"Science: Select the correct fact about Oesophagus.",o:["the bile storage organ", "the kidney drainage tube", "the airway to the lungs", "a muscular tube carrying food to the stomach"],a:3,e:"Oesophagus: a muscular tube carrying food to the stomach."},
 {q:"Science: Oesophagus is best associated with which answer?",o:["a muscular tube carrying food to the stomach", "the airway to the lungs", "the bile storage organ", "the kidney drainage tube"],a:0,e:"Oesophagus: a muscular tube carrying food to the stomach."},
 {q:"Science: What is Pancreas?",o:["the main oxygen-carrying organ", "a lymph vessel", "the organ that stores urine", "an organ with endocrine and digestive functions"],a:3,e:"Pancreas: an organ with endocrine and digestive functions."},
@@ -1624,6 +1586,7 @@ const iqQuestionBank = [
 {q:"Science: Select the correct fact about Liver.",o:["an organ involved in metabolism, detoxification and bile production", "the main site of gas exchange", "the main site of urine storage", "the organ that pumps blood"],a:0,e:"Liver: an organ involved in metabolism, detoxification and bile production."},
 {q:"Science: Liver is best associated with which answer?",o:["the main site of urine storage", "an organ involved in metabolism, detoxification and bile production", "the main site of gas exchange", "the organ that pumps blood"],a:1,e:"Liver: an organ involved in metabolism, detoxification and bile production."},
 {q:"Science: What is Spleen?",o:["the site of insulin synthesis", "the main site of oxygen exchange", "an organ involved in blood filtration and immune function", "the urinary outlet"],a:2,e:"Spleen: an organ involved in blood filtration and immune function."},
+
 {q:"Science: Which option correctly describes Spleen?",o:["an organ involved in blood filtration and immune function", "the urinary outlet", "the main site of oxygen exchange", "the site of insulin synthesis"],a:0,e:"Spleen: an organ involved in blood filtration and immune function."},
 {q:"Science: Select the correct fact about Spleen.",o:["the main site of oxygen exchange", "the urinary outlet", "the site of insulin synthesis", "an organ involved in blood filtration and immune function"],a:3,e:"Spleen: an organ involved in blood filtration and immune function."},
 {q:"Science: Spleen is best associated with which answer?",o:["an organ involved in blood filtration and immune function", "the site of insulin synthesis", "the urinary outlet", "the main site of oxygen exchange"],a:0,e:"Spleen: an organ involved in blood filtration and immune function."},
@@ -1634,6 +1597,7 @@ const iqQuestionBank = [
 {q:"Science: What is Retina?",o:["the middle ear bone", "the kidney capsule", "the light-sensitive tissue lining the back of the eye", "the transparent front of the eye"],a:2,e:"Retina: the light-sensitive tissue lining the back of the eye."},
 {q:"Science: Which option correctly describes Retina?",o:["the transparent front of the eye", "the light-sensitive tissue lining the back of the eye", "the kidney capsule", "the middle ear bone"],a:1,e:"Retina: the light-sensitive tissue lining the back of the eye."},
 {q:"Science: Select the correct fact about Retina.",o:["the light-sensitive tissue lining the back of the eye", "the kidney capsule", "the middle ear bone", "the transparent front of the eye"],a:0,e:"Retina: the light-sensitive tissue lining the back of the eye."},
+
 {q:"Science: Retina is best associated with which answer?",o:["the light-sensitive tissue lining the back of the eye", "the transparent front of the eye", "the middle ear bone", "the kidney capsule"],a:0,e:"Retina: the light-sensitive tissue lining the back of the eye."},
 {q:"Science: What is Cochlea?",o:["a blood vessel", "a part of the eye", "a structure of the inner ear important for hearing", "a lung air sac"],a:2,e:"Cochlea: a structure of the inner ear important for hearing."},
 {q:"Science: Which option correctly describes Cochlea?",o:["a structure of the inner ear important for hearing", "a lung air sac", "a part of the eye", "a blood vessel"],a:0,e:"Cochlea: a structure of the inner ear important for hearing."},
@@ -1644,6 +1608,11 @@ const iqQuestionBank = [
 {q:"Science: Select the correct fact about Femur.",o:["the breastbone", "the smallest hand bone", "a skull bone", "the thigh bone and longest bone in the human body"],a:3,e:"Femur: the thigh bone and longest bone in the human body."},
 {q:"Science: Femur is best associated with which answer?",o:["the thigh bone and longest bone in the human body", "a skull bone", "the breastbone", "the smallest hand bone"],a:0,e:"Femur: the thigh bone and longest bone in the human body."},
 {q:"Computer knowledge: What is CPU?",o:["Computer Personal Unit", "Central Processing Unit", "Central Program Utility", "Control Power User"],a:1,e:"CPU: Central Processing Unit."},
+
+// ======================================
+//  1,400 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Computer knowledge: Which option correctly describes CPU?",o:["Computer Personal Unit", "Central Processing Unit", "Control Power User", "Central Program Utility"],a:1,e:"CPU: Central Processing Unit."},
 {q:"Computer knowledge: Select the correct fact about CPU.",o:["Central Processing Unit", "Control Power User", "Computer Personal Unit", "Central Program Utility"],a:0,e:"CPU: Central Processing Unit."},
 {q:"Computer knowledge: CPU is best associated with which answer?",o:["Central Processing Unit", "Central Program Utility", "Computer Personal Unit", "Control Power User"],a:0,e:"CPU: Central Processing Unit."},
@@ -1654,6 +1623,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is ROM?",o:["Run Only Mode", "Read Only Memory", "Random Output Machine", "Read Open Memory"],a:1,e:"ROM: Read Only Memory."},
 {q:"Computer knowledge: Which option correctly describes ROM?",o:["Random Output Machine", "Read Open Memory", "Run Only Mode", "Read Only Memory"],a:3,e:"ROM: Read Only Memory."},
 {q:"Computer knowledge: Select the correct fact about ROM.",o:["Read Only Memory", "Run Only Mode", "Random Output Machine", "Read Open Memory"],a:0,e:"ROM: Read Only Memory."},
+
 {q:"Computer knowledge: ROM is best associated with which answer?",o:["Run Only Mode", "Read Only Memory", "Random Output Machine", "Read Open Memory"],a:1,e:"ROM: Read Only Memory."},
 {q:"Computer knowledge: What is URL?",o:["United Routing Language", "Universal Record Link", "User Reference List", "Uniform Resource Locator"],a:3,e:"URL: Uniform Resource Locator."},
 {q:"Computer knowledge: Which option correctly describes URL?",o:["User Reference List", "Uniform Resource Locator", "Universal Record Link", "United Routing Language"],a:1,e:"URL: Uniform Resource Locator."},
@@ -1664,6 +1634,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: Select the correct fact about HTTP.",o:["Hypertext Transfer Protocol", "High Transfer Text Program", "Hyperlink Technical Process", "Host Text Transfer Path"],a:0,e:"HTTP: Hypertext Transfer Protocol."},
 {q:"Computer knowledge: HTTP is best associated with which answer?",o:["Hypertext Transfer Protocol", "High Transfer Text Program", "Host Text Transfer Path", "Hyperlink Technical Process"],a:0,e:"HTTP: Hypertext Transfer Protocol."},
 {q:"Computer knowledge: What is HTML?",o:["High Text Machine Language", "Hyper Transfer Mode Language", "Home Tool Markup Link", "Hypertext Markup Language"],a:3,e:"HTML: Hypertext Markup Language."},
+
 {q:"Computer knowledge: Which option correctly describes HTML?",o:["Hyper Transfer Mode Language", "Hypertext Markup Language", "Home Tool Markup Link", "High Text Machine Language"],a:1,e:"HTML: Hypertext Markup Language."},
 {q:"Computer knowledge: Select the correct fact about HTML.",o:["High Text Machine Language", "Home Tool Markup Link", "Hyper Transfer Mode Language", "Hypertext Markup Language"],a:3,e:"HTML: Hypertext Markup Language."},
 {q:"Computer knowledge: HTML is best associated with which answer?",o:["Hypertext Markup Language", "Home Tool Markup Link", "Hyper Transfer Mode Language", "High Text Machine Language"],a:0,e:"HTML: Hypertext Markup Language."},
@@ -1674,6 +1645,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is USB?",o:["Universal Serial Bus", "Universal Storage Block", "User Service Base", "United System Board"],a:0,e:"USB: Universal Serial Bus."},
 {q:"Computer knowledge: Which option correctly describes USB?",o:["United System Board", "User Service Base", "Universal Serial Bus", "Universal Storage Block"],a:2,e:"USB: Universal Serial Bus."},
 {q:"Computer knowledge: Select the correct fact about USB.",o:["Universal Storage Block", "Universal Serial Bus", "User Service Base", "United System Board"],a:1,e:"USB: Universal Serial Bus."},
+
 {q:"Computer knowledge: USB is best associated with which answer?",o:["Universal Storage Block", "Universal Serial Bus", "User Service Base", "United System Board"],a:1,e:"USB: Universal Serial Bus."},
 {q:"Computer knowledge: What is PDF?",o:["Printed Document Form", "Personal Data File", "Program Display Format", "Portable Document Format"],a:3,e:"PDF: Portable Document Format."},
 {q:"Computer knowledge: Which option correctly describes PDF?",o:["Portable Document Format", "Program Display Format", "Printed Document Form", "Personal Data File"],a:0,e:"PDF: Portable Document Format."},
@@ -1684,6 +1656,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: Select the correct fact about LAN.",o:["Long Area Number", "Large Access Node", "Linked Application Network", "Local Area Network"],a:3,e:"LAN: Local Area Network."},
 {q:"Computer knowledge: LAN is best associated with which answer?",o:["Long Area Number", "Large Access Node", "Local Area Network", "Linked Application Network"],a:2,e:"LAN: Local Area Network."},
 {q:"Computer knowledge: What is WAN?",o:["World Analog Network", "Wide Area Network", "Web Application Node", "Wireless Access Number"],a:1,e:"WAN: Wide Area Network."},
+
 {q:"Computer knowledge: Which option correctly describes WAN?",o:["Wireless Access Number", "World Analog Network", "Wide Area Network", "Web Application Node"],a:2,e:"WAN: Wide Area Network."},
 {q:"Computer knowledge: Select the correct fact about WAN.",o:["Web Application Node", "Wireless Access Number", "World Analog Network", "Wide Area Network"],a:3,e:"WAN: Wide Area Network."},
 {q:"Computer knowledge: WAN is best associated with which answer?",o:["Wireless Access Number", "World Analog Network", "Wide Area Network", "Web Application Node"],a:2,e:"WAN: Wide Area Network."},
@@ -1694,6 +1667,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is Operating system?",o:["a spreadsheet formula", "software that manages hardware and applications", "a web search result", "a type of printer cable"],a:1,e:"Operating system: software that manages hardware and applications."},
 {q:"Computer knowledge: Which option correctly describes Operating system?",o:["a spreadsheet formula", "software that manages hardware and applications", "a web search result", "a type of printer cable"],a:1,e:"Operating system: software that manages hardware and applications."},
 {q:"Computer knowledge: Select the correct fact about Operating system.",o:["software that manages hardware and applications", "a type of printer cable", "a spreadsheet formula", "a web search result"],a:0,e:"Operating system: software that manages hardware and applications."},
+
 {q:"Computer knowledge: Operating system is best associated with which answer?",o:["a spreadsheet formula", "software that manages hardware and applications", "a web search result", "a type of printer cable"],a:1,e:"Operating system: software that manages hardware and applications."},
 {q:"Computer knowledge: What is Browser?",o:["software used only to edit videos", "a network cable", "a computer power supply", "software used to access websites"],a:3,e:"Browser: software used to access websites."},
 {q:"Computer knowledge: Which option correctly describes Browser?",o:["software used to access websites", "a computer power supply", "a network cable", "software used only to edit videos"],a:0,e:"Browser: software used to access websites."},
@@ -1704,6 +1678,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: Select the correct fact about Firewall.",o:["a tool for formatting text", "a device for cooling a CPU", "a security system that filters network traffic", "a type of memory chip"],a:2,e:"Firewall: a security system that filters network traffic."},
 {q:"Computer knowledge: Firewall is best associated with which answer?",o:["a security system that filters network traffic", "a type of memory chip", "a tool for formatting text", "a device for cooling a CPU"],a:0,e:"Firewall: a security system that filters network traffic."},
 {q:"Computer knowledge: What is Phishing?",o:["a type of computer display", "a method of backing up files", "a programming loop", "a fraudulent attempt to obtain sensitive information"],a:3,e:"Phishing: a fraudulent attempt to obtain sensitive information."},
+
 {q:"Computer knowledge: Which option correctly describes Phishing?",o:["a programming loop", "a type of computer display", "a fraudulent attempt to obtain sensitive information", "a method of backing up files"],a:2,e:"Phishing: a fraudulent attempt to obtain sensitive information."},
 {q:"Computer knowledge: Select the correct fact about Phishing.",o:["a programming loop", "a fraudulent attempt to obtain sensitive information", "a type of computer display", "a method of backing up files"],a:1,e:"Phishing: a fraudulent attempt to obtain sensitive information."},
 {q:"Computer knowledge: Phishing is best associated with which answer?",o:["a method of backing up files", "a fraudulent attempt to obtain sensitive information", "a type of computer display", "a programming loop"],a:1,e:"Phishing: a fraudulent attempt to obtain sensitive information."},
@@ -1714,6 +1689,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is Backup?",o:["a screen brightness setting", "a separate copy of data for recovery", "a network address", "a permanent deletion method"],a:1,e:"Backup: a separate copy of data for recovery."},
 {q:"Computer knowledge: Which option correctly describes Backup?",o:["a screen brightness setting", "a permanent deletion method", "a network address", "a separate copy of data for recovery"],a:3,e:"Backup: a separate copy of data for recovery."},
 {q:"Computer knowledge: Select the correct fact about Backup.",o:["a permanent deletion method", "a network address", "a screen brightness setting", "a separate copy of data for recovery"],a:3,e:"Backup: a separate copy of data for recovery."},
+
 {q:"Computer knowledge: Backup is best associated with which answer?",o:["a separate copy of data for recovery", "a screen brightness setting", "a permanent deletion method", "a network address"],a:0,e:"Backup: a separate copy of data for recovery."},
 {q:"Computer knowledge: What is Algorithm?",o:["a computer virus", "a physical storage disk", "a monitor connection", "a defined sequence of steps to solve a problem"],a:3,e:"Algorithm: a defined sequence of steps to solve a problem."},
 {q:"Computer knowledge: Which option correctly describes Algorithm?",o:["a monitor connection", "a physical storage disk", "a defined sequence of steps to solve a problem", "a computer virus"],a:2,e:"Algorithm: a defined sequence of steps to solve a problem."},
@@ -1724,6 +1700,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: Select the correct fact about Database.",o:["a type of computer mouse", "a graphics cable", "a device for printing pages", "an organized collection of data"],a:3,e:"Database: an organized collection of data."},
 {q:"Computer knowledge: Database is best associated with which answer?",o:["an organized collection of data", "a type of computer mouse", "a graphics cable", "a device for printing pages"],a:0,e:"Database: an organized collection of data."},
 {q:"Computer knowledge: What is Spreadsheet?",o:["a computer operating system", "a type of scanner", "software for routing network packets", "software for organizing data in rows and columns"],a:3,e:"Spreadsheet: software for organizing data in rows and columns."},
+
 {q:"Computer knowledge: Which option correctly describes Spreadsheet?",o:["a computer operating system", "software for routing network packets", "a type of scanner", "software for organizing data in rows and columns"],a:3,e:"Spreadsheet: software for organizing data in rows and columns."},
 {q:"Computer knowledge: Select the correct fact about Spreadsheet.",o:["a type of scanner", "software for routing network packets", "a computer operating system", "software for organizing data in rows and columns"],a:3,e:"Spreadsheet: software for organizing data in rows and columns."},
 {q:"Computer knowledge: Spreadsheet is best associated with which answer?",o:["a computer operating system", "software for organizing data in rows and columns", "a type of scanner", "software for routing network packets"],a:1,e:"Spreadsheet: software for organizing data in rows and columns."},
@@ -1734,6 +1711,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is Ctrl+C?",o:["the shortcut for Save", "the shortcut for Print", "the shortcut for Paste", "the common shortcut for Copy"],a:3,e:"Ctrl+C: the common shortcut for Copy."},
 {q:"Computer knowledge: Which option correctly describes Ctrl+C?",o:["the shortcut for Paste", "the shortcut for Print", "the shortcut for Save", "the common shortcut for Copy"],a:3,e:"Ctrl+C: the common shortcut for Copy."},
 {q:"Computer knowledge: Select the correct fact about Ctrl+C.",o:["the shortcut for Save", "the common shortcut for Copy", "the shortcut for Print", "the shortcut for Paste"],a:1,e:"Ctrl+C: the common shortcut for Copy."},
+
 {q:"Computer knowledge: Ctrl+C is best associated with which answer?",o:["the common shortcut for Copy", "the shortcut for Paste", "the shortcut for Print", "the shortcut for Save"],a:0,e:"Ctrl+C: the common shortcut for Copy."},
 {q:"Computer knowledge: What is Ctrl+V?",o:["the shortcut for Find", "the shortcut for Undo", "the common shortcut for Paste", "the shortcut for Copy"],a:2,e:"Ctrl+V: the common shortcut for Paste."},
 {q:"Computer knowledge: Which option correctly describes Ctrl+V?",o:["the common shortcut for Paste", "the shortcut for Undo", "the shortcut for Copy", "the shortcut for Find"],a:0,e:"Ctrl+V: the common shortcut for Paste."},
@@ -1744,6 +1722,11 @@ const iqQuestionBank = [
 {q:"Computer knowledge: Select the correct fact about Ctrl+Z.",o:["the shortcut for Redo", "the shortcut for Print", "the shortcut for Select All", "the common shortcut for Undo"],a:3,e:"Ctrl+Z: the common shortcut for Undo."},
 {q:"Computer knowledge: Ctrl+Z is best associated with which answer?",o:["the common shortcut for Undo", "the shortcut for Select All", "the shortcut for Print", "the shortcut for Redo"],a:0,e:"Ctrl+Z: the common shortcut for Undo."},
 {q:"Computer knowledge: What is Ctrl+S?",o:["the shortcut for Paste", "the common shortcut for Save", "the shortcut for Close", "the shortcut for Search"],a:1,e:"Ctrl+S: the common shortcut for Save."},
+
+// ======================================
+//  1,500 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Computer knowledge: Which option correctly describes Ctrl+S?",o:["the shortcut for Search", "the common shortcut for Save", "the shortcut for Paste", "the shortcut for Close"],a:1,e:"Ctrl+S: the common shortcut for Save."},
 {q:"Computer knowledge: Select the correct fact about Ctrl+S.",o:["the shortcut for Paste", "the shortcut for Close", "the shortcut for Search", "the common shortcut for Save"],a:3,e:"Ctrl+S: the common shortcut for Save."},
 {q:"Computer knowledge: Ctrl+S is best associated with which answer?",o:["the shortcut for Search", "the shortcut for Paste", "the common shortcut for Save", "the shortcut for Close"],a:2,e:"Ctrl+S: the common shortcut for Save."},
@@ -1754,6 +1737,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is Pixel?",o:["a unit of computer memory", "a network protocol", "a type of processor", "the smallest addressable element of a digital image"],a:3,e:"Pixel: the smallest addressable element of a digital image."},
 {q:"Computer knowledge: Which option correctly describes Pixel?",o:["a type of processor", "a network protocol", "a unit of computer memory", "the smallest addressable element of a digital image"],a:3,e:"Pixel: the smallest addressable element of a digital image."},
 {q:"Computer knowledge: Select the correct fact about Pixel.",o:["a type of processor", "a unit of computer memory", "a network protocol", "the smallest addressable element of a digital image"],a:3,e:"Pixel: the smallest addressable element of a digital image."},
+
 {q:"Computer knowledge: Pixel is best associated with which answer?",o:["a network protocol", "a type of processor", "the smallest addressable element of a digital image", "a unit of computer memory"],a:2,e:"Pixel: the smallest addressable element of a digital image."},
 {q:"Computer knowledge: What is Byte?",o:["a type of CPU", "a unit of screen brightness", "a unit commonly consisting of eight bits", "a wireless standard"],a:2,e:"Byte: a unit commonly consisting of eight bits."},
 {q:"Computer knowledge: Which option correctly describes Byte?",o:["a unit commonly consisting of eight bits", "a unit of screen brightness", "a wireless standard", "a type of CPU"],a:0,e:"Byte: a unit commonly consisting of eight bits."},
@@ -1764,6 +1748,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: Select the correct fact about Bit.",o:["a computer program", "a binary digit with value 0 or 1", "a storage folder", "a group of eight bytes"],a:1,e:"Bit: a binary digit with value 0 or 1."},
 {q:"Computer knowledge: Bit is best associated with which answer?",o:["a group of eight bytes", "a computer program", "a storage folder", "a binary digit with value 0 or 1"],a:3,e:"Bit: a binary digit with value 0 or 1."},
 {q:"Computer knowledge: What is Cloud computing?",o:["delivery of computing services over a network, often the internet", "a computer cooling method", "storing data only on paper", "a type of monitor"],a:0,e:"Cloud computing: delivery of computing services over a network, often the internet."},
+
 {q:"Computer knowledge: Which option correctly describes Cloud computing?",o:["a computer cooling method", "a type of monitor", "delivery of computing services over a network, often the internet", "storing data only on paper"],a:2,e:"Cloud computing: delivery of computing services over a network, often the internet."},
 {q:"Computer knowledge: Select the correct fact about Cloud computing.",o:["a computer cooling method", "delivery of computing services over a network, often the internet", "storing data only on paper", "a type of monitor"],a:1,e:"Cloud computing: delivery of computing services over a network, often the internet."},
 {q:"Computer knowledge: Cloud computing is best associated with which answer?",o:["storing data only on paper", "a type of monitor", "a computer cooling method", "delivery of computing services over a network, often the internet"],a:3,e:"Cloud computing: delivery of computing services over a network, often the internet."},
@@ -1774,6 +1759,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is Two-factor authentication?",o:["sharing a password publicly", "turning off account security", "using two different verification factors to sign in", "using one short password"],a:2,e:"Two-factor authentication: using two different verification factors to sign in."},
 {q:"Computer knowledge: Which option correctly describes Two-factor authentication?",o:["turning off account security", "using one short password", "using two different verification factors to sign in", "sharing a password publicly"],a:2,e:"Two-factor authentication: using two different verification factors to sign in."},
 {q:"Computer knowledge: Select the correct fact about Two-factor authentication.",o:["sharing a password publicly", "using two different verification factors to sign in", "turning off account security", "using one short password"],a:1,e:"Two-factor authentication: using two different verification factors to sign in."},
+
 {q:"Computer knowledge: Two-factor authentication is best associated with which answer?",o:["using one short password", "sharing a password publicly", "using two different verification factors to sign in", "turning off account security"],a:2,e:"Two-factor authentication: using two different verification factors to sign in."},
 {q:"Computer knowledge: What is Search engine?",o:["a computer power cable", "a device for scanning paper", "a file system", "a service that helps find information on the web"],a:3,e:"Search engine: a service that helps find information on the web."},
 {q:"Computer knowledge: Which option correctly describes Search engine?",o:["a computer power cable", "a service that helps find information on the web", "a device for scanning paper", "a file system"],a:1,e:"Search engine: a service that helps find information on the web."},
@@ -1784,6 +1770,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: Select the correct fact about Modem.",o:["a device that modulates and demodulates signals for communication", "a graphics editing program", "a keyboard switch", "a type of computer memory"],a:0,e:"Modem: a device that modulates and demodulates signals for communication."},
 {q:"Computer knowledge: Modem is best associated with which answer?",o:["a graphics editing program", "a keyboard switch", "a type of computer memory", "a device that modulates and demodulates signals for communication"],a:3,e:"Modem: a device that modulates and demodulates signals for communication."},
 {q:"Computer knowledge: What is Router?",o:["a device that forwards data between networks", "a type of antivirus file", "a device that prints documents", "a computer display"],a:0,e:"Router: a device that forwards data between networks."},
+
 {q:"Computer knowledge: Which option correctly describes Router?",o:["a computer display", "a device that prints documents", "a type of antivirus file", "a device that forwards data between networks"],a:3,e:"Router: a device that forwards data between networks."},
 {q:"Computer knowledge: Select the correct fact about Router.",o:["a type of antivirus file", "a computer display", "a device that prints documents", "a device that forwards data between networks"],a:3,e:"Router: a device that forwards data between networks."},
 {q:"Computer knowledge: Router is best associated with which answer?",o:["a device that prints documents", "a device that forwards data between networks", "a computer display", "a type of antivirus file"],a:1,e:"Router: a device that forwards data between networks."},
@@ -1794,6 +1781,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is Operating system example: Linux?",o:["a spreadsheet program", "a computer port", "a web address", "an operating system"],a:3,e:"Operating system example: Linux: an operating system."},
 {q:"Computer knowledge: Which option correctly describes Operating system example: Linux?",o:["an operating system", "a spreadsheet program", "a web address", "a computer port"],a:0,e:"Operating system example: Linux: an operating system."},
 {q:"Computer knowledge: Select the correct fact about Operating system example: Linux.",o:["an operating system", "a spreadsheet program", "a web address", "a computer port"],a:0,e:"Operating system example: Linux: an operating system."},
+
 {q:"Computer knowledge: Operating system example: Linux is best associated with which answer?",o:["an operating system", "a web address", "a computer port", "a spreadsheet program"],a:0,e:"Operating system example: Linux: an operating system."},
 {q:"Computer knowledge: What is Open-source software?",o:["software that cannot be inspected", "software whose source code is available under a licence permitting use and modification", "software that runs without hardware", "software that is always malware"],a:1,e:"Open-source software: software whose source code is available under a licence permitting use and modification."},
 {q:"Computer knowledge: Which option correctly describes Open-source software?",o:["software that is always malware", "software whose source code is available under a licence permitting use and modification", "software that cannot be inspected", "software that runs without hardware"],a:1,e:"Open-source software: software whose source code is available under a licence permitting use and modification."},
@@ -1804,6 +1792,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: Select the correct fact about Artificial intelligence.",o:["computer systems performing tasks associated with human intelligence", "a type of computer cable", "a printer language", "a physical storage unit"],a:0,e:"Artificial intelligence: computer systems performing tasks associated with human intelligence."},
 {q:"Computer knowledge: Artificial intelligence is best associated with which answer?",o:["a physical storage unit", "a type of computer cable", "a printer language", "computer systems performing tasks associated with human intelligence"],a:3,e:"Artificial intelligence: computer systems performing tasks associated with human intelligence."},
 {q:"Computer knowledge: What is QR code?",o:["a type of audio speaker", "a keyboard shortcut", "a two-dimensional code that stores encoded information", "a computer processor"],a:2,e:"QR code: a two-dimensional code that stores encoded information."},
+
 {q:"Computer knowledge: Which option correctly describes QR code?",o:["a two-dimensional code that stores encoded information", "a keyboard shortcut", "a type of audio speaker", "a computer processor"],a:0,e:"QR code: a two-dimensional code that stores encoded information."},
 {q:"Computer knowledge: Select the correct fact about QR code.",o:["a keyboard shortcut", "a type of audio speaker", "a computer processor", "a two-dimensional code that stores encoded information"],a:3,e:"QR code: a two-dimensional code that stores encoded information."},
 {q:"Computer knowledge: QR code is best associated with which answer?",o:["a two-dimensional code that stores encoded information", "a computer processor", "a type of audio speaker", "a keyboard shortcut"],a:0,e:"QR code: a two-dimensional code that stores encoded information."},
@@ -1814,6 +1803,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is MP3?",o:["a database language", "an image format", "a printer driver", "a digital audio coding format"],a:3,e:"MP3: a digital audio coding format."},
 {q:"Computer knowledge: Which option correctly describes MP3?",o:["a database language", "a printer driver", "an image format", "a digital audio coding format"],a:3,e:"MP3: a digital audio coding format."},
 {q:"Computer knowledge: Select the correct fact about MP3.",o:["a printer driver", "a database language", "a digital audio coding format", "an image format"],a:2,e:"MP3: a digital audio coding format."},
+
 {q:"Computer knowledge: MP3 is best associated with which answer?",o:["an image format", "a digital audio coding format", "a printer driver", "a database language"],a:1,e:"MP3: a digital audio coding format."},
 {q:"Computer knowledge: What is HTTPS?",o:["a computer memory type", "HTTP protected by encryption using TLS", "a spreadsheet format", "a faster type of CPU"],a:1,e:"HTTPS: HTTP protected by encryption using TLS."},
 {q:"Computer knowledge: Which option correctly describes HTTPS?",o:["a computer memory type", "a spreadsheet format", "HTTP protected by encryption using TLS", "a faster type of CPU"],a:2,e:"HTTPS: HTTP protected by encryption using TLS."},
@@ -1824,6 +1814,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: Select the correct fact about GUI.",o:["Graphic Unit Instruction", "Global Utility Input", "Graphical User Interface", "General User Internet"],a:2,e:"GUI: Graphical User Interface."},
 {q:"Computer knowledge: GUI is best associated with which answer?",o:["Global Utility Input", "General User Internet", "Graphic Unit Instruction", "Graphical User Interface"],a:3,e:"GUI: Graphical User Interface."},
 {q:"Computer knowledge: What is BIOS/UEFI?",o:["firmware that initializes hardware and starts the boot process", "a spreadsheet function", "a type of antivirus", "a web search engine"],a:0,e:"BIOS/UEFI: firmware that initializes hardware and starts the boot process."},
+
 {q:"Computer knowledge: Which option correctly describes BIOS/UEFI?",o:["firmware that initializes hardware and starts the boot process", "a spreadsheet function", "a type of antivirus", "a web search engine"],a:0,e:"BIOS/UEFI: firmware that initializes hardware and starts the boot process."},
 {q:"Computer knowledge: Select the correct fact about BIOS/UEFI.",o:["a spreadsheet function", "a type of antivirus", "a web search engine", "firmware that initializes hardware and starts the boot process"],a:3,e:"BIOS/UEFI: firmware that initializes hardware and starts the boot process."},
 {q:"Computer knowledge: BIOS/UEFI is best associated with which answer?",o:["firmware that initializes hardware and starts the boot process", "a web search engine", "a type of antivirus", "a spreadsheet function"],a:0,e:"BIOS/UEFI: firmware that initializes hardware and starts the boot process."},
@@ -1834,6 +1825,7 @@ const iqQuestionBank = [
 {q:"Computer knowledge: What is Recycle Bin?",o:["a location for temporarily deleted files in many desktop systems", "a place to store passwords", "a network firewall", "a processor register"],a:0,e:"Recycle Bin: a location for temporarily deleted files in many desktop systems."},
 {q:"Computer knowledge: Which option correctly describes Recycle Bin?",o:["a processor register", "a place to store passwords", "a network firewall", "a location for temporarily deleted files in many desktop systems"],a:3,e:"Recycle Bin: a location for temporarily deleted files in many desktop systems."},
 {q:"Computer knowledge: Select the correct fact about Recycle Bin.",o:["a place to store passwords", "a network firewall", "a location for temporarily deleted files in many desktop systems", "a processor register"],a:2,e:"Recycle Bin: a location for temporarily deleted files in many desktop systems."},
+
 {q:"Computer knowledge: Recycle Bin is best associated with which answer?",o:["a network firewall", "a processor register", "a location for temporarily deleted files in many desktop systems", "a place to store passwords"],a:2,e:"Recycle Bin: a location for temporarily deleted files in many desktop systems."},
 {q:"Computer knowledge: What is E-mail attachment?",o:["a network password", "a web browser tab", "an email recipient", "a file sent along with an email message"],a:3,e:"E-mail attachment: a file sent along with an email message."},
 {q:"Computer knowledge: Which option correctly describes E-mail attachment?",o:["a file sent along with an email message", "an email recipient", "a web browser tab", "a network password"],a:0,e:"E-mail attachment: a file sent along with an email message."},
@@ -1844,6 +1836,11 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about Capital of Pakistan.",o:["Peshawar", "Karachi", "Islamabad", "Lahore"],a:2,e:"Capital of Pakistan: Islamabad."},
 {q:"Pakistan studies: Capital of Pakistan is best associated with which answer?",o:["Lahore", "Karachi", "Islamabad", "Peshawar"],a:2,e:"Capital of Pakistan: Islamabad."},
 {q:"Pakistan studies: What is National language of Pakistan?",o:["Sindhi", "Urdu", "Punjabi", "Pashto"],a:1,e:"National language of Pakistan: Urdu."},
+
+// ======================================
+//  1,600 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Pakistan studies: Which option correctly describes National language of Pakistan?",o:["Sindhi", "Urdu", "Punjabi", "Pashto"],a:1,e:"National language of Pakistan: Urdu."},
 {q:"Pakistan studies: Select the correct fact about National language of Pakistan.",o:["Punjabi", "Urdu", "Pashto", "Sindhi"],a:1,e:"National language of Pakistan: Urdu."},
 {q:"Pakistan studies: National language of Pakistan is best associated with which answer?",o:["Urdu", "Sindhi", "Punjabi", "Pashto"],a:0,e:"National language of Pakistan: Urdu."},
@@ -1854,6 +1851,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is Pakistan Independence Day?",o:["25 December 1876", "6 September 1965", "14 August 1947", "23 March 1940"],a:2,e:"Pakistan Independence Day: 14 August 1947."},
 {q:"Pakistan studies: Which option correctly describes Pakistan Independence Day?",o:["6 September 1965", "14 August 1947", "25 December 1876", "23 March 1940"],a:1,e:"Pakistan Independence Day: 14 August 1947."},
 {q:"Pakistan studies: Select the correct fact about Pakistan Independence Day.",o:["6 September 1965", "14 August 1947", "23 March 1940", "25 December 1876"],a:1,e:"Pakistan Independence Day: 14 August 1947."},
+
 {q:"Pakistan studies: Pakistan Independence Day is best associated with which answer?",o:["23 March 1940", "6 September 1965", "14 August 1947", "25 December 1876"],a:2,e:"Pakistan Independence Day: 14 August 1947."},
 {q:"Pakistan studies: What is Pakistan Resolution was passed in?",o:["Karachi in 1947", "Lahore in 1940", "Dhaka in 1956", "Islamabad in 1962"],a:1,e:"Pakistan Resolution was passed in: Lahore in 1940."},
 {q:"Pakistan studies: Which option correctly describes Pakistan Resolution was passed in?",o:["Karachi in 1947", "Dhaka in 1956", "Lahore in 1940", "Islamabad in 1962"],a:2,e:"Pakistan Resolution was passed in: Lahore in 1940."},
@@ -1864,6 +1862,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about Pakistan Day.",o:["6 September", "14 August", "25 December", "23 March"],a:3,e:"Pakistan Day: 23 March."},
 {q:"Pakistan studies: Pakistan Day is best associated with which answer?",o:["14 August", "25 December", "6 September", "23 March"],a:3,e:"Pakistan Day: 23 March."},
 {q:"Pakistan studies: What is First Governor-General of Pakistan?",o:["Liaquat Ali Khan", "Iskander Mirza", "Ayub Khan", "Muhammad Ali Jinnah"],a:3,e:"First Governor-General of Pakistan: Muhammad Ali Jinnah."},
+
 {q:"Pakistan studies: Which option correctly describes First Governor-General of Pakistan?",o:["Liaquat Ali Khan", "Iskander Mirza", "Muhammad Ali Jinnah", "Ayub Khan"],a:2,e:"First Governor-General of Pakistan: Muhammad Ali Jinnah."},
 {q:"Pakistan studies: Select the correct fact about First Governor-General of Pakistan.",o:["Liaquat Ali Khan", "Ayub Khan", "Iskander Mirza", "Muhammad Ali Jinnah"],a:3,e:"First Governor-General of Pakistan: Muhammad Ali Jinnah."},
 {q:"Pakistan studies: First Governor-General of Pakistan is best associated with which answer?",o:["Iskander Mirza", "Liaquat Ali Khan", "Muhammad Ali Jinnah", "Ayub Khan"],a:2,e:"First Governor-General of Pakistan: Muhammad Ali Jinnah."},
@@ -1874,6 +1873,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is National poet commonly known as Shair-e-Mashriq?",o:["Faiz Ahmed Faiz", "Hafeez Jalandhari", "Allama Muhammad Iqbal", "Ahmad Faraz"],a:2,e:"National poet commonly known as Shair-e-Mashriq: Allama Muhammad Iqbal."},
 {q:"Pakistan studies: Which option correctly describes National poet commonly known as Shair-e-Mashriq?",o:["Faiz Ahmed Faiz", "Hafeez Jalandhari", "Allama Muhammad Iqbal", "Ahmad Faraz"],a:2,e:"National poet commonly known as Shair-e-Mashriq: Allama Muhammad Iqbal."},
 {q:"Pakistan studies: Select the correct fact about National poet commonly known as Shair-e-Mashriq.",o:["Ahmad Faraz", "Hafeez Jalandhari", "Allama Muhammad Iqbal", "Faiz Ahmed Faiz"],a:2,e:"National poet commonly known as Shair-e-Mashriq: Allama Muhammad Iqbal."},
+
 {q:"Pakistan studies: National poet commonly known as Shair-e-Mashriq is best associated with which answer?",o:["Allama Muhammad Iqbal", "Faiz Ahmed Faiz", "Ahmad Faraz", "Hafeez Jalandhari"],a:0,e:"National poet commonly known as Shair-e-Mashriq: Allama Muhammad Iqbal."},
 {q:"Pakistan studies: What is National animal of Pakistan?",o:["Markhor", "Lion", "Snow leopard", "Chinkara"],a:0,e:"National animal of Pakistan: Markhor."},
 {q:"Pakistan studies: Which option correctly describes National animal of Pakistan?",o:["Lion", "Chinkara", "Snow leopard", "Markhor"],a:3,e:"National animal of Pakistan: Markhor."},
@@ -1884,6 +1884,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about National bird of Pakistan.",o:["Peacock", "Chukar partridge", "Eagle", "Falcon"],a:1,e:"National bird of Pakistan: Chukar partridge."},
 {q:"Pakistan studies: National bird of Pakistan is best associated with which answer?",o:["Falcon", "Peacock", "Chukar partridge", "Eagle"],a:2,e:"National bird of Pakistan: Chukar partridge."},
 {q:"Pakistan studies: What is National flower of Pakistan?",o:["Rose", "Sunflower", "Tulip", "Jasmine"],a:3,e:"National flower of Pakistan: Jasmine."},
+
 {q:"Pakistan studies: Which option correctly describes National flower of Pakistan?",o:["Sunflower", "Jasmine", "Rose", "Tulip"],a:1,e:"National flower of Pakistan: Jasmine."},
 {q:"Pakistan studies: Select the correct fact about National flower of Pakistan.",o:["Jasmine", "Tulip", "Rose", "Sunflower"],a:0,e:"National flower of Pakistan: Jasmine."},
 {q:"Pakistan studies: National flower of Pakistan is best associated with which answer?",o:["Tulip", "Rose", "Jasmine", "Sunflower"],a:2,e:"National flower of Pakistan: Jasmine."},
@@ -1894,6 +1895,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is Largest province of Pakistan by area?",o:["Sindh", "Balochistan", "Khyber Pakhtunkhwa", "Punjab"],a:1,e:"Largest province of Pakistan by area: Balochistan."},
 {q:"Pakistan studies: Which option correctly describes Largest province of Pakistan by area?",o:["Sindh", "Balochistan", "Punjab", "Khyber Pakhtunkhwa"],a:1,e:"Largest province of Pakistan by area: Balochistan."},
 {q:"Pakistan studies: Select the correct fact about Largest province of Pakistan by area.",o:["Sindh", "Balochistan", "Punjab", "Khyber Pakhtunkhwa"],a:1,e:"Largest province of Pakistan by area: Balochistan."},
+
 {q:"Pakistan studies: Largest province of Pakistan by area is best associated with which answer?",o:["Balochistan", "Sindh", "Punjab", "Khyber Pakhtunkhwa"],a:0,e:"Largest province of Pakistan by area: Balochistan."},
 {q:"Pakistan studies: What is Most populous province of Pakistan?",o:["Balochistan", "Sindh", "Punjab", "Khyber Pakhtunkhwa"],a:2,e:"Most populous province of Pakistan: Punjab."},
 {q:"Pakistan studies: Which option correctly describes Most populous province of Pakistan?",o:["Sindh", "Khyber Pakhtunkhwa", "Punjab", "Balochistan"],a:2,e:"Most populous province of Pakistan: Punjab."},
@@ -1904,6 +1906,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about Largest city of Pakistan by population.",o:["Gilgit", "Quetta", "Multan", "Karachi"],a:3,e:"Largest city of Pakistan by population: Karachi."},
 {q:"Pakistan studies: Largest city of Pakistan by population is best associated with which answer?",o:["Karachi", "Quetta", "Gilgit", "Multan"],a:0,e:"Largest city of Pakistan by population: Karachi."},
 {q:"Pakistan studies: What is Highest mountain in Pakistan?",o:["Tirich Mir", "Nanga Parbat", "K2", "Rakaposhi"],a:2,e:"Highest mountain in Pakistan: K2."},
+
 {q:"Pakistan studies: Which option correctly describes Highest mountain in Pakistan?",o:["Nanga Parbat", "Tirich Mir", "K2", "Rakaposhi"],a:2,e:"Highest mountain in Pakistan: K2."},
 {q:"Pakistan studies: Select the correct fact about Highest mountain in Pakistan.",o:["Nanga Parbat", "K2", "Rakaposhi", "Tirich Mir"],a:1,e:"Highest mountain in Pakistan: K2."},
 {q:"Pakistan studies: Highest mountain in Pakistan is best associated with which answer?",o:["Nanga Parbat", "Tirich Mir", "K2", "Rakaposhi"],a:2,e:"Highest mountain in Pakistan: K2."},
@@ -1914,6 +1917,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is National sport traditionally associated with Pakistan?",o:["Cricket", "Squash", "Football", "Field hockey"],a:3,e:"National sport traditionally associated with Pakistan: Field hockey."},
 {q:"Pakistan studies: Which option correctly describes National sport traditionally associated with Pakistan?",o:["Cricket", "Football", "Field hockey", "Squash"],a:2,e:"National sport traditionally associated with Pakistan: Field hockey."},
 {q:"Pakistan studies: Select the correct fact about National sport traditionally associated with Pakistan.",o:["Field hockey", "Football", "Squash", "Cricket"],a:0,e:"National sport traditionally associated with Pakistan: Field hockey."},
+
 {q:"Pakistan studies: National sport traditionally associated with Pakistan is best associated with which answer?",o:["Field hockey", "Cricket", "Football", "Squash"],a:0,e:"National sport traditionally associated with Pakistan: Field hockey."},
 {q:"Pakistan studies: What is Pakistan Standard Time?",o:["UTC+5", "UTC+4", "UTC+6", "UTC+3"],a:0,e:"Pakistan Standard Time: UTC+5."},
 {q:"Pakistan studies: Which option correctly describes Pakistan Standard Time?",o:["UTC+5", "UTC+4", "UTC+6", "UTC+3"],a:0,e:"Pakistan Standard Time: UTC+5."},
@@ -1924,6 +1928,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about Currency of Pakistan.",o:["Afghani", "Riyal", "Pakistani rupee", "Taka"],a:2,e:"Currency of Pakistan: Pakistani rupee."},
 {q:"Pakistan studies: Currency of Pakistan is best associated with which answer?",o:["Riyal", "Afghani", "Pakistani rupee", "Taka"],a:2,e:"Currency of Pakistan: Pakistani rupee."},
 {q:"Pakistan studies: What is State Bank of Pakistan began operations in?",o:["23 March 1956", "14 August 1947", "1 July 1948", "1 January 1950"],a:2,e:"State Bank of Pakistan began operations in: 1 July 1948."},
+
 {q:"Pakistan studies: Which option correctly describes State Bank of Pakistan began operations in?",o:["1 January 1950", "14 August 1947", "1 July 1948", "23 March 1956"],a:2,e:"State Bank of Pakistan began operations in: 1 July 1948."},
 {q:"Pakistan studies: Select the correct fact about State Bank of Pakistan began operations in.",o:["1 January 1950", "23 March 1956", "14 August 1947", "1 July 1948"],a:3,e:"State Bank of Pakistan began operations in: 1 July 1948."},
 {q:"Pakistan studies: State Bank of Pakistan began operations in is best associated with which answer?",o:["14 August 1947", "1 January 1950", "1 July 1948", "23 March 1956"],a:2,e:"State Bank of Pakistan began operations in: 1 July 1948."},
@@ -1934,6 +1939,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is Faisal Mosque is located in?",o:["Lahore", "Hyderabad", "Islamabad", "Peshawar"],a:2,e:"Faisal Mosque is located in: Islamabad."},
 {q:"Pakistan studies: Which option correctly describes Faisal Mosque is located in?",o:["Lahore", "Hyderabad", "Peshawar", "Islamabad"],a:3,e:"Faisal Mosque is located in: Islamabad."},
 {q:"Pakistan studies: Select the correct fact about Faisal Mosque is located in.",o:["Lahore", "Hyderabad", "Peshawar", "Islamabad"],a:3,e:"Faisal Mosque is located in: Islamabad."},
+
 {q:"Pakistan studies: Faisal Mosque is located in is best associated with which answer?",o:["Lahore", "Islamabad", "Hyderabad", "Peshawar"],a:1,e:"Faisal Mosque is located in: Islamabad."},
 {q:"Pakistan studies: What is Mazar-e-Quaid is located in?",o:["Karachi", "Multan", "Lahore", "Islamabad"],a:0,e:"Mazar-e-Quaid is located in: Karachi."},
 {q:"Pakistan studies: Which option correctly describes Mazar-e-Quaid is located in?",o:["Multan", "Islamabad", "Lahore", "Karachi"],a:3,e:"Mazar-e-Quaid is located in: Karachi."},
@@ -1944,6 +1950,11 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about Badshahi Mosque is located in.",o:["Sukkur", "Lahore", "Karachi", "Peshawar"],a:1,e:"Badshahi Mosque is located in: Lahore."},
 {q:"Pakistan studies: Badshahi Mosque is located in is best associated with which answer?",o:["Peshawar", "Sukkur", "Lahore", "Karachi"],a:2,e:"Badshahi Mosque is located in: Lahore."},
 {q:"Pakistan studies: What is Mohenjo-daro is in?",o:["Balochistan", "Punjab", "Sindh", "Gilgit-Baltistan"],a:2,e:"Mohenjo-daro is in: Sindh."},
+
+// ======================================
+//    1,700 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Pakistan studies: Which option correctly describes Mohenjo-daro is in?",o:["Sindh", "Gilgit-Baltistan", "Balochistan", "Punjab"],a:0,e:"Mohenjo-daro is in: Sindh."},
 {q:"Pakistan studies: Select the correct fact about Mohenjo-daro is in.",o:["Balochistan", "Punjab", "Sindh", "Gilgit-Baltistan"],a:2,e:"Mohenjo-daro is in: Sindh."},
 {q:"Pakistan studies: Mohenjo-daro is in is best associated with which answer?",o:["Punjab", "Balochistan", "Sindh", "Gilgit-Baltistan"],a:2,e:"Mohenjo-daro is in: Sindh."},
@@ -1954,6 +1965,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is Gwadar Port is in?",o:["Balochistan", "Sindh", "Khyber Pakhtunkhwa", "Punjab"],a:0,e:"Gwadar Port is in: Balochistan."},
 {q:"Pakistan studies: Which option correctly describes Gwadar Port is in?",o:["Punjab", "Sindh", "Khyber Pakhtunkhwa", "Balochistan"],a:3,e:"Gwadar Port is in: Balochistan."},
 {q:"Pakistan studies: Select the correct fact about Gwadar Port is in.",o:["Sindh", "Punjab", "Khyber Pakhtunkhwa", "Balochistan"],a:3,e:"Gwadar Port is in: Balochistan."},
+
 {q:"Pakistan studies: Gwadar Port is in is best associated with which answer?",o:["Balochistan", "Punjab", "Khyber Pakhtunkhwa", "Sindh"],a:0,e:"Gwadar Port is in: Balochistan."},
 {q:"Pakistan studies: What is Khyber Pass connects Pakistan with?",o:["India", "Iran", "China", "Afghanistan"],a:3,e:"Khyber Pass connects Pakistan with: Afghanistan."},
 {q:"Pakistan studies: Which option correctly describes Khyber Pass connects Pakistan with?",o:["Iran", "China", "Afghanistan", "India"],a:2,e:"Khyber Pass connects Pakistan with: Afghanistan."},
@@ -1964,6 +1976,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about Karakoram Highway links Pakistan with.",o:["Iran", "Nepal", "Oman", "China"],a:3,e:"Karakoram Highway links Pakistan with: China."},
 {q:"Pakistan studies: Karakoram Highway links Pakistan with is best associated with which answer?",o:["Oman", "China", "Nepal", "Iran"],a:1,e:"Karakoram Highway links Pakistan with: China."},
 {q:"Pakistan studies: What is Pakistan shares a border with China?",o:["only in the west", "in the north/northeast", "only in the east", "only in the south"],a:1,e:"Pakistan shares a border with China: in the north/northeast."},
+
 {q:"Pakistan studies: Which option correctly describes Pakistan shares a border with China?",o:["in the north/northeast", "only in the east", "only in the south", "only in the west"],a:0,e:"Pakistan shares a border with China: in the north/northeast."},
 {q:"Pakistan studies: Select the correct fact about Pakistan shares a border with China.",o:["only in the east", "only in the south", "in the north/northeast", "only in the west"],a:2,e:"Pakistan shares a border with China: in the north/northeast."},
 {q:"Pakistan studies: Pakistan shares a border with China is best associated with which answer?",o:["only in the east", "only in the south", "in the north/northeast", "only in the west"],a:2,e:"Pakistan shares a border with China: in the north/northeast."},
@@ -1974,6 +1987,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is Pakistan’s first constitution was adopted in?",o:["1973", "1962", "1956", "1947"],a:2,e:"Pakistan’s first constitution was adopted in: 1956."},
 {q:"Pakistan studies: Which option correctly describes Pakistan’s first constitution was adopted in?",o:["1962", "1947", "1956", "1973"],a:2,e:"Pakistan’s first constitution was adopted in: 1956."},
 {q:"Pakistan studies: Select the correct fact about Pakistan’s first constitution was adopted in.",o:["1962", "1956", "1973", "1947"],a:1,e:"Pakistan’s first constitution was adopted in: 1956."},
+
 {q:"Pakistan studies: Pakistan’s first constitution was adopted in is best associated with which answer?",o:["1973", "1956", "1947", "1962"],a:1,e:"Pakistan’s first constitution was adopted in: 1956."},
 {q:"Pakistan studies: What is Current constitution of Pakistan was adopted in?",o:["1962", "1985", "1973", "1956"],a:2,e:"Current constitution of Pakistan was adopted in: 1973."},
 {q:"Pakistan studies: Which option correctly describes Current constitution of Pakistan was adopted in?",o:["1973", "1985", "1962", "1956"],a:0,e:"Current constitution of Pakistan was adopted in: 1973."},
@@ -1984,6 +1998,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about The national anthem lyrics were written by.",o:["Faiz Ahmed Faiz", "Allama Iqbal", "Hafeez Jalandhari", "Josh Malihabadi"],a:2,e:"The national anthem lyrics were written by: Hafeez Jalandhari."},
 {q:"Pakistan studies: The national anthem lyrics were written by is best associated with which answer?",o:["Josh Malihabadi", "Hafeez Jalandhari", "Allama Iqbal", "Faiz Ahmed Faiz"],a:1,e:"The national anthem lyrics were written by: Hafeez Jalandhari."},
 {q:"Pakistan studies: What is The national anthem music was composed by?",o:["Nisar Bazmi", "Ahmad G. Chagla", "Nusrat Fateh Ali Khan", "Rahat Fateh Ali Khan"],a:1,e:"The national anthem music was composed by: Ahmad G. Chagla."},
+
 {q:"Pakistan studies: Which option correctly describes The national anthem music was composed by?",o:["Rahat Fateh Ali Khan", "Ahmad G. Chagla", "Nusrat Fateh Ali Khan", "Nisar Bazmi"],a:1,e:"The national anthem music was composed by: Ahmad G. Chagla."},
 {q:"Pakistan studies: Select the correct fact about The national anthem music was composed by.",o:["Ahmad G. Chagla", "Rahat Fateh Ali Khan", "Nusrat Fateh Ali Khan", "Nisar Bazmi"],a:0,e:"The national anthem music was composed by: Ahmad G. Chagla."},
 {q:"Pakistan studies: The national anthem music was composed by is best associated with which answer?",o:["Ahmad G. Chagla", "Nusrat Fateh Ali Khan", "Rahat Fateh Ali Khan", "Nisar Bazmi"],a:0,e:"The national anthem music was composed by: Ahmad G. Chagla."},
@@ -1994,6 +2009,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is The 1965 Defence Day is observed on?",o:["25 December", "6 September", "14 August", "23 March"],a:1,e:"The 1965 Defence Day is observed on: 6 September."},
 {q:"Pakistan studies: Which option correctly describes The 1965 Defence Day is observed on?",o:["6 September", "25 December", "14 August", "23 March"],a:0,e:"The 1965 Defence Day is observed on: 6 September."},
 {q:"Pakistan studies: Select the correct fact about The 1965 Defence Day is observed on.",o:["14 August", "6 September", "23 March", "25 December"],a:1,e:"The 1965 Defence Day is observed on: 6 September."},
+
 {q:"Pakistan studies: The 1965 Defence Day is observed on is best associated with which answer?",o:["14 August", "23 March", "25 December", "6 September"],a:3,e:"The 1965 Defence Day is observed on: 6 September."},
 {q:"Pakistan studies: What is Youm-e-Takbeer is observed on?",o:["6 September", "23 March", "28 May", "14 August"],a:2,e:"Youm-e-Takbeer is observed on: 28 May."},
 {q:"Pakistan studies: Which option correctly describes Youm-e-Takbeer is observed on?",o:["23 March", "28 May", "14 August", "6 September"],a:1,e:"Youm-e-Takbeer is observed on: 28 May."},
@@ -2004,6 +2020,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about Pakistan conducted nuclear tests in.",o:["1974", "2001", "1985", "1998"],a:3,e:"Pakistan conducted nuclear tests in: 1998."},
 {q:"Pakistan studies: Pakistan conducted nuclear tests in is best associated with which answer?",o:["1985", "2001", "1974", "1998"],a:3,e:"Pakistan conducted nuclear tests in: 1998."},
 {q:"Pakistan studies: What is Allama Iqbal was born in?",o:["Lahore", "Karachi", "Peshawar", "Sialkot"],a:3,e:"Allama Iqbal was born in: Sialkot."},
+
 {q:"Pakistan studies: Which option correctly describes Allama Iqbal was born in?",o:["Lahore", "Sialkot", "Peshawar", "Karachi"],a:1,e:"Allama Iqbal was born in: Sialkot."},
 {q:"Pakistan studies: Select the correct fact about Allama Iqbal was born in.",o:["Peshawar", "Lahore", "Sialkot", "Karachi"],a:2,e:"Allama Iqbal was born in: Sialkot."},
 {q:"Pakistan studies: Allama Iqbal was born in is best associated with which answer?",o:["Peshawar", "Sialkot", "Lahore", "Karachi"],a:1,e:"Allama Iqbal was born in: Sialkot."},
@@ -2014,6 +2031,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is The Indus Waters Treaty was signed in?",o:["1960", "1973", "1947", "1956"],a:0,e:"The Indus Waters Treaty was signed in: 1960."},
 {q:"Pakistan studies: Which option correctly describes The Indus Waters Treaty was signed in?",o:["1947", "1960", "1973", "1956"],a:1,e:"The Indus Waters Treaty was signed in: 1960."},
 {q:"Pakistan studies: Select the correct fact about The Indus Waters Treaty was signed in.",o:["1973", "1960", "1956", "1947"],a:1,e:"The Indus Waters Treaty was signed in: 1960."},
+
 {q:"Pakistan studies: The Indus Waters Treaty was signed in is best associated with which answer?",o:["1960", "1973", "1947", "1956"],a:0,e:"The Indus Waters Treaty was signed in: 1960."},
 {q:"Pakistan studies: What is The largest desert in Pakistan commonly identified is?",o:["Cholistan only", "Kharan Desert", "Thar Desert", "Katpana Desert"],a:2,e:"The largest desert in Pakistan commonly identified is: Thar Desert."},
 {q:"Pakistan studies: Which option correctly describes The largest desert in Pakistan commonly identified is?",o:["Katpana Desert", "Thar Desert", "Cholistan only", "Kharan Desert"],a:1,e:"The largest desert in Pakistan commonly identified is: Thar Desert."},
@@ -2024,6 +2042,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: Select the correct fact about The Siachen Glacier is in the.",o:["Karakoram range", "Salt Range", "Kirthar Range", "Sulaiman Range"],a:0,e:"The Siachen Glacier is in the: Karakoram range."},
 {q:"Pakistan studies: The Siachen Glacier is in the is best associated with which answer?",o:["Karakoram range", "Sulaiman Range", "Salt Range", "Kirthar Range"],a:0,e:"The Siachen Glacier is in the: Karakoram range."},
 {q:"Pakistan studies: What is The Parliament of Pakistan is located in?",o:["Islamabad", "Quetta", "Lahore", "Karachi"],a:0,e:"The Parliament of Pakistan is located in: Islamabad."},
+
 {q:"Pakistan studies: Which option correctly describes The Parliament of Pakistan is located in?",o:["Karachi", "Islamabad", "Lahore", "Quetta"],a:1,e:"The Parliament of Pakistan is located in: Islamabad."},
 {q:"Pakistan studies: Select the correct fact about The Parliament of Pakistan is located in.",o:["Lahore", "Islamabad", "Quetta", "Karachi"],a:1,e:"The Parliament of Pakistan is located in: Islamabad."},
 {q:"Pakistan studies: The Parliament of Pakistan is located in is best associated with which answer?",o:["Lahore", "Quetta", "Karachi", "Islamabad"],a:3,e:"The Parliament of Pakistan is located in: Islamabad."},
@@ -2034,6 +2053,7 @@ const iqQuestionBank = [
 {q:"Pakistan studies: What is The upper house of Pakistan’s Parliament is the?",o:["Senate", "Cabinet", "Provincial Assembly", "National Assembly"],a:0,e:"The upper house of Pakistan’s Parliament is the: Senate."},
 {q:"Pakistan studies: Which option correctly describes The upper house of Pakistan’s Parliament is the?",o:["Senate", "Cabinet", "National Assembly", "Provincial Assembly"],a:0,e:"The upper house of Pakistan’s Parliament is the: Senate."},
 {q:"Pakistan studies: Select the correct fact about The upper house of Pakistan’s Parliament is the.",o:["National Assembly", "Senate", "Provincial Assembly", "Cabinet"],a:1,e:"The upper house of Pakistan’s Parliament is the: Senate."},
+
 {q:"Pakistan studies: The upper house of Pakistan’s Parliament is the is best associated with which answer?",o:["Cabinet", "Provincial Assembly", "Senate", "National Assembly"],a:2,e:"The upper house of Pakistan’s Parliament is the: Senate."},
 {q:"Laboratory knowledge: What is CBC?",o:["Clinical Blood Chemistry", "Cellular Biopsy Count", "Coagulation Blood Check", "Complete Blood Count"],a:3,e:"CBC: Complete Blood Count."},
 {q:"Laboratory knowledge: Which option correctly describes CBC?",o:["Complete Blood Count", "Cellular Biopsy Count", "Clinical Blood Chemistry", "Coagulation Blood Check"],a:0,e:"CBC: Complete Blood Count."},
@@ -2044,6 +2064,11 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about ESR.",o:["Erythrocyte Sugar Ratio", "Estimated Serum Reaction", "Erythrocyte Sedimentation Rate", "Enzyme Sedimentation Reading"],a:2,e:"ESR: Erythrocyte Sedimentation Rate."},
 {q:"Laboratory knowledge: ESR is best associated with which answer?",o:["Erythrocyte Sedimentation Rate", "Enzyme Sedimentation Reading", "Erythrocyte Sugar Ratio", "Estimated Serum Reaction"],a:0,e:"ESR: Erythrocyte Sedimentation Rate."},
 {q:"Laboratory knowledge: What is CRP?",o:["Complete Red-cell Panel", "Creatinine Renal Profile", "C-reactive protein", "Clotting Response Protein"],a:2,e:"CRP: C-reactive protein."},
+
+// ======================================
+//  1,800 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Laboratory knowledge: Which option correctly describes CRP?",o:["Clotting Response Protein", "Creatinine Renal Profile", "Complete Red-cell Panel", "C-reactive protein"],a:3,e:"CRP: C-reactive protein."},
 {q:"Laboratory knowledge: Select the correct fact about CRP.",o:["Complete Red-cell Panel", "C-reactive protein", "Creatinine Renal Profile", "Clotting Response Protein"],a:1,e:"CRP: C-reactive protein."},
 {q:"Laboratory knowledge: CRP is best associated with which answer?",o:["C-reactive protein", "Clotting Response Protein", "Creatinine Renal Profile", "Complete Red-cell Panel"],a:0,e:"CRP: C-reactive protein."},
@@ -2054,6 +2079,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is APTT?",o:["Arterial Partial Pressure Test", "Activated Partial Thromboplastin Time", "Absolute Plasma Thrombin Titre", "Activated Platelet Protein Test"],a:1,e:"APTT: Activated Partial Thromboplastin Time."},
 {q:"Laboratory knowledge: Which option correctly describes APTT?",o:["Activated Platelet Protein Test", "Activated Partial Thromboplastin Time", "Arterial Partial Pressure Test", "Absolute Plasma Thrombin Titre"],a:1,e:"APTT: Activated Partial Thromboplastin Time."},
 {q:"Laboratory knowledge: Select the correct fact about APTT.",o:["Arterial Partial Pressure Test", "Activated Partial Thromboplastin Time", "Activated Platelet Protein Test", "Absolute Plasma Thrombin Titre"],a:1,e:"APTT: Activated Partial Thromboplastin Time."},
+
 {q:"Laboratory knowledge: APTT is best associated with which answer?",o:["Absolute Plasma Thrombin Titre", "Activated Partial Thromboplastin Time", "Arterial Partial Pressure Test", "Activated Platelet Protein Test"],a:1,e:"APTT: Activated Partial Thromboplastin Time."},
 {q:"Laboratory knowledge: What is INR?",o:["Iron Normal Ratio", "International Neuron Range", "International Normalized Ratio", "Internal Neutrophil Reading"],a:2,e:"INR: International Normalized Ratio."},
 {q:"Laboratory knowledge: Which option correctly describes INR?",o:["Internal Neutrophil Reading", "International Normalized Ratio", "Iron Normal Ratio", "International Neuron Range"],a:1,e:"INR: International Normalized Ratio."},
@@ -2064,6 +2090,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about HbA1c.",o:["a platelet count", "a direct measurement of insulin", "a test of kidney filtration", "a measure of glycated haemoglobin reflecting average glucose over roughly 2–3 months"],a:3,e:"HbA1c: a measure of glycated haemoglobin reflecting average glucose over roughly 2–3 months."},
 {q:"Laboratory knowledge: HbA1c is best associated with which answer?",o:["a test of kidney filtration", "a direct measurement of insulin", "a platelet count", "a measure of glycated haemoglobin reflecting average glucose over roughly 2–3 months"],a:3,e:"HbA1c: a measure of glycated haemoglobin reflecting average glucose over roughly 2–3 months."},
 {q:"Laboratory knowledge: What is ALT?",o:["Aspartate Lipase Test", "Alanine Aminotransferase", "Albumin Level Test", "Activated Leukocyte Titre"],a:1,e:"ALT: Alanine Aminotransferase."},
+
 {q:"Laboratory knowledge: Which option correctly describes ALT?",o:["Aspartate Lipase Test", "Albumin Level Test", "Alanine Aminotransferase", "Activated Leukocyte Titre"],a:2,e:"ALT: Alanine Aminotransferase."},
 {q:"Laboratory knowledge: Select the correct fact about ALT.",o:["Albumin Level Test", "Activated Leukocyte Titre", "Aspartate Lipase Test", "Alanine Aminotransferase"],a:3,e:"ALT: Alanine Aminotransferase."},
 {q:"Laboratory knowledge: ALT is best associated with which answer?",o:["Alanine Aminotransferase", "Albumin Level Test", "Activated Leukocyte Titre", "Aspartate Lipase Test"],a:0,e:"ALT: Alanine Aminotransferase."},
@@ -2074,6 +2101,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is ALP?",o:["Activated Liver Protein", "Absolute Leukocyte Percentage", "Alkaline Phosphatase", "Albumin Lipid Profile"],a:2,e:"ALP: Alkaline Phosphatase."},
 {q:"Laboratory knowledge: Which option correctly describes ALP?",o:["Activated Liver Protein", "Albumin Lipid Profile", "Absolute Leukocyte Percentage", "Alkaline Phosphatase"],a:3,e:"ALP: Alkaline Phosphatase."},
 {q:"Laboratory knowledge: Select the correct fact about ALP.",o:["Albumin Lipid Profile", "Activated Liver Protein", "Absolute Leukocyte Percentage", "Alkaline Phosphatase"],a:3,e:"ALP: Alkaline Phosphatase."},
+
 {q:"Laboratory knowledge: ALP is best associated with which answer?",o:["Alkaline Phosphatase", "Absolute Leukocyte Percentage", "Albumin Lipid Profile", "Activated Liver Protein"],a:0,e:"ALP: Alkaline Phosphatase."},
 {q:"Laboratory knowledge: What is Bilirubin?",o:["a platelet fragment", "a pancreatic hormone", "a kidney filtration protein", "a yellow pigment formed during haem breakdown"],a:3,e:"Bilirubin: a yellow pigment formed during haem breakdown."},
 {q:"Laboratory knowledge: Which option correctly describes Bilirubin?",o:["a pancreatic hormone", "a kidney filtration protein", "a yellow pigment formed during haem breakdown", "a platelet fragment"],a:2,e:"Bilirubin: a yellow pigment formed during haem breakdown."},
@@ -2084,6 +2112,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about Creatinine.",o:["a waste product used to help assess kidney filtration", "a thyroid hormone", "a liver clotting factor", "a white-cell pigment"],a:0,e:"Creatinine: a waste product used to help assess kidney filtration."},
 {q:"Laboratory knowledge: Creatinine is best associated with which answer?",o:["a thyroid hormone", "a white-cell pigment", "a liver clotting factor", "a waste product used to help assess kidney filtration"],a:3,e:"Creatinine: a waste product used to help assess kidney filtration."},
 {q:"Laboratory knowledge: What is Urea?",o:["a clotting cell", "a pancreatic enzyme", "a red-cell protein", "a nitrogenous waste product formed in the liver and excreted by kidneys"],a:3,e:"Urea: a nitrogenous waste product formed in the liver and excreted by kidneys."},
+
 {q:"Laboratory knowledge: Which option correctly describes Urea?",o:["a red-cell protein", "a pancreatic enzyme", "a nitrogenous waste product formed in the liver and excreted by kidneys", "a clotting cell"],a:2,e:"Urea: a nitrogenous waste product formed in the liver and excreted by kidneys."},
 {q:"Laboratory knowledge: Select the correct fact about Urea.",o:["a nitrogenous waste product formed in the liver and excreted by kidneys", "a pancreatic enzyme", "a clotting cell", "a red-cell protein"],a:0,e:"Urea: a nitrogenous waste product formed in the liver and excreted by kidneys."},
 {q:"Laboratory knowledge: Urea is best associated with which answer?",o:["a nitrogenous waste product formed in the liver and excreted by kidneys", "a red-cell protein", "a clotting cell", "a pancreatic enzyme"],a:0,e:"Urea: a nitrogenous waste product formed in the liver and excreted by kidneys."},
@@ -2094,6 +2123,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is Troponin?",o:["a biomarker used to assess myocardial injury", "a kidney filtration marker", "a liver bile pigment", "a red-cell index"],a:0,e:"Troponin: a biomarker used to assess myocardial injury."},
 {q:"Laboratory knowledge: Which option correctly describes Troponin?",o:["a biomarker used to assess myocardial injury", "a liver bile pigment", "a kidney filtration marker", "a red-cell index"],a:0,e:"Troponin: a biomarker used to assess myocardial injury."},
 {q:"Laboratory knowledge: Select the correct fact about Troponin.",o:["a biomarker used to assess myocardial injury", "a kidney filtration marker", "a red-cell index", "a liver bile pigment"],a:0,e:"Troponin: a biomarker used to assess myocardial injury."},
+
 {q:"Laboratory knowledge: Troponin is best associated with which answer?",o:["a liver bile pigment", "a biomarker used to assess myocardial injury", "a red-cell index", "a kidney filtration marker"],a:1,e:"Troponin: a biomarker used to assess myocardial injury."},
 {q:"Laboratory knowledge: What is D-dimer?",o:["a thyroid hormone", "a liver enzyme", "a fibrin degradation product used in selected clot evaluation pathways", "a red-cell antibody"],a:2,e:"D-dimer: a fibrin degradation product used in selected clot evaluation pathways."},
 {q:"Laboratory knowledge: Which option correctly describes D-dimer?",o:["a liver enzyme", "a thyroid hormone", "a red-cell antibody", "a fibrin degradation product used in selected clot evaluation pathways"],a:3,e:"D-dimer: a fibrin degradation product used in selected clot evaluation pathways."},
@@ -2104,6 +2134,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about Fibrinogen.",o:["a red-cell membrane protein", "coagulation factor I, converted to fibrin during clot formation", "a platelet hormone", "coagulation factor VIII"],a:1,e:"Fibrinogen: coagulation factor I, converted to fibrin during clot formation."},
 {q:"Laboratory knowledge: Fibrinogen is best associated with which answer?",o:["a platelet hormone", "coagulation factor I, converted to fibrin during clot formation", "coagulation factor VIII", "a red-cell membrane protein"],a:1,e:"Fibrinogen: coagulation factor I, converted to fibrin during clot formation."},
 {q:"Laboratory knowledge: What is Reticulocyte?",o:["an immature red blood cell", "a plasma protein", "a mature neutrophil", "a platelet precursor"],a:0,e:"Reticulocyte: an immature red blood cell."},
+
 {q:"Laboratory knowledge: Which option correctly describes Reticulocyte?",o:["a plasma protein", "a mature neutrophil", "an immature red blood cell", "a platelet precursor"],a:2,e:"Reticulocyte: an immature red blood cell."},
 {q:"Laboratory knowledge: Select the correct fact about Reticulocyte.",o:["an immature red blood cell", "a mature neutrophil", "a plasma protein", "a platelet precursor"],a:0,e:"Reticulocyte: an immature red blood cell."},
 {q:"Laboratory knowledge: Reticulocyte is best associated with which answer?",o:["a plasma protein", "an immature red blood cell", "a mature neutrophil", "a platelet precursor"],a:1,e:"Reticulocyte: an immature red blood cell."},
@@ -2114,6 +2145,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is MCH?",o:["mean clotting time", "maximum haemoglobin concentration", "mean cell height", "mean corpuscular haemoglobin, the average haemoglobin amount per red cell"],a:3,e:"MCH: mean corpuscular haemoglobin, the average haemoglobin amount per red cell."},
 {q:"Laboratory knowledge: Which option correctly describes MCH?",o:["mean clotting time", "mean corpuscular haemoglobin, the average haemoglobin amount per red cell", "mean cell height", "maximum haemoglobin concentration"],a:1,e:"MCH: mean corpuscular haemoglobin, the average haemoglobin amount per red cell."},
 {q:"Laboratory knowledge: Select the correct fact about MCH.",o:["mean cell height", "mean corpuscular haemoglobin, the average haemoglobin amount per red cell", "maximum haemoglobin concentration", "mean clotting time"],a:1,e:"MCH: mean corpuscular haemoglobin, the average haemoglobin amount per red cell."},
+
 {q:"Laboratory knowledge: MCH is best associated with which answer?",o:["mean cell height", "mean corpuscular haemoglobin, the average haemoglobin amount per red cell", "mean clotting time", "maximum haemoglobin concentration"],a:1,e:"MCH: mean corpuscular haemoglobin, the average haemoglobin amount per red cell."},
 {q:"Laboratory knowledge: What is MCHC?",o:["mean calcium haemoglobin", "mean cell count per hour", "mean corpuscular haemoglobin concentration", "maximum clotting capacity"],a:2,e:"MCHC: mean corpuscular haemoglobin concentration."},
 {q:"Laboratory knowledge: Which option correctly describes MCHC?",o:["mean calcium haemoglobin", "mean corpuscular haemoglobin concentration", "maximum clotting capacity", "mean cell count per hour"],a:1,e:"MCHC: mean corpuscular haemoglobin concentration."},
@@ -2124,6 +2156,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about RDW.",o:["a kidney filtration rate", "a measure of white-cell function", "a measure of variation in red-cell size", "a platelet clotting time"],a:2,e:"RDW: a measure of variation in red-cell size."},
 {q:"Laboratory knowledge: RDW is best associated with which answer?",o:["a kidney filtration rate", "a platelet clotting time", "a measure of white-cell function", "a measure of variation in red-cell size"],a:3,e:"RDW: a measure of variation in red-cell size."},
 {q:"Laboratory knowledge: What is WBC?",o:["white bilirubin concentration", "white blood cell count", "weak blood coagulation", "whole blood calcium"],a:1,e:"WBC: white blood cell count."},
+
 {q:"Laboratory knowledge: Which option correctly describes WBC?",o:["whole blood calcium", "weak blood coagulation", "white blood cell count", "white bilirubin concentration"],a:2,e:"WBC: white blood cell count."},
 {q:"Laboratory knowledge: Select the correct fact about WBC.",o:["white bilirubin concentration", "whole blood calcium", "weak blood coagulation", "white blood cell count"],a:3,e:"WBC: white blood cell count."},
 {q:"Laboratory knowledge: WBC is best associated with which answer?",o:["white blood cell count", "white bilirubin concentration", "weak blood coagulation", "whole blood calcium"],a:0,e:"WBC: white blood cell count."},
@@ -2134,6 +2167,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is HCT?",o:["heart clotting time", "haemoglobin concentration test", "hepatic cell titre", "haematocrit, the proportion of blood volume occupied by red cells"],a:3,e:"HCT: haematocrit, the proportion of blood volume occupied by red cells."},
 {q:"Laboratory knowledge: Which option correctly describes HCT?",o:["heart clotting time", "haemoglobin concentration test", "hepatic cell titre", "haematocrit, the proportion of blood volume occupied by red cells"],a:3,e:"HCT: haematocrit, the proportion of blood volume occupied by red cells."},
 {q:"Laboratory knowledge: Select the correct fact about HCT.",o:["heart clotting time", "haematocrit, the proportion of blood volume occupied by red cells", "hepatic cell titre", "haemoglobin concentration test"],a:1,e:"HCT: haematocrit, the proportion of blood volume occupied by red cells."},
+
 {q:"Laboratory knowledge: HCT is best associated with which answer?",o:["heart clotting time", "haematocrit, the proportion of blood volume occupied by red cells", "hepatic cell titre", "haemoglobin concentration test"],a:1,e:"HCT: haematocrit, the proportion of blood volume occupied by red cells."},
 {q:"Laboratory knowledge: What is Urine dipstick?",o:["a tissue staining technique", "a rapid chemical screening method for urine", "a blood culture method", "a platelet aggregation test"],a:1,e:"Urine dipstick: a rapid chemical screening method for urine."},
 {q:"Laboratory knowledge: Which option correctly describes Urine dipstick?",o:["a rapid chemical screening method for urine", "a blood culture method", "a platelet aggregation test", "a tissue staining technique"],a:0,e:"Urine dipstick: a rapid chemical screening method for urine."},
@@ -2144,6 +2178,11 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about Urine culture.",o:["a kidney imaging method", "a test to grow and identify microorganisms in urine", "a blood clotting test", "a test of urine colour only"],a:1,e:"Urine culture: a test to grow and identify microorganisms in urine."},
 {q:"Laboratory knowledge: Urine culture is best associated with which answer?",o:["a test to grow and identify microorganisms in urine", "a test of urine colour only", "a kidney imaging method", "a blood clotting test"],a:0,e:"Urine culture: a test to grow and identify microorganisms in urine."},
 {q:"Laboratory knowledge: What is Blood culture?",o:["a platelet count", "a test used to detect microorganisms in blood", "a urine concentration test", "a test measuring haemoglobin only"],a:1,e:"Blood culture: a test used to detect microorganisms in blood."},
+
+// ======================================
+//  1,900 QUESTIONS  COMPLETE HERE.
+// ======================================
+
 {q:"Laboratory knowledge: Which option correctly describes Blood culture?",o:["a test measuring haemoglobin only", "a urine concentration test", "a platelet count", "a test used to detect microorganisms in blood"],a:3,e:"Blood culture: a test used to detect microorganisms in blood."},
 {q:"Laboratory knowledge: Select the correct fact about Blood culture.",o:["a platelet count", "a test measuring haemoglobin only", "a test used to detect microorganisms in blood", "a urine concentration test"],a:2,e:"Blood culture: a test used to detect microorganisms in blood."},
 {q:"Laboratory knowledge: Blood culture is best associated with which answer?",o:["a test measuring haemoglobin only", "a platelet count", "a test used to detect microorganisms in blood", "a urine concentration test"],a:2,e:"Blood culture: a test used to detect microorganisms in blood."},
@@ -2154,6 +2193,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is Leishman stain?",o:["a Romanowsky-type stain used for peripheral blood films", "a urine dipstick reagent", "a special stain for kidney biopsy only", "a bacterial culture medium"],a:0,e:"Leishman stain: a Romanowsky-type stain used for peripheral blood films."},
 {q:"Laboratory knowledge: Which option correctly describes Leishman stain?",o:["a bacterial culture medium", "a special stain for kidney biopsy only", "a Romanowsky-type stain used for peripheral blood films", "a urine dipstick reagent"],a:2,e:"Leishman stain: a Romanowsky-type stain used for peripheral blood films."},
 {q:"Laboratory knowledge: Select the correct fact about Leishman stain.",o:["a urine dipstick reagent", "a Romanowsky-type stain used for peripheral blood films", "a bacterial culture medium", "a special stain for kidney biopsy only"],a:1,e:"Leishman stain: a Romanowsky-type stain used for peripheral blood films."},
+
 {q:"Laboratory knowledge: Leishman stain is best associated with which answer?",o:["a bacterial culture medium", "a urine dipstick reagent", "a special stain for kidney biopsy only", "a Romanowsky-type stain used for peripheral blood films"],a:3,e:"Leishman stain: a Romanowsky-type stain used for peripheral blood films."},
 {q:"Laboratory knowledge: What is EDTA tube?",o:["a tube containing fluoride only", "a sterile culture bottle", "a commonly used anticoagulant tube for CBC specimens", "a tube containing clot activator for serum"],a:2,e:"EDTA tube: a commonly used anticoagulant tube for CBC specimens."},
 {q:"Laboratory knowledge: Which option correctly describes EDTA tube?",o:["a tube containing clot activator for serum", "a tube containing fluoride only", "a sterile culture bottle", "a commonly used anticoagulant tube for CBC specimens"],a:3,e:"EDTA tube: a commonly used anticoagulant tube for CBC specimens."},
@@ -2164,6 +2204,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about Sodium citrate tube.",o:["an anticoagulant tube commonly used for coagulation tests", "a urine container", "a plain serum tube", "a tube used only for blood glucose"],a:0,e:"Sodium citrate tube: an anticoagulant tube commonly used for coagulation tests."},
 {q:"Laboratory knowledge: Sodium citrate tube is best associated with which answer?",o:["a plain serum tube", "a tube used only for blood glucose", "an anticoagulant tube commonly used for coagulation tests", "a urine container"],a:2,e:"Sodium citrate tube: an anticoagulant tube commonly used for coagulation tests."},
 {q:"Laboratory knowledge: What is Serum?",o:["whole blood with cells", "the fluid remaining after blood has clotted and been separated", "a urine sediment", "plasma containing all clotting factors unchanged"],a:1,e:"Serum: the fluid remaining after blood has clotted and been separated."},
+
 {q:"Laboratory knowledge: Which option correctly describes Serum?",o:["whole blood with cells", "a urine sediment", "plasma containing all clotting factors unchanged", "the fluid remaining after blood has clotted and been separated"],a:3,e:"Serum: the fluid remaining after blood has clotted and been separated."},
 {q:"Laboratory knowledge: Select the correct fact about Serum.",o:["plasma containing all clotting factors unchanged", "the fluid remaining after blood has clotted and been separated", "a urine sediment", "whole blood with cells"],a:1,e:"Serum: the fluid remaining after blood has clotted and been separated."},
 {q:"Laboratory knowledge: Serum is best associated with which answer?",o:["the fluid remaining after blood has clotted and been separated", "whole blood with cells", "plasma containing all clotting factors unchanged", "a urine sediment"],a:0,e:"Serum: the fluid remaining after blood has clotted and been separated."},
@@ -2174,6 +2215,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is Centrifuge?",o:["equipment that separates components by centrifugal force", "a device that stains slides", "a device that incubates cultures", "equipment that measures pH only"],a:0,e:"Centrifuge: equipment that separates components by centrifugal force."},
 {q:"Laboratory knowledge: Which option correctly describes Centrifuge?",o:["a device that incubates cultures", "a device that stains slides", "equipment that separates components by centrifugal force", "equipment that measures pH only"],a:2,e:"Centrifuge: equipment that separates components by centrifugal force."},
 {q:"Laboratory knowledge: Select the correct fact about Centrifuge.",o:["equipment that measures pH only", "a device that stains slides", "equipment that separates components by centrifugal force", "a device that incubates cultures"],a:2,e:"Centrifuge: equipment that separates components by centrifugal force."},
+
 {q:"Laboratory knowledge: Centrifuge is best associated with which answer?",o:["equipment that measures pH only", "equipment that separates components by centrifugal force", "a device that incubates cultures", "a device that stains slides"],a:1,e:"Centrifuge: equipment that separates components by centrifugal force."},
 {q:"Laboratory knowledge: What is Microscope?",o:["an instrument used to magnify small structures", "a device for weighing samples", "a device for measuring blood pressure", "a device for sterilizing glassware"],a:0,e:"Microscope: an instrument used to magnify small structures."},
 {q:"Laboratory knowledge: Which option correctly describes Microscope?",o:["a device for weighing samples", "a device for sterilizing glassware", "a device for measuring blood pressure", "an instrument used to magnify small structures"],a:3,e:"Microscope: an instrument used to magnify small structures."},
@@ -2184,6 +2226,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about Spectrophotometer.",o:["a tool for measuring temperature", "a device for cell counting only", "an instrument that measures light absorbance or transmission", "a culture incubator"],a:2,e:"Spectrophotometer: an instrument that measures light absorbance or transmission."},
 {q:"Laboratory knowledge: Spectrophotometer is best associated with which answer?",o:["a tool for measuring temperature", "a culture incubator", "an instrument that measures light absorbance or transmission", "a device for cell counting only"],a:2,e:"Spectrophotometer: an instrument that measures light absorbance or transmission."},
 {q:"Laboratory knowledge: What is Quality control?",o:["a process for billing only", "procedures used to monitor analytical performance", "a type of specimen container", "a method of patient registration"],a:1,e:"Quality control: procedures used to monitor analytical performance."},
+
 {q:"Laboratory knowledge: Which option correctly describes Quality control?",o:["a process for billing only", "a method of patient registration", "a type of specimen container", "procedures used to monitor analytical performance"],a:3,e:"Quality control: procedures used to monitor analytical performance."},
 {q:"Laboratory knowledge: Select the correct fact about Quality control.",o:["a process for billing only", "a method of patient registration", "a type of specimen container", "procedures used to monitor analytical performance"],a:3,e:"Quality control: procedures used to monitor analytical performance."},
 {q:"Laboratory knowledge: Quality control is best associated with which answer?",o:["a method of patient registration", "a process for billing only", "procedures used to monitor analytical performance", "a type of specimen container"],a:2,e:"Quality control: procedures used to monitor analytical performance."},
@@ -2194,6 +2237,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is Haemolysis?",o:["clot retraction", "increase in white cells", "rupture of red blood cells with release of their contents", "formation of platelets"],a:2,e:"Haemolysis: rupture of red blood cells with release of their contents."},
 {q:"Laboratory knowledge: Which option correctly describes Haemolysis?",o:["clot retraction", "rupture of red blood cells with release of their contents", "increase in white cells", "formation of platelets"],a:1,e:"Haemolysis: rupture of red blood cells with release of their contents."},
 {q:"Laboratory knowledge: Select the correct fact about Haemolysis.",o:["rupture of red blood cells with release of their contents", "formation of platelets", "clot retraction", "increase in white cells"],a:0,e:"Haemolysis: rupture of red blood cells with release of their contents."},
+
 {q:"Laboratory knowledge: Haemolysis is best associated with which answer?",o:["increase in white cells", "formation of platelets", "clot retraction", "rupture of red blood cells with release of their contents"],a:3,e:"Haemolysis: rupture of red blood cells with release of their contents."},
 {q:"Laboratory knowledge: What is Lipemia?",o:["low platelet count", "increased lipid content causing a turbid sample", "bacterial contamination", "absence of bilirubin"],a:1,e:"Lipemia: increased lipid content causing a turbid sample."},
 {q:"Laboratory knowledge: Which option correctly describes Lipemia?",o:["low platelet count", "increased lipid content causing a turbid sample", "absence of bilirubin", "bacterial contamination"],a:1,e:"Lipemia: increased lipid content causing a turbid sample."},
@@ -2204,6 +2248,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about Icterus.",o:["high glucose in urine", "low sodium in plasma", "yellow discoloration associated with increased bilirubin", "blue discoloration from oxygen"],a:2,e:"Icterus: yellow discoloration associated with increased bilirubin."},
 {q:"Laboratory knowledge: Icterus is best associated with which answer?",o:["high glucose in urine", "low sodium in plasma", "blue discoloration from oxygen", "yellow discoloration associated with increased bilirubin"],a:3,e:"Icterus: yellow discoloration associated with increased bilirubin."},
 {q:"Laboratory knowledge: What is Aseptic technique?",o:["a method of increasing sample clotting", "practices that reduce contamination by microorganisms", "a way to dilute serum", "a staining procedure"],a:1,e:"Aseptic technique: practices that reduce contamination by microorganisms."},
+
 {q:"Laboratory knowledge: Which option correctly describes Aseptic technique?",o:["practices that reduce contamination by microorganisms", "a method of increasing sample clotting", "a staining procedure", "a way to dilute serum"],a:0,e:"Aseptic technique: practices that reduce contamination by microorganisms."},
 {q:"Laboratory knowledge: Select the correct fact about Aseptic technique.",o:["a way to dilute serum", "a staining procedure", "practices that reduce contamination by microorganisms", "a method of increasing sample clotting"],a:2,e:"Aseptic technique: practices that reduce contamination by microorganisms."},
 {q:"Laboratory knowledge: Aseptic technique is best associated with which answer?",o:["a method of increasing sample clotting", "a way to dilute serum", "practices that reduce contamination by microorganisms", "a staining procedure"],a:2,e:"Aseptic technique: practices that reduce contamination by microorganisms."},
@@ -2214,6 +2259,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is Crossmatch?",o:["a test of kidney function", "a compatibility test before transfusion of donor red cells", "a platelet size measurement", "a test for malaria antigen"],a:1,e:"Crossmatch: a compatibility test before transfusion of donor red cells."},
 {q:"Laboratory knowledge: Which option correctly describes Crossmatch?",o:["a test of kidney function", "a platelet size measurement", "a compatibility test before transfusion of donor red cells", "a test for malaria antigen"],a:2,e:"Crossmatch: a compatibility test before transfusion of donor red cells."},
 {q:"Laboratory knowledge: Select the correct fact about Crossmatch.",o:["a compatibility test before transfusion of donor red cells", "a platelet size measurement", "a test for malaria antigen", "a test of kidney function"],a:0,e:"Crossmatch: a compatibility test before transfusion of donor red cells."},
+
 {q:"Laboratory knowledge: Crossmatch is best associated with which answer?",o:["a compatibility test before transfusion of donor red cells", "a platelet size measurement", "a test for malaria antigen", "a test of kidney function"],a:0,e:"Crossmatch: a compatibility test before transfusion of donor red cells."},
 {q:"Laboratory knowledge: What is ABO system?",o:["a system for measuring haemoglobin", "a method for testing urine", "a major blood group system based on A and B antigens", "a system for classifying white cells"],a:2,e:"ABO system: a major blood group system based on A and B antigens."},
 {q:"Laboratory knowledge: Which option correctly describes ABO system?",o:["a major blood group system based on A and B antigens", "a system for classifying white cells", "a system for measuring haemoglobin", "a method for testing urine"],a:0,e:"ABO system: a major blood group system based on A and B antigens."},
@@ -2224,6 +2270,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: Select the correct fact about RhD.",o:["a kidney hormone", "a coagulation pathway", "a clinically important red-cell antigen in the Rh blood group system", "a plasma enzyme"],a:2,e:"RhD: a clinically important red-cell antigen in the Rh blood group system."},
 {q:"Laboratory knowledge: RhD is best associated with which answer?",o:["a kidney hormone", "a clinically important red-cell antigen in the Rh blood group system", "a plasma enzyme", "a coagulation pathway"],a:1,e:"RhD: a clinically important red-cell antigen in the Rh blood group system."},
 {q:"Laboratory knowledge: What is Thick blood film for malaria?",o:["a sensitive method for detecting malaria parasites", "a urine microscopy method", "a method for measuring cholesterol", "a test for thyroid hormones"],a:0,e:"Thick blood film for malaria: a sensitive method for detecting malaria parasites."},
+
 {q:"Laboratory knowledge: Which option correctly describes Thick blood film for malaria?",o:["a test for thyroid hormones", "a sensitive method for detecting malaria parasites", "a urine microscopy method", "a method for measuring cholesterol"],a:1,e:"Thick blood film for malaria: a sensitive method for detecting malaria parasites."},
 {q:"Laboratory knowledge: Select the correct fact about Thick blood film for malaria.",o:["a sensitive method for detecting malaria parasites", "a test for thyroid hormones", "a method for measuring cholesterol", "a urine microscopy method"],a:0,e:"Thick blood film for malaria: a sensitive method for detecting malaria parasites."},
 {q:"Laboratory knowledge: Thick blood film for malaria is best associated with which answer?",o:["a sensitive method for detecting malaria parasites", "a method for measuring cholesterol", "a urine microscopy method", "a test for thyroid hormones"],a:0,e:"Thick blood film for malaria: a sensitive method for detecting malaria parasites."},
@@ -2234,6 +2281,7 @@ const iqQuestionBank = [
 {q:"Laboratory knowledge: What is Stool occult blood test?",o:["a test that detects hidden blood in stool", "a test for urine protein", "a liver enzyme test", "a direct platelet count"],a:0,e:"Stool occult blood test: a test that detects hidden blood in stool."},
 {q:"Laboratory knowledge: Which option correctly describes Stool occult blood test?",o:["a direct platelet count", "a test that detects hidden blood in stool", "a test for urine protein", "a liver enzyme test"],a:1,e:"Stool occult blood test: a test that detects hidden blood in stool."},
 {q:"Laboratory knowledge: Select the correct fact about Stool occult blood test.",o:["a test that detects hidden blood in stool", "a test for urine protein", "a direct platelet count", "a liver enzyme test"],a:0,e:"Stool occult blood test: a test that detects hidden blood in stool."},
+
 {q:"Laboratory knowledge: Stool occult blood test is best associated with which answer?",o:["a test that detects hidden blood in stool", "a direct platelet count", "a liver enzyme test", "a test for urine protein"],a:0,e:"Stool occult blood test: a test that detects hidden blood in stool."},
 {q:"Reasoning: What is the square of 95?",o:["9024", "9035", "9026", "9025"],a:3,e:"95 × 95 = 9025."},
 {q:"Reasoning: What is the square of 96?",o:["9226", "9217", "9215", "9216"],a:3,e:"96 × 96 = 9216."},
@@ -2241,6 +2289,14 @@ const iqQuestionBank = [
 {q:"Reasoning: What is the square of 98?",o:["9614", "9604", "9605", "9603"],a:1,e:"98 × 98 = 9604."},
 {q:"Reasoning: What is the square of 99?",o:["9800", "9811", "9801", "9802"],a:2,e:"99 × 99 = 9801."}
 
+// ======================================
+//  1,996 QUESTIONS  COMPLETE HERE.
+// ======================================
+
+
+
+
+  
 ];
 
 
